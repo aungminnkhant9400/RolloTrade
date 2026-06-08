@@ -343,6 +343,182 @@ const lessons = [
       },
     ],
   },
+  {
+    id: "session-22-new-york-reversal",
+    title: "Session 22 - Trading New York Reversal",
+    source: "YouTube breakdown - 27:38 - rollin rollo",
+    summary:
+      "The New York reversal lesson focuses on the 2:00 PM ET / 7:00 PM UK four-hour candle. After a strong 10:00 AM ET red vector, wait for NASDAQ or S&P to form a W, V, or M structure before trading a vector recovery.",
+    tags: ["New York reversal", "4H candle", "W formation", "NASDAQ"],
+    diagram: "new-york-reversal",
+    diagramLegend: [
+      {
+        title: "1. Timing window",
+        copy: "Focus on the new 4H candle at 2:00 PM ET / 7:00 PM UK after the New York session develops.",
+        tone: "blue",
+      },
+      {
+        title: "2. Prior vector",
+        copy: "For upside reversals, prefer a strong 10:00 AM ET red vector candle that can be recovered.",
+        tone: "red",
+      },
+      {
+        title: "3. Development",
+        copy: "Wait for a W, V, or M formation. Do not enter before the structure starts proving the turn.",
+        tone: "amber",
+      },
+      {
+        title: "4. Trigger",
+        copy: "Look for the first green/blue vector or a clean reclaim around the 50 EMA after the second leg.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Trade the window, not the noise",
+        copy: "The lesson avoids early New York chaos. The main reversal window is the 2:00 PM ET 4H candle.",
+        tone: "blue",
+      },
+      {
+        title: "The prior 4H candle matters",
+        copy: "A strong 10:00 AM ET red vector sets up the idea that bids may later offer price back up.",
+        tone: "red",
+      },
+      {
+        title: "Structure comes first",
+        copy: "The execution trigger is not the time alone. You need W/V development and vector commitment.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Mark the New York session window",
+        copy: "Identify 9:00 AM, 9:30 AM, and 10:00 AM ET. This early window creates the Brinks-style range and the initial direction.",
+      },
+      {
+        title: "Find the 10:00 AM ET four-hour candle",
+        copy: "On NASDAQ or S&P, inspect the 4H candle that starts at 10:00 AM ET / 3:00 PM UK. The preferred bullish reversal setup starts with a strong red vector here.",
+      },
+      {
+        title: "Wait for the 2:00 PM ET four-hour candle",
+        copy: "The main reversal study begins when the next 4H candle opens at 2:00 PM ET / 7:00 PM UK. Do not force trades before this candle starts.",
+      },
+      {
+        title: "Project possible vector recovery",
+        copy: "If the prior 4H candle closed as a strong red vector, mark its body and likely recovery area. The first target is often partial recovery, not a full trend reversal.",
+      },
+      {
+        title: "Drop to lower timeframes",
+        copy: "Use the lower timeframe to watch the reversal develop. The lesson repeatedly looks for W formations, V-shaped reversals, or M formations at highs.",
+      },
+      {
+        title: "Wait for the second leg",
+        copy: "For an upside reversal, let price form the low, bounce, retrace, and defend or sweep the low. The second leg of the W is where confirmation matters.",
+      },
+      {
+        title: "Use the first vector as trigger",
+        copy: "Look for the first green or blue vector that appears from the W/V area, especially if it reclaims or breaks above the 50 EMA.",
+      },
+      {
+        title: "Manage toward recovery",
+        copy: "Trade toward the prior red-vector recovery area, VWAP/POC, the Brinks high, or the prior session high depending on structure and momentum.",
+      },
+    ],
+    checklist: [
+      "The instrument is NASDAQ or S&P.",
+      "The 2:00 PM ET / 7:00 PM UK 4H candle is active or near open.",
+      "The 10:00 AM ET / 3:00 PM UK 4H candle is reviewed.",
+      "A strong prior red vector exists for upside reversal logic.",
+      "Price is near VWAP, POC, Brinks low, or a meaningful low area.",
+      "A W formation, V-shaped reversal, or clean low sweep is developing.",
+      "The second leg holds or rejects the low.",
+      "A green or blue vector appears from the reversal area.",
+      "Price reclaims the 50 EMA or moves away from the low with commitment.",
+      "Target and invalidation are defined before entry.",
+    ],
+    drills: [
+      {
+        title: "4H candle archive",
+        copy: "Mark the 10:00 AM ET and 2:00 PM ET 4H candles for the last 30 NASDAQ sessions. Note whether the second candle formed a reversal wick.",
+      },
+      {
+        title: "W formation replay",
+        copy: "Replay the lower timeframe after 2:00 PM ET and pause at the second leg of each W. Decide whether the first vector was enough confirmation.",
+      },
+      {
+        title: "Failure examples",
+        copy: "Collect days where the prior red vector did not recover. Identify whether price failed to form a W, stayed below VWAP, or continued with red vectors.",
+      },
+      {
+        title: "M formation mirror",
+        copy: "Find upside moves into the 2:00 PM ET candle that formed M structures. Practice the same logic for downside reversals.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "High-risk concept",
+        copy: "The instructor says this is effectively trying to find the top or bottom. Require confluence before acting.",
+      },
+      {
+        title: "Time is not an entry",
+        copy: "The 2:00 PM ET candle creates the window. The trade still needs W/V/M development and vector confirmation.",
+      },
+      {
+        title: "Partial recovery is enough",
+        copy: "The 4H red vector may only partially recover. Do not assume the full candle must be reclaimed.",
+      },
+      {
+        title: "Invalidation",
+        copy: "For upside reversals, failure is losing the W low and continuing lower with red vectors or no reclaim of the reversal area.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the New York reversal and frames it as a confluence-based attempt to catch high or low formation.",
+      },
+      {
+        time: "01:00",
+        copy: "Defines the New York/Brinks window around 9:00, 9:30, and 10:00 AM ET.",
+      },
+      {
+        time: "02:00",
+        copy: "Explains the high-of-day or low-of-day logic around VWAP, especially for NASDAQ and S&P.",
+      },
+      {
+        time: "05:00",
+        copy: "Introduces the 10:00 AM ET and 2:00 PM ET four-hour candles as the core timing structure.",
+      },
+      {
+        time: "07:00",
+        copy: "Shows historical 4H candles and how often the later candle forms a reversal wick or recovery.",
+      },
+      {
+        time: "11:00",
+        copy: "Explains the bid/offers logic behind a red-vector selloff and later upside recovery.",
+      },
+      {
+        time: "14:00",
+        copy: "Moves into NASDAQ W and V formations as the preferred reversal structures.",
+      },
+      {
+        time: "16:00",
+        copy: "Shows M formation examples for downside reversals at highs.",
+      },
+      {
+        time: "19:00",
+        copy: "Connects Brinks, vector recovery, W formations, point of control, and 50 EMA confirmation.",
+      },
+      {
+        time: "22:00",
+        copy: "Final checklist: wait for the 2:00 PM ET 4H candle, prior red vector, development, and first vector trigger.",
+      },
+      {
+        time: "26:00",
+        copy: "Practice instruction: go back and disprove the pattern across many sessions before relying on it.",
+      },
+    ],
+  },
 ];
 
 let activeLesson = lessons[lessons.length - 1];
@@ -471,6 +647,8 @@ function drawSetup() {
 
   if (activeLesson.diagram === "block-trade") {
     drawBlockTradeSetup(ctx);
+  } else if (activeLesson.diagram === "new-york-reversal") {
+    drawNewYorkReversalSetup(ctx);
   } else {
     drawVShapeSetup(ctx);
   }
@@ -573,6 +751,58 @@ function drawBlockTradeSetup(ctx) {
   badge(ctx, "2", 592, 188, "#2a66a2");
   badge(ctx, "3", 510, 94, "#b47a1f");
   badge(ctx, "X", 430, 326, "#171b1f");
+}
+
+function drawNewYorkReversalSetup(ctx) {
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.strokeRect(72, 76, 210, 210);
+  ctx.beginPath();
+  ctx.moveTo(72, 136);
+  ctx.lineTo(282, 136);
+  ctx.moveTo(142, 76);
+  ctx.lineTo(142, 286);
+  ctx.moveTo(212, 76);
+  ctx.lineTo(212, 286);
+  ctx.stroke();
+
+  drawCandle(ctx, 166, 116, 52, 132, "#b83a31");
+  drawZone(ctx, 160, 112, 64, 142, "#b83a31");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(318, 264);
+  ctx.lineTo(700, 264);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(318, 264);
+  ctx.lineTo(372, 320);
+  ctx.lineTo(432, 238);
+  ctx.lineTo(490, 304);
+  ctx.lineTo(566, 166);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(500, 300);
+  ctx.lineTo(584, 176);
+  ctx.lineTo(670, 92);
+  ctx.stroke();
+
+  drawCandle(ctx, 548, 184, 48, 104, "#217a55");
+  drawCandle(ctx, 610, 126, 48, 112, "#2a66a2");
+
+  badge(ctx, "1", 108, 54, "#2a66a2");
+  badge(ctx, "2", 204, 96, "#b83a31");
+  badge(ctx, "3", 432, 220, "#b47a1f");
+  badge(ctx, "4", 642, 76, "#217a55");
 }
 
 function drawZone(ctx, x, y, width, height, color) {

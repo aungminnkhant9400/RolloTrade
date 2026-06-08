@@ -8,6 +8,7 @@ timestamp maps, and practice drills.
 
 - Session 6 - How To Trade V Shape Reversals
 - Session 8 - The Block Trade Principle
+- Session 22 - Trading New York Reversal
 
 ## Local Use
 
