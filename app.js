@@ -1,5 +1,177 @@
 const lessons = [
   {
+    id: "session-3-read-vector-candles",
+    title: "Session 3 - How To Read Vector Candles",
+    source: "YouTube breakdown - 26:17 - rollin rollo",
+    summary:
+      "Vector candles show aggressive participation and trapped leverage. A green vector often means late longs are buying while the market maker sells into them; a red vector often means late shorts are selling while the market maker buys into them.",
+    tags: ["Vector candles", "Market maker", "Liquidity", "Candle recovery"],
+    diagram: "vector-candle-flow",
+    diagramLegend: [
+      {
+        title: "1. Retail enters emotionally",
+        copy: "Green attracts late longs. Red attracts late shorts. The candle is the crowd committing.",
+        tone: "amber",
+      },
+      {
+        title: "2. Opposite side is built",
+        copy: "When retail buys, the other side sells. When retail sells, the other side buys.",
+        tone: "blue",
+      },
+      {
+        title: "3. Recovery hunts leverage",
+        copy: "The next move often trades back through the vector body to attack trapped entries and liquidations.",
+        tone: "red",
+      },
+      {
+        title: "4. Context decides entry",
+        copy: "At lows, a green vector above the 50 EMA can confirm recovery. At highs, avoid chasing green vectors.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "A vector is not an entry by itself",
+        copy: "The candle shows emotion and order flow. You still need location, close behavior, and the next candle reaction.",
+        tone: "amber",
+      },
+      {
+        title: "Green can be a sell-side clue",
+        copy: "A green vector after a run up can mark retail buying strength while the other side prepares shorts.",
+        tone: "red",
+      },
+      {
+        title: "Red can be a buy-side clue",
+        copy: "A red vector after a selloff can mark retail selling weakness while the other side builds longs.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Identify the vector candle",
+        copy: "Mark the candle body first. Green and red vectors matter most because they represent the strongest emotional participation.",
+      },
+      {
+        title: "Read who is trapped inside it",
+        copy: "A green vector usually contains late longs buying into strength. A red vector usually contains late shorts selling into weakness.",
+      },
+      {
+        title: "Map the opposite side",
+        copy: "For every retail buy there is a sell on the other side. For every retail sell there is a buy on the other side.",
+      },
+      {
+        title: "Watch the next candle",
+        copy: "Do not react before the vector closes. The next candle can wick, reverse, recover the vector body, or continue away.",
+      },
+      {
+        title: "Use location as the filter",
+        copy: "A green vector at the highs is different from a green vector at the lows after markdown. A red vector at the lows is different from a red vector in clean continuation.",
+      },
+      {
+        title: "Mark the recovery path",
+        copy: "For a green vector, watch for price to trade back down through the body. For a red vector, watch for price to trade back up through the body.",
+      },
+      {
+        title: "Add confluence before entry",
+        copy: "Use nearby structure, the 50 EMA, prior vector areas, and the next candle reaction before treating the vector as actionable.",
+      },
+      {
+        title: "Avoid chasing emotional candles",
+        copy: "The lesson warns against buying just because price is rising or shorting just because price is falling.",
+      },
+    ],
+    checklist: [
+      "The candle is clearly stronger than surrounding candles.",
+      "Green/red vector color is identified before planning.",
+      "The vector body is marked as the recovery zone.",
+      "The likely trapped group is named: late longs or late shorts.",
+      "The opposite-side market-maker logic is clear.",
+      "The candle has closed before any decision is made.",
+      "The next candle reaction is observed.",
+      "Location is meaningful: high, low, trend, or consolidation.",
+      "Recovery target and invalidation are defined.",
+      "The trade is not based on chasing the candle color.",
+    ],
+    drills: [
+      {
+        title: "Opposite-side labeling",
+        copy: "Mark twenty green and red vectors. Label the retail side first, then label the opposite side that is likely being built.",
+      },
+      {
+        title: "Next-candle replay",
+        copy: "Pause after each vector closes. Predict whether the next candle recovers the body, wicks first, or continues away.",
+      },
+      {
+        title: "Recovery map",
+        copy: "Draw the vector high, midpoint, and low. Track how often price returns into each part of the body.",
+      },
+      {
+        title: "Color strength study",
+        copy: "Compare green/red vectors against blue/violet vectors. Record which ones recover faster and which only mark weaker aggression.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Chasing risk",
+        copy: "Buying a green vector at the high or shorting a red vector at the low is exactly the retail behavior the lesson warns about.",
+      },
+      {
+        title: "Not every vector reverses immediately",
+        copy: "The candle can continue before recovering. Entry needs the next candle behavior and surrounding context.",
+      },
+      {
+        title: "Leverage is the trap",
+        copy: "The lesson repeatedly frames 100x-style leverage as fuel for liquidation sweeps. Keep your own risk far below that behavior.",
+      },
+      {
+        title: "Blue and violet are weaker",
+        copy: "Blue/violet vectors follow similar logic, but the lesson treats green and red as the most emotional and powerful.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces vector candles and the goal: understand what to look for when one appears.",
+      },
+      {
+        time: "00:40",
+        copy: "Defines the green vector as aggressive rising price and begins the market-maker explanation.",
+      },
+      {
+        time: "01:20",
+        copy: "Explains the retail order path through the exchange and liquidity provider.",
+      },
+      {
+        time: "03:00",
+        copy: "Key relationship: when retail is long, the opposite side is short.",
+      },
+      {
+        time: "05:20",
+        copy: "Applies the order-flow model to a green vector candle filled with late leveraged longs.",
+      },
+      {
+        time: "07:00",
+        copy: "Explains why green vectors often get recovered as trapped longs are attacked.",
+      },
+      {
+        time: "10:00",
+        copy: "Shows that a vector candle develops over time and must close before the next-candle read matters.",
+      },
+      {
+        time: "13:30",
+        copy: "Adds context: a green vector at the lows after markdown and above the 50 EMA can mean recovery is starting.",
+      },
+      {
+        time: "16:00",
+        copy: "Mirrors the logic for red vectors: retail shorts while the opposite side builds longs.",
+      },
+      {
+        time: "23:00",
+        copy: "Compares green/red vectors with violet/blue vectors and gives the final rule: you sell, he buys; you buy, he sells.",
+      },
+    ],
+  },
+  {
     id: "session-6-v-shape-reversals",
     title: "Session 6 - How To Trade V Shape Reversals",
     source: "YouTube breakdown - 32:02 - rollin rollo",
@@ -825,6 +997,8 @@ function drawSetup() {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
     drawMWFormationSetup(ctx);
+  } else if (activeLesson.diagram === "vector-candle-flow") {
+    drawVectorCandleFlowSetup(ctx);
   } else {
     drawVShapeSetup(ctx);
   }
@@ -932,6 +1106,76 @@ function drawBlockTradeSetup(ctx) {
 function getSessionNumber(lesson) {
   const match = lesson.title.match(/Session\s+(\d+)/i);
   return match ? Number(match[1]) : 0;
+}
+
+function drawVectorCandleFlowSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.45)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(56, 212);
+  ctx.lineTo(704, 212);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  drawZone(ctx, 104, 86, 112, 214, "#217a55");
+  drawCandle(ctx, 136, 110, 50, 154, "#217a55");
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(78, 286);
+  ctx.lineTo(110, 238);
+  ctx.lineTo(136, 174);
+  ctx.lineTo(172, 118);
+  ctx.lineTo(224, 86);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(224, 86);
+  ctx.lineTo(248, 118);
+  ctx.lineTo(270, 178);
+  ctx.lineTo(292, 236);
+  ctx.lineTo(324, 300);
+  ctx.stroke();
+
+  drawZone(ctx, 420, 154, 118, 178, "#b83a31");
+  drawCandle(ctx, 452, 176, 50, 128, "#b83a31");
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(380, 116);
+  ctx.lineTo(414, 168);
+  ctx.lineTo(450, 232);
+  ctx.lineTo(498, 314);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(498, 314);
+  ctx.lineTo(536, 254);
+  ctx.lineTo(584, 184);
+  ctx.lineTo(650, 118);
+  ctx.stroke();
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 18px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("late longs", 92, 66);
+  ctx.fillText("late shorts", 414, 366);
+
+  ctx.fillStyle = "#b83a31";
+  ctx.fillText("recovery lower", 238, 132);
+  ctx.fillStyle = "#217a55";
+  ctx.fillText("recovery higher", 544, 164);
+
+  badge(ctx, "1", 120, 76, "#b47a1f");
+  badge(ctx, "2", 202, 116, "#2a66a2");
+  badge(ctx, "3", 296, 300, "#b83a31");
+  badge(ctx, "4", 650, 116, "#217a55");
 }
 
 function drawNewYorkReversalSetup(ctx) {

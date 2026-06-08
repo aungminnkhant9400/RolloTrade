@@ -6,6 +6,7 @@ timestamp maps, and practice drills.
 
 ## Current Lesson
 
+- Session 3 - How To Read Vector Candles
 - Session 5 - Trading M & W Formations
 - Session 6 - How To Trade V Shape Reversals
 - Session 8 - The Block Trade Principle
