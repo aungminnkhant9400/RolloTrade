@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="RolloTrade is a mobile-first trading video study guide with step-by-step breakdowns, drills, and checklists."
+    />
+    <title>RolloTrade Study Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="lesson-rail" aria-label="Lesson library">
+        <div class="brand-block">
+          <p class="eyebrow">RolloTrade</p>
+          <h1>Trading Video Field Guide</h1>
+          <p class="brand-copy">
+            Clean breakdowns you can read outside, review before market open,
+            and extend as new sessions are studied.
+          </p>
+        </div>
+
+        <div class="rail-tools">
+          <label class="field-label" for="lessonSearch">Search lessons</label>
+          <input id="lessonSearch" type="search" placeholder="Search setup, vector, EMA..." />
+        </div>
+
+        <nav id="lessonList" class="lesson-list" aria-label="Available lessons"></nav>
+      </aside>
+
+      <main class="lesson-main">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Current lesson</p>
+            <h2 id="lessonTitle">Loading...</h2>
+          </div>
+          <div class="topbar-actions">
+            <button id="focusMode" class="icon-button" type="button" aria-label="Toggle focus mode">
+              Focus
+            </button>
+            <button id="printGuide" class="icon-button" type="button" aria-label="Print guide">
+              Print
+            </button>
+          </div>
+        </header>
+
+        <section class="lesson-hero" aria-labelledby="lessonTitle">
+          <div class="hero-copy">
+            <p id="lessonSource" class="source-line"></p>
+            <p id="lessonSummary" class="summary-line"></p>
+            <div id="lessonTags" class="tag-row"></div>
+          </div>
+          <div class="diagram-panel" aria-label="V-shape reversal diagram">
+            <canvas id="setupCanvas" width="760" height="420"></canvas>
+          </div>
+        </section>
+
+        <section class="quick-read" aria-labelledby="quickReadTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Fast review</p>
+            <h3 id="quickReadTitle">What to remember</h3>
+          </div>
+          <div id="quickCards" class="quick-grid"></div>
+        </section>
+
+        <section class="content-grid">
+          <article class="guide-section">
+            <div class="section-heading">
+              <p class="eyebrow">Step by step</p>
+              <h3>Execution Guide</h3>
+            </div>
+            <ol id="stepsList" class="steps-list"></ol>
+          </article>
+
+          <article class="guide-section">
+            <div class="section-heading">
+              <p class="eyebrow">Trade filter</p>
+              <h3>Checklist</h3>
+            </div>
+            <div id="checklist" class="checklist"></div>
+          </article>
+        </section>
+
+        <section class="content-grid">
+          <article class="guide-section">
+            <div class="section-heading">
+              <p class="eyebrow">Chart practice</p>
+              <h3>Drills</h3>
+            </div>
+            <div id="drills" class="drill-list"></div>
+          </article>
+
+          <article class="guide-section">
+            <div class="section-heading">
+              <p class="eyebrow">Risk notes</p>
+              <h3>Invalidation And Targets</h3>
+            </div>
+            <div id="riskNotes" class="note-list"></div>
+          </article>
+        </section>
+
+        <section class="timeline-section" aria-labelledby="timelineTitle">
+          <div class="section-heading">
+            <p class="eyebrow">Video map</p>
+            <h3 id="timelineTitle">Timestamp Notes</h3>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
