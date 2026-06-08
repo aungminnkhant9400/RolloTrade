@@ -6,10 +6,10 @@ timestamp maps, and practice drills.
 
 ## Current Lesson
 
-- Session 22 - Trading New York Reversal
-- Session 8 - The Block Trade Principle
-- Session 6 - How To Trade V Shape Reversals
 - Session 5 - Trading M & W Formations
+- Session 6 - How To Trade V Shape Reversals
+- Session 8 - The Block Trade Principle
+- Session 22 - Trading New York Reversal
 
 ## Local Use
 

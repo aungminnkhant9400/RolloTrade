@@ -693,7 +693,7 @@ const lessons = [
   },
 ];
 
-const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(b) - getSessionNumber(a));
+const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
 
 let activeLesson = sortedLessons[0];
 
