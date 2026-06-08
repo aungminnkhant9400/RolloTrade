@@ -519,6 +519,178 @@ const lessons = [
       },
     ],
   },
+  {
+    id: "session-5-m-w-formations",
+    title: "Session 5 - Trading M & W Formations",
+    source: "YouTube breakdown - 23:25 - rollin rollo",
+    summary:
+      "M and W formations are liquidity traps. A W forms after downside vectors trap shorts, liquidate them on the bounce, pull price back to recommit traders, then shift out higher. The M is the same psychology inverted at highs.",
+    tags: ["M formation", "W formation", "Liquidity trap", "Multi-timeframe"],
+    diagram: "m-w-formation",
+    diagramLegend: [
+      {
+        title: "1. First leg sets the trap",
+        copy: "A W starts with red vectors into a low. An M starts with green vectors into a high.",
+        tone: "red",
+      },
+      {
+        title: "2. Midpoint liquidates",
+        copy: "Price reverses to force the first group out and tempt traders to flip direction.",
+        tone: "amber",
+      },
+      {
+        title: "3. Second leg commits",
+        copy: "The retest should hold or sweep and reclaim. This is where the trap finalizes.",
+        tone: "blue",
+      },
+      {
+        title: "4. Shift confirms",
+        copy: "Trade only after price breaks away from the formation with vector commitment.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "They are traps",
+        copy: "The lesson is not about drawing perfect letters. W and M formations are engineered liquidity traps.",
+        tone: "red",
+      },
+      {
+        title: "Second leg matters most",
+        copy: "The execution decision happens on the second leg: does it hold, sweep and reclaim, or fail?",
+        tone: "amber",
+      },
+      {
+        title: "Use higher-to-lower timeframes",
+        copy: "Use 1H for structure, 15M for cleaner entry, and 5M to locate hidden vectors inside the leg.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Start with the bigger structure",
+        copy: "Use the 1H chart to identify a possible W after an extended downside move or an M after an extended upside move.",
+      },
+      {
+        title: "Find the first leg vectors",
+        copy: "For a W, look for red vector candles into the first low. For an M, look for green vector candles into the first high.",
+      },
+      {
+        title: "Understand the first reversal",
+        copy: "The move away from the first leg liquidates early traders and creates the midpoint of the formation.",
+      },
+      {
+        title: "Wait for the second leg",
+        copy: "Do not trade the first bounce or drop blindly. Let price return to form the second leg and show whether the trap is finalizing.",
+      },
+      {
+        title: "Check whether the first leg is protected",
+        copy: "A cleaner W holds above the first low. If it sweeps below, it must quickly reclaim the formation. The M is inverted at highs.",
+      },
+      {
+        title: "Drop to 15M and 5M",
+        copy: "If the 1H leg does not show clear vectors, inspect 15M and 5M. Hidden vectors inside the second leg can become the recovery target.",
+      },
+      {
+        title: "Use vector recovery as the target logic",
+        copy: "For a W, expect price to trade back into red vectors from the first or second leg. For an M, expect recovery into green vectors lower.",
+      },
+      {
+        title: "Enter only after shift out",
+        copy: "Confirmation is the break of the W peak or M neckline, ideally with vector commitment away from the trap zone.",
+      },
+    ],
+    checklist: [
+      "The pattern follows an extended move, not random chop.",
+      "A possible W or M is visible on the 1H chart.",
+      "First leg contains red vectors for W or green vectors for M.",
+      "The midpoint move liquidates or traps the first group.",
+      "Price returns to form the second leg.",
+      "Second leg holds the first low/high or quickly reclaims after a sweep.",
+      "15M or 5M confirms vectors inside the second leg.",
+      "Price shifts out of the formation with commitment.",
+      "Target is based on vector recovery or nearby structure.",
+      "Failure level is defined beyond the second leg.",
+    ],
+    drills: [
+      {
+        title: "Letter-shape variation drill",
+        copy: "Find twenty W formations that do not look like perfect alphabet Ws. Label first leg, midpoint, second leg, and shift out.",
+      },
+      {
+        title: "Second-leg audit",
+        copy: "Replay the second leg candle by candle. Decide whether it held, swept and reclaimed, or failed.",
+      },
+      {
+        title: "Timeframe dissection",
+        copy: "For each 1H W/M, inspect the same area on 15M and 5M. Record where hidden vector candles appeared.",
+      },
+      {
+        title: "Failure library",
+        copy: "Collect failed Ws and Ms. Note whether the second leg accepted beyond the first leg or failed to shift out.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Lower timeframe risk",
+        copy: "The instructor warns that lower-timeframe W/M patterns fail more often and do not last as long.",
+      },
+      {
+        title: "Do not demand perfect shapes",
+        copy: "A valid pattern can be messy. The psychology and vector behavior matter more than the exact letter shape.",
+      },
+      {
+        title: "Failed W",
+        copy: "If the second leg breaks the first low and does not reclaim, the W is failing and price can continue down.",
+      },
+      {
+        title: "Failed M",
+        copy: "If the second leg breaks the first high and accepts above it, the M is failing and price can continue up.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces M and W formations as part of the market cycle and as consolidation/trap areas.",
+      },
+      {
+        time: "02:00",
+        copy: "Connects W to inverted head-and-shoulders and M to head-and-shoulders variations.",
+      },
+      {
+        time: "03:00",
+        copy: "Explains the W first leg: red vectors into a low while retail sells and market maker buys.",
+      },
+      {
+        time: "05:00",
+        copy: "Describes the midpoint: price rises, shorts are liquidated, and market maker sells into forced buying.",
+      },
+      {
+        time: "09:00",
+        copy: "Explains the second leg: traders flip long, price drops again, and the trap is finalized.",
+      },
+      {
+        time: "12:00",
+        copy: "Mirrors the same logic for the M formation at highs with green vectors and trapped longs.",
+      },
+      {
+        time: "15:00",
+        copy: "Defines the first-leg and second-leg rule: the second leg should not accept beyond the first leg.",
+      },
+      {
+        time: "17:00",
+        copy: "Adds the technical rule: W should recover red vectors; M should recover green vectors.",
+      },
+      {
+        time: "18:00",
+        copy: "Gives timeframe workflow: 1H for bigger picture, 15M for entry, 5M for hidden vectors.",
+      },
+      {
+        time: "21:00",
+        copy: "Explains how 15M and 5M vectors inside the second leg support the recovery logic.",
+      },
+    ],
+  },
 ];
 
 let activeLesson = lessons[lessons.length - 1];
@@ -649,6 +821,8 @@ function drawSetup() {
     drawBlockTradeSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
+  } else if (activeLesson.diagram === "m-w-formation") {
+    drawMWFormationSetup(ctx);
   } else {
     drawVShapeSetup(ctx);
   }
@@ -803,6 +977,51 @@ function drawNewYorkReversalSetup(ctx) {
   badge(ctx, "2", 204, 96, "#b83a31");
   badge(ctx, "3", 432, 220, "#b47a1f");
   badge(ctx, "4", 642, 76, "#217a55");
+}
+
+function drawMWFormationSetup(ctx) {
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(72, 102);
+  ctx.lineTo(156, 292);
+  ctx.lineTo(256, 142);
+  ctx.lineTo(350, 278);
+  ctx.lineTo(470, 86);
+  ctx.stroke();
+
+  drawZone(ctx, 120, 210, 80, 96, "#b83a31");
+  drawZone(ctx, 310, 216, 84, 82, "#b83a31");
+  drawCandle(ctx, 134, 224, 36, 72, "#b83a31");
+  drawCandle(ctx, 326, 230, 36, 58, "#b83a31");
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(500, 286);
+  ctx.lineTo(556, 116);
+  ctx.lineTo(618, 244);
+  ctx.lineTo(690, 108);
+  ctx.stroke();
+
+  drawZone(ctx, 536, 86, 72, 98, "#217a55");
+  drawCandle(ctx, 554, 96, 34, 76, "#217a55");
+
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.45)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(56, 142);
+  ctx.lineTo(488, 142);
+  ctx.moveTo(492, 244);
+  ctx.lineTo(704, 244);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  badge(ctx, "1", 116, 92, "#b83a31");
+  badge(ctx, "2", 258, 116, "#b47a1f");
+  badge(ctx, "3", 350, 314, "#2a66a2");
+  badge(ctx, "4", 474, 66, "#217a55");
 }
 
 function drawZone(ctx, x, y, width, height, color) {
