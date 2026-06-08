@@ -7,6 +7,7 @@ timestamp maps, and practice drills.
 ## Current Lesson
 
 - Session 6 - How To Trade V Shape Reversals
+- Session 8 - The Block Trade Principle
 
 ## Local Use
 

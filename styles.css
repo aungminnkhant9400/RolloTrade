@@ -319,6 +319,10 @@ canvas {
   border-left-color: var(--amber);
 }
 
+.legend-blue {
+  border-left-color: var(--blue);
+}
+
 .legend-green {
   border-left-color: var(--green);
 }

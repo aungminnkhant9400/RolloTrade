@@ -6,6 +6,29 @@ const lessons = [
     summary:
       "A V-shape reversal is a behavior shift: aggressive red-vector selling, slowdown and absorption at the low, then green or blue vectors pushing price back into the prior red-vector range.",
     tags: ["V-shape reversal", "Vector candles", "Absorption", "Multi-timeframe"],
+    diagram: "v-shape",
+    diagramLegend: [
+      {
+        title: "1. Environment",
+        copy: "Fast red-vector selloff creates the trap.",
+        tone: "red",
+      },
+      {
+        title: "2. Slowdown base",
+        copy: "Price stops expanding lower and starts absorbing.",
+        tone: "amber",
+      },
+      {
+        title: "3. Recovery impulse",
+        copy: "Green or blue vectors confirm movement away from the low.",
+        tone: "green",
+      },
+      {
+        title: "Invalidation",
+        copy: "If price breaks below the base and keeps printing red vectors, the V is not ready.",
+        tone: "dark",
+      },
+    ],
     quickCards: [
       {
         title: "Do not catch the knife",
@@ -148,9 +171,181 @@ const lessons = [
       },
     ],
   },
+  {
+    id: "session-8-block-trade-principle",
+    title: "Session 8 - The Block Trade Principle",
+    source: "YouTube breakdown - 35:59 - rollin rollo",
+    summary:
+      "The block trade principle uses the body of a vector candle as market memory. Mark the block high, midpoint, and low, then wait for price to prove whether that memory still supports the original vector direction.",
+    tags: ["Block trade", "Market memory", "Vector body", "High-mid-low"],
+    diagram: "block-trade",
+    diagramLegend: [
+      {
+        title: "1. Mark the body",
+        copy: "Use only the vector candle open-to-close body. Ignore wicks for the block.",
+        tone: "green",
+      },
+      {
+        title: "2. Split three levels",
+        copy: "Track the block high, midpoint, and low. Each level can trigger memory.",
+        tone: "blue",
+      },
+      {
+        title: "3. Read the reaction",
+        copy: "Continuation needs price to reject, hold, or break away from a block level.",
+        tone: "amber",
+      },
+      {
+        title: "Failure",
+        copy: "If price spends time at a level and then breaks away against the vector, memory has failed.",
+        tone: "dark",
+      },
+    ],
+    quickCards: [
+      {
+        title: "The block is the body",
+        copy: "Do not mark the wick. The lesson treats the candle body as the area where the real agreement and contracts sit.",
+        tone: "green",
+      },
+      {
+        title: "Memory has three tests",
+        copy: "Price can react from the block high, midpoint, or low. You wait to see which level becomes support or resistance.",
+        tone: "amber",
+      },
+      {
+        title: "Do not trade every block",
+        copy: "A block is an anchor, not an automatic entry. Context, time spent, and vector breakaway confirm whether it matters.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Choose a meaningful vector",
+        copy: "Start with a green or red vector candle that appears after a clear move, reversal attempt, or aggressive breakout. Avoid treating every small vector as equal.",
+      },
+      {
+        title: "Mark only the candle body",
+        copy: "Draw the block from open to close. Ignore upper and lower wicks because the lesson says the body carries the weight of the transaction.",
+      },
+      {
+        title: "Split the block into three decision levels",
+        copy: "Mark the block high, midpoint, and low. These are the three places where price may trigger market memory.",
+      },
+      {
+        title: "Define the expected direction",
+        copy: "For a green vector block, the default expectation is continuation higher. For a red vector block, the default expectation is continuation lower.",
+      },
+      {
+        title: "Wait for price to revisit the block",
+        copy: "Do not enter just because the block exists. Let price return to the high, midpoint, or low and show behavior around that level.",
+      },
+      {
+        title: "Study time spent at the level",
+        copy: "Fast rejection suggests memory is active. Long hesitation followed by a break against the expected direction suggests the memory is weakening.",
+      },
+      {
+        title: "Require commitment away from the level",
+        copy: "Look for a vector candle or strong close that moves away from the block level in the expected direction before treating it as actionable.",
+      },
+      {
+        title: "Trade level to level",
+        copy: "If entering from one block level, use the next block level, prior vector area, or nearby structure as the first target. Do not assume the whole move at once.",
+      },
+    ],
+    checklist: [
+      "A clear green or red vector candle is present.",
+      "The block is drawn from the candle body only.",
+      "High, midpoint, and low are marked.",
+      "The expected direction matches the vector color.",
+      "Price revisits one of the three block levels.",
+      "Time spent at the level is observed.",
+      "Price rejects or holds the level instead of drifting through it.",
+      "A vector or strong close confirms movement away.",
+      "Entry, invalidation, and first target are level-based.",
+      "The broader session and liquidity context support the idea.",
+    ],
+    drills: [
+      {
+        title: "Body-only marking",
+        copy: "Go through twenty vector candles and mark only the body. Compare how much cleaner the levels become when wicks are ignored.",
+      },
+      {
+        title: "Three-level replay",
+        copy: "Replay price after a vector candle and pause when it reaches the high, midpoint, or low. Predict reaction, failure, or continuation.",
+      },
+      {
+        title: "Memory failure log",
+        copy: "Collect examples where price breaks through all three levels. Note the candle that proved the block no longer favored the original direction.",
+      },
+      {
+        title: "Session filter",
+        copy: "Compare Asian-session block reactions with New York-session reactions. The video warns that liquidity changes how clean the behavior is.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Invalidation",
+        copy: "For a green block, failure is price accepting below the block instead of moving away higher. For a red block, failure is price accepting above it.",
+      },
+      {
+        title: "Midpoint risk",
+        copy: "The midpoint is a decision point, not magic support or resistance. Wait for behavior before entering.",
+      },
+      {
+        title: "Context filter",
+        copy: "A green block after a downside move has different meaning than a random green block in chop. Use surrounding structure.",
+      },
+      {
+        title: "Confirmation candle",
+        copy: "The cleanest examples show vector breakouts from the block level. Without commitment, stand down.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces green vectors as market maker markup and connects them to bids, offers, and trapped shorts.",
+      },
+      {
+        time: "02:00",
+        copy: "Defines the block as market memory and introduces the three reaction zones inside the vector body.",
+      },
+      {
+        time: "05:00",
+        copy: "Emphasizes the main drawing rule: use the vector candle body only, not the wick.",
+      },
+      {
+        time: "07:00",
+        copy: "Marks the block high, midpoint, and low on the chart and explains how price may react at each one.",
+      },
+      {
+        time: "10:00",
+        copy: "Shows price reacting from block levels and explains how those reactions can keep you in or out of a trade.",
+      },
+      {
+        time: "14:00",
+        copy: "Explains trading level to level: enter near one confirmed block reaction and manage toward the next zone.",
+      },
+      {
+        time: "17:00",
+        copy: "Walks a fresh block example, showing midpoint taps and the need for price to prove the expected direction.",
+      },
+      {
+        time: "21:00",
+        copy: "Switches to red-vector blocks and explains how memory can favor lower prices until proven otherwise.",
+      },
+      {
+        time: "27:00",
+        copy: "Returns to the whiteboard: time spent at block high, midpoint, and low reveals whether memory is active.",
+      },
+      {
+        time: "31:00",
+        copy: "Summarizes practice: collect variations of block behavior so real-time reactions become familiar.",
+      },
+    ],
+  },
 ];
 
-let activeLesson = lessons[0];
+let activeLesson = lessons[lessons.length - 1];
 
 const lessonList = document.querySelector("#lessonList");
 const searchInput = document.querySelector("#lessonSearch");
@@ -167,6 +362,7 @@ const timelineEl = document.querySelector("#timeline");
 const focusButton = document.querySelector("#focusMode");
 const printButton = document.querySelector("#printGuide");
 const canvas = document.querySelector("#setupCanvas");
+const diagramLegendEl = document.querySelector("#diagramLegend");
 
 function renderLessonList(filter = "") {
   const query = filter.trim().toLowerCase();
@@ -207,6 +403,13 @@ function render() {
     .map(
       (card) =>
         `<article class="quick-card" data-tone="${card.tone}"><strong>${card.title}</strong><p>${card.copy}</p></article>`,
+    )
+    .join("");
+
+  diagramLegendEl.innerHTML = activeLesson.diagramLegend
+    .map(
+      (item) =>
+        `<div class="legend-item legend-${item.tone}"><strong>${item.title}</strong><span>${item.copy}</span></div>`,
     )
     .join("");
 
@@ -266,6 +469,16 @@ function drawSetup() {
   ctx.lineJoin = "round";
   ctx.lineCap = "round";
 
+  if (activeLesson.diagram === "block-trade") {
+    drawBlockTradeSetup(ctx);
+  } else {
+    drawVShapeSetup(ctx);
+  }
+
+  ctx.restore();
+}
+
+function drawVShapeSetup(ctx) {
   const points = [
     [60, 88],
     [160, 160],
@@ -311,7 +524,55 @@ function drawSetup() {
   badge(ctx, "1", 92, 78, "#b83a31");
   badge(ctx, "2", 268, 338, "#b47a1f");
   badge(ctx, "3", 514, 78, "#217a55");
-  ctx.restore();
+}
+
+function drawBlockTradeSetup(ctx) {
+  drawCandle(ctx, 124, 96, 84, 184, "#217a55");
+
+  drawZone(ctx, 120, 96, 92, 184, "#217a55");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  for (const y of [96, 188, 280]) {
+    ctx.beginPath();
+    ctx.moveTo(86, y);
+    ctx.lineTo(690, y);
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(212, 188);
+  ctx.lineTo(286, 188);
+  ctx.lineTo(344, 128);
+  ctx.lineTo(430, 142);
+  ctx.lineTo(508, 92);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(330, 128);
+  ctx.lineTo(380, 188);
+  ctx.lineTo(430, 188);
+  ctx.lineTo(488, 142);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(270, 280);
+  ctx.lineTo(350, 280);
+  ctx.lineTo(408, 326);
+  ctx.stroke();
+
+  badge(ctx, "1", 166, 62, "#217a55");
+  badge(ctx, "2", 592, 188, "#2a66a2");
+  badge(ctx, "3", 510, 94, "#b47a1f");
+  badge(ctx, "X", 430, 326, "#171b1f");
 }
 
 function drawZone(ctx, x, y, width, height, color) {
