@@ -290,9 +290,9 @@ function drawSetup() {
   ctx.lineTo(points[5][0], points[5][1]);
   ctx.stroke();
 
-  drawZone(ctx, 226, 268, 132, 58, "slowdown base", "#b47a1f");
-  drawZone(ctx, 94, 116, 122, 150, "red vectors", "#b83a31");
-  drawZone(ctx, 380, 142, 130, 132, "green/blue vectors", "#217a55");
+  drawZone(ctx, 226, 268, 132, 58, "#b47a1f");
+  drawZone(ctx, 94, 116, 122, 150, "#b83a31");
+  drawZone(ctx, 380, 142, 130, 132, "#217a55");
 
   drawCandle(ctx, 96, 122, 48, 124, "#b83a31");
   drawCandle(ctx, 150, 158, 44, 102, "#b83a31");
@@ -308,20 +308,18 @@ function drawSetup() {
   ctx.stroke();
   ctx.setLineDash([]);
 
-  label(ctx, "1. Environment: fast selloff", 42, 44, "#b83a31");
-  label(ctx, "2. Speed slows at the low", 224, 356, "#b47a1f");
-  label(ctx, "3. Impulse confirms recovery", 472, 44, "#217a55");
-  label(ctx, "Invalid below base", 42, 315, "#171b1f");
+  badge(ctx, "1", 92, 78, "#b83a31");
+  badge(ctx, "2", 268, 338, "#b47a1f");
+  badge(ctx, "3", 514, 78, "#217a55");
   ctx.restore();
 }
 
-function drawZone(ctx, x, y, width, height, text, color) {
+function drawZone(ctx, x, y, width, height, color) {
   ctx.fillStyle = `${color}22`;
   ctx.strokeStyle = color;
   ctx.lineWidth = 2;
   ctx.strokeRect(x, y, width, height);
   ctx.fillRect(x, y, width, height);
-  label(ctx, text, x + 10, y + height + 24, color);
 }
 
 function drawCandle(ctx, x, y, width, height, color) {
@@ -335,11 +333,19 @@ function drawCandle(ctx, x, y, width, height, color) {
   ctx.fillRect(x, y, width, height);
 }
 
-function label(ctx, text, x, y, color) {
+function badge(ctx, text, x, y, color) {
   ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.arc(x, y, 18, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "#fff";
   ctx.font =
-    "700 16px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif";
-  ctx.fillText(text, x, y);
+    "800 18px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif";
+  ctx.textAlign = "center";
+  ctx.textBaseline = "middle";
+  ctx.fillText(text, x, y + 1);
+  ctx.textAlign = "start";
+  ctx.textBaseline = "alphabetic";
 }
 
 searchInput.addEventListener("input", () => renderLessonList(searchInput.value));
