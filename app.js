@@ -693,7 +693,9 @@ const lessons = [
   },
 ];
 
-let activeLesson = lessons[lessons.length - 1];
+const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(b) - getSessionNumber(a));
+
+let activeLesson = sortedLessons[0];
 
 const lessonList = document.querySelector("#lessonList");
 const searchInput = document.querySelector("#lessonSearch");
@@ -714,7 +716,7 @@ const diagramLegendEl = document.querySelector("#diagramLegend");
 
 function renderLessonList(filter = "") {
   const query = filter.trim().toLowerCase();
-  const matches = lessons.filter((lesson) => {
+  const matches = sortedLessons.filter((lesson) => {
     const blob = [lesson.title, lesson.summary, ...lesson.tags].join(" ").toLowerCase();
     return blob.includes(query);
   });
@@ -925,6 +927,11 @@ function drawBlockTradeSetup(ctx) {
   badge(ctx, "2", 592, 188, "#2a66a2");
   badge(ctx, "3", 510, 94, "#b47a1f");
   badge(ctx, "X", 430, 326, "#171b1f");
+}
+
+function getSessionNumber(lesson) {
+  const match = lesson.title.match(/Session\s+(\d+)/i);
+  return match ? Number(match[1]) : 0;
 }
 
 function drawNewYorkReversalSetup(ctx) {
