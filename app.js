@@ -1044,6 +1044,210 @@ const lessons = [
     ],
   },
   {
+    id: "session-7-identifying-price-cycle",
+    title: "Session 7 - Identifying The Cycle Of Price",
+    source: "YouTube breakdown - 31:04 - rollin rollo",
+    summary:
+      "Session 7 explains the market-maker price cycle as a repeating map: W formation, rise, retrace into level one, rise into level two, rise into level three, then M formation and the same logic back down. The practical lesson is not to predict every full cycle, but to identify the W peak formation, mark the first level, wait for a real breakout, and manage risk because levels can last much longer than expected.",
+    tags: ["Price cycle", "W formation", "Level one", "Breakout validation"],
+    diagram: "price-cycle",
+    diagramLegend: [
+      {
+        title: "1. Peak formation",
+        copy: "The cycle starts from a W after price has been dropping and retail has been pulled short.",
+        tone: "blue",
+      },
+      {
+        title: "2. Level one",
+        copy: "Price moves away from the W, retraces, and builds the first consolidation box.",
+        tone: "amber",
+      },
+      {
+        title: "3. Breakout validation",
+        copy: "A level is validated only after price breaks the high that formed the level.",
+        tone: "green",
+      },
+      {
+        title: "4. Cycle reversal",
+        copy: "After level three, an M formation can start the same cycle back down.",
+        tone: "red",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Trade the practical piece",
+        copy: "The beginner focus is W formation, level one accumulation, and breakout. Do not try to capture every level of the full cycle.",
+        tone: "blue",
+      },
+      {
+        title: "Levels need validation",
+        copy: "A box is not complete just because price pauses. It must form a high, hold a low, and break away from that high.",
+        tone: "green",
+      },
+      {
+        title: "Exposure is the danger",
+        copy: "The lesson warns that a level can consolidate for days or weeks, so oversized positions can force you out before the move appears.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Start from the W formation",
+        copy: "Look for price dropping into a psychological low, forming a W or double-bottom style peak formation, and then trading away from that low.",
+      },
+      {
+        title: "Protect the peak low",
+        copy: "The cycle idea remains valid only if price does not accept below the W low. If the low breaks and sustains, wait for a new formation.",
+      },
+      {
+        title: "Mark the midpoint of the W",
+        copy: "Price should move away from the W and take the midpoint. The midpoint helps separate a real move away from a weak bounce.",
+      },
+      {
+        title: "Draw the level one box",
+        copy: "After the first rise, mark the retrace/consolidation range. The low of that box starts level one, and the high is the breakout level.",
+      },
+      {
+        title: "Wait for the breakout",
+        copy: "The level is validated when price breaks the high that formed the level. A strong green vector breakout adds useful confirmation.",
+      },
+      {
+        title: "Treat deep returns with caution",
+        copy: "If price comes too deep back into the prior level, the original consolidation may not be complete. It can extend rather than start the next clean level.",
+      },
+      {
+        title: "Repeat only after a new box forms",
+        copy: "Level two and level three use the same logic: move away, retrace into a box, hold the low, then break the high.",
+      },
+      {
+        title: "Pay yourself before the peak",
+        copy: "The lesson stresses that enough money can be made from level one and level two. Holding for level three or the full cycle creates avoidable exposure.",
+      },
+    ],
+    checklist: [
+      "A W formation or clear low-building structure is visible.",
+      "Price has moved away from the W low.",
+      "The W low has not been invalidated by sustained trade below it.",
+      "The midpoint of the W has been taken or respected.",
+      "A level one consolidation box is marked.",
+      "The high and low of the level are drawn.",
+      "Price is spending time above the midpoint of the level.",
+      "The breakout level is known before entry.",
+      "A vector candle supports the breakout direction.",
+      "Position size is small enough to survive a long consolidation or stop run.",
+    ],
+    drills: [
+      {
+        title: "1H cycle marking",
+        copy: "Use the 1H chart and mark twenty W formations. For each one, draw level one and record whether price broke the level high.",
+      },
+      {
+        title: "Midpoint study",
+        copy: "Split each level box in half. Record whether price spent most of its time above or below the midpoint before breakout.",
+      },
+      {
+        title: "Vector breakout log",
+        copy: "Collect examples where a level breakout happens on a green vector for upside cycles or a red vector for downside cycles.",
+      },
+      {
+        title: "Variation archive",
+        copy: "Save examples where the cycle is messy: stop-run breakouts, extended boxes, deep retraces, or levels that last much longer than expected.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "The cycle is never clean",
+        copy: "The video repeatedly warns that real charts will not show perfect W, level one, level two, level three, M shapes.",
+      },
+      {
+        title: "Invalidation is the peak low",
+        copy: "If price breaks and sustains below the W low, the bullish cycle is invalidated and a fresh W must form.",
+      },
+      {
+        title: "Do not overbuild inside a level",
+        copy: "The instructor describes being trapped by too much exposure in a long consolidation. The setup can be right while the sizing is wrong.",
+      },
+      {
+        title: "Breakout entries can be shaken out",
+        copy: "A buy stop above the level can trigger before price returns into the box. Plan for stop runs and know where the level actually fails.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the weekly cycle: W formation, rise/retrace levels one through three, M formation, then the cycle back down.",
+      },
+      {
+        time: "01:20",
+        copy: "Explains that the W formation is the peak where positions are built before the first move higher.",
+      },
+      {
+        time: "03:00",
+        copy: "Defines level one: price moves away from the W, retraces, consolidates, and must break the level high.",
+      },
+      {
+        time: "04:10",
+        copy: "Shows how level two and level three repeat the same rise, retrace, breakout structure.",
+      },
+      {
+        time: "05:15",
+        copy: "Gives the practical question: did price move away from a significant low after dropping?",
+      },
+      {
+        time: "06:25",
+        copy: "Warns that level one and level three are the hardest to identify and that the W low must be sustained.",
+      },
+      {
+        time: "07:10",
+        copy: "States the invalidation rule: if price breaks the peak low and sustains below it, there is no cycle.",
+      },
+      {
+        time: "09:00",
+        copy: "Explains that deep returns into level one can mean the level is extended rather than complete.",
+      },
+      {
+        time: "10:00",
+        copy: "Uses the dollar-yen story to show how a level can last for weeks and punish oversized exposure.",
+      },
+      {
+        time: "14:30",
+        copy: "Summarizes the lesson from that trade: levels can last longer than expected, so do not overexpose inside the box.",
+      },
+      {
+        time: "16:20",
+        copy: "Says enough money can be made trading W formation into level one and level two without forcing the full level-three move.",
+      },
+      {
+        time: "18:05",
+        copy: "Moves to chart examples and says the cycle is best studied on the 1H timeframe.",
+      },
+      {
+        time: "21:30",
+        copy: "Gives the homework: go back through charts and mark consolidation zones, W formations, and breakout levels.",
+      },
+      {
+        time: "24:35",
+        copy: "Gives the main level rule: each level needs a breakout to validate it.",
+      },
+      {
+        time: "25:00",
+        copy: "Adds the midpoint rule: price holding above the midpoint of the box supports an upside breakout idea.",
+      },
+      {
+        time: "27:00",
+        copy: "Warns about variation: stop-run breakouts and messy structures are normal.",
+      },
+      {
+        time: "28:10",
+        copy: "Refocuses the beginner model on the first pattern: W formation, level one box, breakout.",
+      },
+      {
+        time: "30:05",
+        copy: "Closes by saying smaller cycles exist inside larger cycles, but beginners should not torment themselves trying to label every level.",
+      },
+    ],
+  },
+  {
     id: "session-8-block-trade-principle",
     title: "Session 8 - The Block Trade Principle",
     source: "YouTube breakdown - 35:59 - rollin rollo",
@@ -1738,7 +1942,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-2-trading-confluences";
+const defaultLessonId = "session-7-identifying-price-cycle";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -1881,6 +2085,8 @@ function drawSetup() {
     drawFirstGreenVectorSetup(ctx);
   } else if (activeLesson.diagram === "confluence-stack") {
     drawConfluenceStackSetup(ctx);
+  } else if (activeLesson.diagram === "price-cycle") {
+    drawPriceCycleSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
@@ -1976,6 +2182,79 @@ function drawConfluenceStackSetup(ctx) {
   badge(ctx, "2", 402, 210, "#b47a1f");
   badge(ctx, "3", 518, 242, "#b83a31");
   badge(ctx, "4", 612, 108, "#217a55");
+}
+
+function drawPriceCycleSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.34)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(62, 304);
+  ctx.lineTo(700, 304);
+  ctx.moveTo(62, 202);
+  ctx.lineTo(700, 202);
+  ctx.moveTo(62, 106);
+  ctx.lineTo(700, 106);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  drawZone(ctx, 82, 246, 116, 70, "#2a66a2");
+  drawZone(ctx, 254, 182, 112, 70, "#b47a1f");
+  drawZone(ctx, 420, 116, 112, 70, "#217a55");
+  drawZone(ctx, 574, 74, 98, 70, "#b83a31");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(70, 292);
+  ctx.lineTo(104, 314);
+  ctx.lineTo(144, 262);
+  ctx.lineTo(184, 306);
+  ctx.lineTo(238, 206);
+  ctx.lineTo(306, 238);
+  ctx.lineTo(378, 154);
+  ctx.lineTo(470, 178);
+  ctx.lineTo(560, 92);
+  ctx.lineTo(610, 126);
+  ctx.lineTo(656, 86);
+  ctx.lineTo(704, 214);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(198, 286);
+  ctx.lineTo(238, 206);
+  ctx.moveTo(366, 232);
+  ctx.lineTo(378, 154);
+  ctx.moveTo(532, 176);
+  ctx.lineTo(560, 92);
+  ctx.stroke();
+
+  drawCandle(ctx, 212, 222, 34, 74, "#217a55");
+  drawCandle(ctx, 380, 166, 34, 66, "#217a55");
+  drawCandle(ctx, 548, 108, 34, 70, "#217a55");
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(650, 88);
+  ctx.lineTo(704, 214);
+  ctx.stroke();
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("W peak", 92, 336);
+  ctx.fillText("level 1", 272, 272);
+  ctx.fillText("level 2", 438, 206);
+  ctx.fillText("M peak", 584, 62);
+  ctx.fillText("break high", 214, 190);
+  ctx.fillText("break high", 382, 138);
+
+  badge(ctx, "1", 102, 246, "#2a66a2");
+  badge(ctx, "2", 254, 182, "#b47a1f");
+  badge(ctx, "3", 420, 116, "#217a55");
+  badge(ctx, "4", 672, 86, "#b83a31");
 }
 
 function drawVShapeSetup(ctx) {
