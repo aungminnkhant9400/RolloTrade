@@ -1,5 +1,177 @@
 const lessons = [
   {
+    id: "brink-box-part-2",
+    title: "Brink Box Part 2",
+    source: "YouTube breakdown - 19:32 - rollin rollo",
+    summary:
+      "Brinks Part 2 turns the box into an execution model. After the 9:00-10:00 AM ET range forms, separate two conditions: unrecovered vectors inside the Brinks box mean price can trade back into the box to recover them, while fully recovered vectors shift focus to break, retest, and continuation away from the Brinks high or low.",
+    tags: ["Brinks box", "Vector recovery", "Opening range", "Break and retest"],
+    diagram: "brink-box-recovery",
+    diagramLegend: [
+      {
+        title: "1. Range completes",
+        copy: "Wait until the Brinks high and low are known before reading intention.",
+        tone: "blue",
+      },
+      {
+        title: "2. Unrecovered vector",
+        copy: "A vector left inside the box becomes a likely recovery magnet.",
+        tone: "red",
+      },
+      {
+        title: "3. Failed break",
+        copy: "A sweep outside the box that quickly returns points back into the range.",
+        tone: "amber",
+      },
+      {
+        title: "4. Recovery target",
+        copy: "Aim toward the unrecovered vector, then the opposing side if structure supports it.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Vectors decide location",
+        copy: "If Brinks vectors are not fully recovered, the cleaner idea is usually back into the box.",
+        tone: "red",
+      },
+      {
+        title: "No vectors means range logic",
+        copy: "If all vectors are recovered, treat the Brinks high/low like opening-range breakout levels.",
+        tone: "blue",
+      },
+      {
+        title: "Wait for intention",
+        copy: "The lesson keeps the same rule from Part 1: let the box finish before deciding.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Draw the Brinks box",
+        copy: "Mark the 9:00-10:00 AM ET high and low. Do not decide from the middle of the box while it is still forming.",
+      },
+      {
+        title: "Audit vectors inside the box",
+        copy: "Label every red, green, or blue vector created inside the Brinks range and mark whether it was fully recovered.",
+      },
+      {
+        title: "Choose the active condition",
+        copy: "If any vector is left unrecovered, prepare for a recovery trade back into the box. If all vectors are recovered, prepare for a break/retest trade outside the range.",
+      },
+      {
+        title: "For a red vector left below, watch the low",
+        copy: "If price sweeps or breaks below the Brinks low, then quickly reclaims the range with bullish structure, the target is back into the red-vector imbalance.",
+      },
+      {
+        title: "For a green vector left above, watch the high",
+        copy: "If price sweeps or breaks above the Brinks high, then returns and rejects, the target is back down into the green-vector imbalance.",
+      },
+      {
+        title: "Require confluence before fading momentum",
+        copy: "News or a strong one-way drive can leave a Brinks vector unrecovered. Wait for breakdown, reclaim, moving-average/VWAP reaction, or clear structure before entering.",
+      },
+      {
+        title: "Use opening-range logic when clean",
+        copy: "When Brinks vectors are already recovered, trade the first accepted break: break high, retest high as support, continue higher; or break low, retest low as resistance, continue lower.",
+      },
+      {
+        title: "Aim in stages",
+        copy: "First target the unrecovered vector or Brinks edge. If price accepts through it, trail toward the opposing side of the box or prior-session vector targets.",
+      },
+    ],
+    checklist: [
+      "The 9:00-10:00 AM ET Brinks range is complete.",
+      "Brinks high and Brinks low are drawn.",
+      "Every vector inside the box is marked.",
+      "Recovered and unrecovered vectors are separated.",
+      "If a vector is unrecovered, the planned trade points back into the box.",
+      "If all vectors are recovered, the planned trade uses break/retest continuation.",
+      "A sweep outside the high/low is not enough by itself.",
+      "Price has reclaimed or rejected the box edge with structure.",
+      "News and strong one-way momentum are checked before fading the move.",
+      "Targets are staged: vector recovery first, opposing side second.",
+    ],
+    drills: [
+      {
+        title: "Vector audit drill",
+        copy: "Replay twenty Brinks boxes and mark every vector created inside the range. Record whether it was recovered same session or next session.",
+      },
+      {
+        title: "Failed-break drill",
+        copy: "Find ten breaks of the Brinks low that quickly returned into the box. Mark the reclaim candle and the recovery target.",
+      },
+      {
+        title: "Opening-range drill",
+        copy: "Find days where all Brinks vectors were recovered. Track the first break, retest, and continuation from the Brinks edge.",
+      },
+      {
+        title: "News filter drill",
+        copy: "Review Brinks boxes around 8:30 AM ET news. Note when unrecovered vectors stayed unrecovered because momentum never produced a reversal structure.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Do not short strength by rule alone",
+        copy: "A green vector inside Brinks can remain unrecovered if news or trend pressure keeps price driving higher.",
+      },
+      {
+        title: "A sweep needs confirmation",
+        copy: "The trade is not the sweep itself. The trade comes after reclaim, rejection, or accepted break/retest behavior.",
+      },
+      {
+        title: "Recovery is not always immediate",
+        copy: "The lesson says vectors may recover in the same session or a later session, so timing still needs structure.",
+      },
+      {
+        title: "Invalidation is the box edge",
+        copy: "If the setup expects a return into the box but price accepts outside the Brinks high/low and holds, the recovery idea is weakened.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Shows several Brinks boxes and notes that once the box forms, price often chooses a direction for much of the session.",
+      },
+      {
+        time: "01:16",
+        copy: "Introduces the key repetition: vector candles are often created inside the Brinks box.",
+      },
+      {
+        time: "01:29",
+        copy: "States the main principle: unrecovered vectors created inside Brinks have a strong chance of being revisited.",
+      },
+      {
+        time: "03:24",
+        copy: "Summarizes the rule again: if Brinks vectors are left behind, price can come back to recover the imbalance.",
+      },
+      {
+        time: "04:12",
+        copy: "Gives the caveat that some unrecovered vectors remain open when news or strong confluence keeps price moving away.",
+      },
+      {
+        time: "06:24",
+        copy: "Explains that breakdown after a green vector improves the chance of revisiting that unrecovered vector.",
+      },
+      {
+        time: "06:48",
+        copy: "Explains the red-vector version: after a break below the Brinks low, look for structure that trades back into the imbalance.",
+      },
+      {
+        time: "08:03",
+        copy: "Switches to the case where all Brinks vectors are recovered and introduces opening-range breakout logic.",
+      },
+      {
+        time: "11:54",
+        copy: "Repeats the execution rule: wait until the Brinks box finishes so the high/low intention is easier to read.",
+      },
+      {
+        time: "18:38",
+        copy: "Final simplification: trade breakaways from the high/low unless unrecovered Brinks vectors pull price back into the box.",
+      },
+    ],
+  },
+  {
     id: "brink-box-part-1",
     title: "Brink Box Part 1",
     source: "YouTube breakdown - 6:41 - rollin rollo",
@@ -1345,6 +1517,8 @@ function drawSetup() {
     drawVectorCandleFlowSetup(ctx);
   } else if (activeLesson.diagram === "psychological-level") {
     drawPsychologicalLevelSetup(ctx);
+  } else if (activeLesson.diagram === "brink-box-recovery") {
+    drawBrinkBoxRecoverySetup(ctx);
   } else if (activeLesson.diagram === "brink-box") {
     drawBrinkBoxSetup(ctx);
   } else {
@@ -1526,6 +1700,74 @@ function drawBrinkBoxSetup(ctx) {
   badge(ctx, "2", 220, 72, "#b47a1f");
   badge(ctx, "3", 420, 306, "#217a55");
   badge(ctx, "4", 640, 220, "#b83a31");
+}
+
+function drawBrinkBoxRecoverySetup(ctx) {
+  ctx.fillStyle = "#eef3f0";
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.fillRect(126, 104, 374, 190);
+  ctx.strokeRect(126, 104, 374, 190);
+
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.45)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(78, 104);
+  ctx.lineTo(682, 104);
+  ctx.moveTo(78, 294);
+  ctx.lineTo(682, 294);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("Brinks high", 132, 88);
+  ctx.fillText("Brinks low", 132, 326);
+  ctx.fillText("reclaim", 508, 248);
+  ctx.fillText("target", 604, 134);
+
+  drawZone(ctx, 188, 150, 106, 120, "#b83a31");
+  drawCandle(ctx, 216, 166, 46, 86, "#b83a31");
+  drawZone(ctx, 348, 128, 94, 112, "#217a55");
+  drawCandle(ctx, 372, 144, 42, 78, "#217a55");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(96, 182);
+  ctx.lineTo(142, 122);
+  ctx.lineTo(194, 252);
+  ctx.lineTo(250, 164);
+  ctx.lineTo(318, 214);
+  ctx.lineTo(392, 138);
+  ctx.lineTo(486, 282);
+  ctx.lineTo(540, 322);
+  ctx.lineTo(584, 246);
+  ctx.lineTo(662, 144);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(486, 282);
+  ctx.lineTo(540, 322);
+  ctx.lineTo(584, 246);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(584, 246);
+  ctx.lineTo(662, 144);
+  ctx.stroke();
+
+  drawZone(ctx, 602, 118, 76, 62, "#217a55");
+
+  badge(ctx, "1", 126, 104, "#2a66a2");
+  badge(ctx, "2", 188, 150, "#b83a31");
+  badge(ctx, "3", 540, 322, "#b47a1f");
+  badge(ctx, "4", 662, 144, "#217a55");
 }
 
 function drawVectorCandleFlowSetup(ctx) {
