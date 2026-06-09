@@ -13,6 +13,7 @@ timestamp maps, and practice drills.
 - Session 5 - Trading M & W Formations
 - Session 6 - How To Trade V Shape Reversals
 - Session 8 - The Block Trade Principle
+- Session 9 - Trading The First Green Vector
 - Session 22 - Trading New York Reversal
 
 ## Local Use

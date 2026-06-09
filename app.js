@@ -1032,6 +1032,178 @@ const lessons = [
     ],
   },
   {
+    id: "session-9-first-green-vector",
+    title: "Session 9 - Trading The First Green Vector",
+    source: "YouTube breakdown - 34:12 - rollin rollo",
+    summary:
+      "The first green vector above the 50 EMA is useful only after the right development: price has marked down, red-vector imbalances are still above, the 50 EMA has compressed, and the green vector breaks from below or around the 50 EMA and closes above it. The execution is not to chase the close; mark the vector, wait for retrace into the vector or 50% area, then look for continuation away from the 50 EMA.",
+    tags: ["First green vector", "50 EMA", "Vector retrace", "EMA compression"],
+    diagram: "first-green-vector",
+    diagramLegend: [
+      {
+        title: "1. Markdown first",
+        copy: "The setup starts after price has traded lower and left red-vector imbalances above.",
+        tone: "red",
+      },
+      {
+        title: "2. EMA compresses",
+        copy: "The 50 EMA flattens as price slows and consolidates near it.",
+        tone: "blue",
+      },
+      {
+        title: "3. First green close",
+        copy: "The green vector must break from below or around the 50 EMA and close above it.",
+        tone: "green",
+      },
+      {
+        title: "4. Retrace entry",
+        copy: "Wait for a test of the vector midpoint, block level, or 50 EMA before continuation.",
+        tone: "amber",
+      },
+    ],
+    quickCards: [
+      {
+        title: "It needs a prior markdown",
+        copy: "Do not isolate the candle. The lesson wants a down move first, with unrecovered red vectors or upside imbalance still available.",
+        tone: "red",
+      },
+      {
+        title: "It must cross the 50 EMA",
+        copy: "A green vector already far above the 50 EMA is not the same signal. That is often mean-reversion risk.",
+        tone: "blue",
+      },
+      {
+        title: "The trade is the retrace",
+        copy: "After the green vector close, expect price to revisit the vector area before the cleaner continuation attempt.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Confirm a markdown phase",
+        copy: "Start with price trading lower. The setup is strongest after an aggressive drop, not after price has already expanded far above the 50 EMA.",
+      },
+      {
+        title: "Mark red-vector imbalances above",
+        copy: "Look left for red vectors that are not fully recovered. These are the areas price may later revisit if the bullish shift is real.",
+      },
+      {
+        title: "Watch the 50 EMA compress",
+        copy: "As price consolidates, the 50 EMA should flatten or move closer to price. This shows momentum is slowing before the break.",
+      },
+      {
+        title: "Require the first green vector to cross",
+        copy: "The candle must appear from below or around the 50 EMA and close above it. A green vector already high above the average is not this setup.",
+      },
+      {
+        title: "Judge the close strength",
+        copy: "The stronger the close above the 50 EMA, the better. A weak close or a candle that only tags the average is lower quality.",
+      },
+      {
+        title: "Do not chase the close",
+        copy: "Mark the vector body, especially its midpoint. Large green vectors commonly retrace at least into the 50% area before continuation.",
+      },
+      {
+        title: "Enter on the retrace proof",
+        copy: "Look for price to test the green-vector block, midpoint, or 50 EMA, then hold and push away. This ties the setup back to the block trade principle.",
+      },
+      {
+        title: "Target the reason for the reversal",
+        copy: "Targets should come from unrecovered red vectors, prior highs, or nearby liquidity. If price accepts below the 50 EMA and through the vector, the idea is failing.",
+      },
+    ],
+    checklist: [
+      "A clear move down happened before the signal.",
+      "Red-vector imbalances or upside recovery targets are marked.",
+      "The 50 EMA is compressing, flattening, or close to price.",
+      "The green vector begins from below or around the 50 EMA.",
+      "The green vector closes above the 50 EMA.",
+      "The candle is not already stretched far above the 50 EMA.",
+      "The vector midpoint or block levels are marked.",
+      "No long is taken blindly at the vector close.",
+      "Price retraces into the vector, midpoint, or 50 EMA and holds.",
+      "Timeframe, stop, and target size match the trade style.",
+    ],
+    drills: [
+      {
+        title: "First-vector library",
+        copy: "Collect at least fifty examples where the first green vector closes above the 50 EMA. Label the prior move, EMA shape, retrace depth, and result.",
+      },
+      {
+        title: "Midpoint retrace drill",
+        copy: "For each example, mark the vector high, midpoint, and low. Record whether continuation began from the midpoint, full recovery, or 50 EMA.",
+      },
+      {
+        title: "False-signal audit",
+        copy: "Build a separate folder of green vectors that appeared too far above the 50 EMA and later reverted. Compare them against the valid setups.",
+      },
+      {
+        title: "Timeframe comparison",
+        copy: "Study the same setup on 15M, 5M, and 1M. The lesson warns that the 1M version produces many fakeouts unless there is a cluster of vectors.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Stretched candles are not entries",
+        copy: "A green vector far above the 50 EMA can be climactic. The better trade is usually after price returns to the average or vector zone.",
+      },
+      {
+        title: "Large vectors need room",
+        copy: "If the vector candle has a wide range, expect a deeper retrace into the body. A tight stop at the close is usually mismatched.",
+      },
+      {
+        title: "One-minute fakeouts",
+        copy: "The instructor suggests beginners focus on 15M first, then 5M. One-minute signals fail more often and require faster management.",
+      },
+      {
+        title: "Mirror rule for shorts",
+        copy: "For shorts, the red vector must break from above the 50 EMA and close below it. A red candle that only enters the 50 EMA can still become a continuation trap higher.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the first green vector above the 50 EMA as the session topic.",
+      },
+      {
+        time: "01:16",
+        copy: "Defines the first condition: price should be in a downward move with red vectors left unrecovered.",
+      },
+      {
+        time: "02:04",
+        copy: "Explains the 50 EMA flattening as price consolidates and momentum slows.",
+      },
+      {
+        time: "02:51",
+        copy: "States that the green vector close above the 50 EMA is the sign that behavior may be changing.",
+      },
+      {
+        time: "03:09",
+        copy: "Warns not to buy any green vector above the 50 EMA; it must break through from below or around the average.",
+      },
+      {
+        time: "04:26",
+        copy: "Explains the expected sequence: breakout, retrace into the vector, then continuation.",
+      },
+      {
+        time: "07:21",
+        copy: "Connects the setup to W formations and a breakout through the W midpoint.",
+      },
+      {
+        time: "08:18",
+        copy: "Adds the block trade principle as confluence for the retrace and continuation.",
+      },
+      {
+        time: "09:06",
+        copy: "Emphasizes strong candle close, wide-range caution, and the 50% vector retrace.",
+      },
+      {
+        time: "28:17",
+        copy: "Gives the practice challenge: collect many examples and measure how often the vector retraces and then leads higher.",
+      },
+    ],
+  },
+  {
     id: "session-22-new-york-reversal",
     title: "Session 22 - Trading New York Reversal",
     source: "YouTube breakdown - 27:38 - rollin rollo",
@@ -1382,8 +1554,9 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
+const defaultLessonId = "session-9-first-green-vector";
 
-let activeLesson = sortedLessons[0];
+let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
 const lessonList = document.querySelector("#lessonList");
 const searchInput = document.querySelector("#lessonSearch");
@@ -1509,6 +1682,8 @@ function drawSetup() {
 
   if (activeLesson.diagram === "block-trade") {
     drawBlockTradeSetup(ctx);
+  } else if (activeLesson.diagram === "first-green-vector") {
+    drawFirstGreenVectorSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
@@ -1623,6 +1798,68 @@ function drawBlockTradeSetup(ctx) {
   badge(ctx, "2", 592, 188, "#2a66a2");
   badge(ctx, "3", 510, 94, "#b47a1f");
   badge(ctx, "X", 430, 326, "#171b1f");
+}
+
+function drawFirstGreenVectorSetup(ctx) {
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(56, 132);
+  ctx.bezierCurveTo(150, 176, 196, 238, 296, 246);
+  ctx.bezierCurveTo(384, 254, 504, 232, 690, 146);
+  ctx.stroke();
+
+  ctx.fillStyle = "#2a66a2";
+  ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("50 EMA", 606, 164);
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(70, 92);
+  ctx.lineTo(126, 154);
+  ctx.lineTo(176, 232);
+  ctx.lineTo(236, 274);
+  ctx.lineTo(304, 254);
+  ctx.lineTo(372, 196);
+  ctx.lineTo(432, 116);
+  ctx.lineTo(506, 214);
+  ctx.lineTo(590, 148);
+  ctx.lineTo(690, 82);
+  ctx.stroke();
+
+  drawZone(ctx, 142, 138, 106, 154, "#b83a31");
+  drawCandle(ctx, 166, 158, 38, 104, "#b83a31");
+  drawCandle(ctx, 214, 190, 36, 88, "#b83a31");
+
+  drawZone(ctx, 274, 226, 116, 62, "#b47a1f");
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("compression", 278, 316);
+
+  drawZone(ctx, 374, 164, 86, 130, "#217a55");
+  drawCandle(ctx, 394, 184, 44, 96, "#217a55");
+
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.45)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(374, 230);
+  ctx.lineTo(520, 230);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("50% retrace", 468, 244);
+  ctx.fillText("continuation", 574, 118);
+
+  drawZone(ctx, 484, 208, 58, 44, "#b47a1f");
+
+  badge(ctx, "1", 132, 130, "#b83a31");
+  badge(ctx, "2", 300, 246, "#2a66a2");
+  badge(ctx, "3", 432, 116, "#217a55");
+  badge(ctx, "4", 516, 230, "#b47a1f");
 }
 
 function getSessionNumber(lesson) {
