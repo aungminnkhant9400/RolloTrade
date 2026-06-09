@@ -1592,6 +1592,214 @@ const lessons = [
     ],
   },
   {
+    id: "session-10-whole-half-numbers",
+    title: "Session 10 - The Importance Of Whole/Half Numbers",
+    source: "YouTube breakdown - 21:17 - rollin rollo",
+    summary:
+      "Session 10 explains whole and half numbers as psychological price magnets where liquidity concentrates. The lesson frames round numbers such as 100K on Bitcoin, forex handles like 1.1400/1.1450/1.1500, and futures handles as areas where market makers can build shorts above key levels, build longs below key levels, and then reveal intention through fast vector breaks away from the range.",
+    tags: ["Whole numbers", "Half numbers", "Psychological levels", "Liquidity"],
+    diagram: "whole-half-numbers",
+    diagramLegend: [
+      {
+        title: "1. Key number",
+        copy: "Mark the obvious whole or half number before judging price action around it.",
+        tone: "blue",
+      },
+      {
+        title: "2. Build above",
+        copy: "Above a key level, market maker can build shorts while retail sees breakout strength.",
+        tone: "amber",
+      },
+      {
+        title: "3. Break with speed",
+        copy: "The clue is not the number alone. The clue is a vector move breaking away from it.",
+        tone: "red",
+      },
+      {
+        title: "4. Repeat below",
+        copy: "Below a key level, the same idea can build longs before a breakout back up.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Round numbers attract orders",
+        copy: "Retail and larger players both recognize simple numbers, so limit orders, stops, and breakout orders cluster there.",
+        tone: "blue",
+      },
+      {
+        title: "Time around the level matters",
+        copy: "The lesson keeps pointing to consolidation around the number before the aggressive break.",
+        tone: "amber",
+      },
+      {
+        title: "Never trade the line alone",
+        copy: "Whole and half numbers need environment, vector behavior, and retrace/continuation logic before they become a trade idea.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Mark the obvious numbers",
+        copy: "On each asset, draw the numbers that everyone can see: Bitcoin 100K/110K, forex handles and half handles, or futures handle levels.",
+      },
+      {
+        title: "Separate whole, half, and quarter levels",
+        copy: "Whole and half numbers carry the most weight. Quarter numbers can matter, but the lesson says most activity is around whole and half levels.",
+      },
+      {
+        title: "Read where price came from",
+        copy: "A move into a whole number after a strong rise is different from a move into it after a selloff. Context tells you whether the level may be distribution or accumulation.",
+      },
+      {
+        title: "Watch consolidation around the level",
+        copy: "If price spends time around the level without cleanly moving away, assume liquidity is being engineered there.",
+      },
+      {
+        title: "Look for shorts above the level",
+        copy: "Above a key notable area, market maker can create the illusion of higher prices, invite breakout buyers, then break down through the number with speed.",
+      },
+      {
+        title: "Look for longs below the level",
+        copy: "Below a key notable area, the opposite can happen: price holds below the level, builds orders, and then breaks back up aggressively.",
+      },
+      {
+        title: "Use vectors for the break",
+        copy: "The chart examples repeatedly use green vectors breaking up through a number and red vectors breaking down through a number as evidence of intent.",
+      },
+      {
+        title: "Trade toward the recovery reason",
+        copy: "When the environment supports it, the break through a whole or half number can point toward unrecovered vectors or the next psychological level.",
+      },
+    ],
+    checklist: [
+      "Whole and half numbers are marked before the session.",
+      "The nearest key number is obvious to retail traders.",
+      "Price is spending time around that number.",
+      "The prior move and current environment are identified.",
+      "Wicks, failures, or repeated returns into the range are visible.",
+      "There are vector candles near the level.",
+      "The break happens with speed, not a weak drift.",
+      "The trade direction agrees with broader retrace/continuation logic.",
+      "Nearby unrecovered vectors or the next key number are mapped as targets.",
+      "The setup is rejected if price only chops around the line with no clear break.",
+    ],
+    drills: [
+      {
+        title: "Round-number map",
+        copy: "On Bitcoin, mark every 1,000 or 5,000 handle around the current range. On forex, mark whole and half handles such as 1.1400 and 1.1450.",
+      },
+      {
+        title: "Vector-through-level study",
+        copy: "Collect examples where red or green vector candles break directly through whole or half numbers. Record whether the move continued or failed.",
+      },
+      {
+        title: "Consolidation timer",
+        copy: "Measure how long price spends around a key number before breaking away. Compare short pauses against extended ranges.",
+      },
+      {
+        title: "Environment replay",
+        copy: "Replay the chart before the break and decide whether the level is likely building shorts above or longs below.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "A number is not a trigger",
+        copy: "The lesson explicitly warns that there is no definitive way to know what price will do at 100K, 50, or any other round number by itself.",
+      },
+      {
+        title: "Activity can fake both sides",
+        copy: "Price can break above a level to trap breakout buyers, then drop back through it, or break below to trap sellers before reversing.",
+      },
+      {
+        title: "Use context from other lessons",
+        copy: "Pair whole/half numbers with vectors, first red or green vector rules, session ranges, and retrace/continuation structure.",
+      },
+      {
+        title: "Sample size matters",
+        copy: "The homework is to review many examples so you learn how each asset behaves around its own psychological levels.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the whole and half number principle using Bitcoin 100K as the simple whole-number example.",
+      },
+      {
+        time: "00:50",
+        copy: "Connects round numbers to retail psychology through pricing examples such as 99.99 instead of 100.",
+      },
+      {
+        time: "02:35",
+        copy: "Moves the concept into trading: whole numbers are impressionable areas on the chart.",
+      },
+      {
+        time: "03:10",
+        copy: "States the core rule: market maker builds shorts above key notable areas and longs below key notable areas.",
+      },
+      {
+        time: "04:00",
+        copy: "Gives forex examples of whole and half numbers such as 1.1400, 1.1450, and 1.1500.",
+      },
+      {
+        time: "05:35",
+        copy: "Explains why obvious numbers matter: they are psychologically easier for traders and larger players to anchor around.",
+      },
+      {
+        time: "06:10",
+        copy: "Shows how consolidation above a whole number can build shorts before a sharp breakdown.",
+      },
+      {
+        time: "07:15",
+        copy: "References futures handles and how price moves around whole, half, and quarter increments.",
+      },
+      {
+        time: "08:20",
+        copy: "Explains that whole and half numbers get most of the meaningful activity, with quarter numbers secondary.",
+      },
+      {
+        time: "09:30",
+        copy: "Connects the level to other strategy rules, such as looking for red vectors breaking back into the range.",
+      },
+      {
+        time: "10:20",
+        copy: "Moves to Bitcoin chart examples around 112K and 110K, showing vectors breaking through the levels.",
+      },
+      {
+        time: "12:10",
+        copy: "Marks 109K, 105K, and 100K examples where red vectors break through psychological numbers.",
+      },
+      {
+        time: "13:10",
+        copy: "Adds that options and gamma exposure often cluster around whole and half numbers.",
+      },
+      {
+        time: "14:00",
+        copy: "Explains that price stalling around 110K shows the market maker building around the range before moving away.",
+      },
+      {
+        time: "15:10",
+        copy: "Shows how a downside continuation idea can use the whole-number break toward vector recovery.",
+      },
+      {
+        time: "16:00",
+        copy: "Uses Bitcoin near 100K to explain how breakout orders and sell limits can stack around an obvious level.",
+      },
+      {
+        time: "17:15",
+        copy: "Summarizes the key takeaway: watch consolidation around whole/half numbers and the speed of the break away.",
+      },
+      {
+        time: "19:05",
+        copy: "Defines the bearish clue: wicks up, failed pumps, returns into the range, then a break through the number.",
+      },
+      {
+        time: "20:10",
+        copy: "Gives homework: mark horizontal whole/half levels and study many examples of how price behaves around them.",
+      },
+    ],
+  },
+  {
     id: "session-22-new-york-reversal",
     title: "Session 22 - Trading New York Reversal",
     source: "YouTube breakdown - 27:38 - rollin rollo",
@@ -1942,7 +2150,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-7-identifying-price-cycle";
+const defaultLessonId = "session-10-whole-half-numbers";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -2087,6 +2295,8 @@ function drawSetup() {
     drawConfluenceStackSetup(ctx);
   } else if (activeLesson.diagram === "price-cycle") {
     drawPriceCycleSetup(ctx);
+  } else if (activeLesson.diagram === "whole-half-numbers") {
+    drawWholeHalfNumbersSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
@@ -2255,6 +2465,80 @@ function drawPriceCycleSetup(ctx) {
   badge(ctx, "2", 254, 182, "#b47a1f");
   badge(ctx, "3", 420, 116, "#217a55");
   badge(ctx, "4", 672, 86, "#b83a31");
+}
+
+function drawWholeHalfNumbersSetup(ctx) {
+  const levels = [
+    { y: 96, label: "112K", tone: "#2a66a2" },
+    { y: 202, label: "110K", tone: "#b47a1f" },
+    { y: 308, label: "108K", tone: "#2a66a2" },
+  ];
+
+  ctx.lineWidth = 2;
+  ctx.setLineDash([10, 8]);
+  for (const level of levels) {
+    ctx.strokeStyle = level.tone;
+    ctx.beginPath();
+    ctx.moveTo(58, level.y);
+    ctx.lineTo(704, level.y);
+    ctx.stroke();
+    ctx.fillStyle = level.tone;
+    ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
+    ctx.fillText(level.label, 66, level.y - 12);
+  }
+  ctx.setLineDash([]);
+
+  drawZone(ctx, 232, 84, 198, 142, "#b47a1f");
+  drawZone(ctx, 476, 188, 118, 94, "#b83a31");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(76, 288);
+  ctx.lineTo(132, 214);
+  ctx.lineTo(198, 154);
+  ctx.lineTo(252, 112);
+  ctx.lineTo(310, 94);
+  ctx.lineTo(372, 128);
+  ctx.lineTo(430, 98);
+  ctx.lineTo(490, 178);
+  ctx.lineTo(548, 236);
+  ctx.lineTo(632, 314);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(430, 98);
+  ctx.lineTo(490, 178);
+  ctx.lineTo(548, 236);
+  ctx.stroke();
+
+  drawCandle(ctx, 450, 114, 42, 104, "#b83a31");
+  drawCandle(ctx, 506, 186, 42, 84, "#b83a31");
+  drawCandle(ctx, 574, 250, 40, 74, "#b83a31");
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("build above", 262, 76);
+  ctx.fillText("break with speed", 502, 166);
+  ctx.fillText("next key number", 586, 340);
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 3;
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(112, 332);
+  ctx.lineTo(232, 332);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = "#217a55";
+  ctx.fillText("longs below", 118, 356);
+
+  badge(ctx, "1", 92, 202, "#2a66a2");
+  badge(ctx, "2", 304, 92, "#b47a1f");
+  badge(ctx, "3", 520, 202, "#b83a31");
+  badge(ctx, "4", 174, 332, "#217a55");
 }
 
 function drawVShapeSetup(ctx) {

@@ -16,6 +16,7 @@ timestamp maps, and practice drills.
 - Session 7 - Identifying The Cycle Of Price
 - Session 8 - The Block Trade Principle
 - Session 9 - Trading The First Green Vector
+- Session 10 - The Importance Of Whole/Half Numbers
 - Session 22 - Trading New York Reversal
 
 ## Local Use
