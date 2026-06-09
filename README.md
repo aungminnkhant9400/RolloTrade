@@ -9,6 +9,7 @@ timestamp maps, and practice drills.
 - Brink Box Part 2
 - Brink Box Part 1
 - Psychological Level
+- Session 2 - Trading Confluences
 - Session 3 - How To Read Vector Candles
 - Session 5 - Trading M & W Formations
 - Session 6 - How To Trade V Shape Reversals

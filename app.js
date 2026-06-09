@@ -516,6 +516,190 @@ const lessons = [
     ],
   },
   {
+    id: "session-2-trading-confluences",
+    title: "Session 2 - Trading Confluences",
+    source: "YouTube breakdown - 13:49 - rollin rollo",
+    summary:
+      "Session 2 defines confluence as weighted evidence that helps a trader react. The lesson stacks signals such as 5/13 EMA compression, EMA crossover, vector candles, session high/low behavior, macro candles, and optional indicators, then warns that confluence should not become a reason to hesitate after the setup is already clear.",
+    tags: ["Confluence", "5/13 EMA", "Vector candles", "Session levels"],
+    diagram: "confluence-stack",
+    diagramLegend: [
+      {
+        title: "1. Compression",
+        copy: "The 5 and 13 EMAs contract after a move starts to stall, showing that behavior may be changing.",
+        tone: "blue",
+      },
+      {
+        title: "2. Crossover",
+        copy: "Price loses the 5/13 area, fails to recover it, and the averages cross.",
+        tone: "amber",
+      },
+      {
+        title: "3. Vector trigger",
+        copy: "A vector candle prints in the direction of the shift and gives the reaction point.",
+        tone: "red",
+      },
+      {
+        title: "4. Location filter",
+        copy: "Session highs/lows, Brinks, New York, or macro candles add context to the trade.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Confluence adds weight",
+        copy: "The point is not to collect a fixed number. The point is to know when enough evidence exists to react.",
+        tone: "blue",
+      },
+      {
+        title: "The 5/13 tells the first story",
+        copy: "Compression after a trend shows that the most recent candle averages are changing character.",
+        tone: "amber",
+      },
+      {
+        title: "Do not over-wait",
+        copy: "Moving averages, vectors, sessions, and macro context help, but waiting for every possible clue can make the trade disappear.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Start with the trade idea",
+        copy: "Know the behavior you are trying to trade first: a reversal, continuation, first green vector above the 50 EMA, red-green vector formation, or session-level reclaim.",
+      },
+      {
+        title: "Watch the 5 and 13 EMA compress",
+        copy: "After price has been pushing in one direction, compression between the 5 and 13 EMA is the first clue that the immediate pace is changing.",
+      },
+      {
+        title: "Wait for price to lose or reclaim the averages",
+        copy: "For a bearish shift, price breaks below the 5/13 and fails to get back above. For a bullish shift, price reclaims the relevant moving-average area.",
+      },
+      {
+        title: "Mark the crossover",
+        copy: "The 5/13 crossover is another confluence. It confirms that short-term average closes have shifted, but it is still only one part of the stack.",
+      },
+      {
+        title: "Add the vector candle",
+        copy: "A red vector printing below the 5/13 supports a bearish reaction. A first green vector above the 50 EMA supports a bullish continuation or reversal idea.",
+      },
+      {
+        title: "Check session location",
+        copy: "Ask where the setup is happening relative to Asian highs/lows, the Brinks box, New York levels, or another meaningful session range.",
+      },
+      {
+        title: "Add macro context only when it matters",
+        copy: "A large candle caused by data, news, non-farm payrolls, unemployment claims, or rate commentary can become another confluence, but it can also distort the setup.",
+      },
+      {
+        title: "React when the stack is enough",
+        copy: "Once the planned confluences align, execute from the reaction point. Do not keep searching for more evidence after the trade condition is already active.",
+      },
+    ],
+    checklist: [
+      "The strategy idea is named before looking for extra confirmation.",
+      "The 5 and 13 EMA are visible and their relationship is clear.",
+      "Compression, expansion, or crossover has been identified.",
+      "Price has broken, reclaimed, or rejected the moving-average area.",
+      "A vector candle supports the direction of the idea.",
+      "The setup is mapped against Asian, Brinks, New York, or another session level.",
+      "News or macro data is checked before trusting an unusually large candle.",
+      "Optional tools such as delta, CVD, stochastic, CCI, or RSI are supporting evidence only.",
+      "There is no fixed confluence count required before action.",
+      "The reaction point and invalidation are known before entry.",
+    ],
+    drills: [
+      {
+        title: "5/13 compression drill",
+        copy: "Replay twenty trends and mark the first moment the 5 and 13 EMA contract after a directional move. Record what price does next.",
+      },
+      {
+        title: "Three-confluence stack",
+        copy: "Find examples where compression, crossover, and a vector candle appear together. Label whether the reaction was clean or late.",
+      },
+      {
+        title: "First green context drill",
+        copy: "Collect first green vectors above the 50 EMA and add session-level context: Asian sweep, Brinks level, New York level, or no meaningful location.",
+      },
+      {
+        title: "Overfilter audit",
+        copy: "Review ten missed trades and write down whether the miss came from lacking evidence or from waiting for too many confluences.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "No magic number",
+        copy: "The lesson rejects the idea that every trade needs a fixed number of confluences. Some setups need fewer, and some need more.",
+      },
+      {
+        title: "One signal can be fragile",
+        copy: "A first green vector above the 50 EMA can work, but the trade has more weight when session location, sweep behavior, or macro context also supports it.",
+      },
+      {
+        title: "Macro candles need caution",
+        copy: "News can create large candles that look decisive. Treat macro as context, not automatic permission to chase.",
+      },
+      {
+        title: "Too many filters cause hesitation",
+        copy: "Confluence is useful only if it leads to action. If the trader keeps adding filters after the setup appears, the edge can pass.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:04",
+        copy: "Opens with the main rule: the trader's job is to react, even when every usual condition is not available yet.",
+      },
+      {
+        time: "01:00",
+        copy: "Introduces the moving averages used in the lesson: 5, 13, 50, 200, and 800 EMA.",
+      },
+      {
+        time: "02:05",
+        copy: "Shows price rising, stalling, and the 5/13 EMAs compressing together as the first confluence.",
+      },
+      {
+        time: "03:00",
+        copy: "Adds the second confluence: price breaks below the 5/13 area, fails to recover, and the averages cross.",
+      },
+      {
+        time: "03:24",
+        copy: "Adds the red vector candle below the moving averages as the third confluence.",
+      },
+      {
+        time: "05:05",
+        copy: "Explains that a news or macro candle can become another confluence when it is part of the move.",
+      },
+      {
+        time: "05:35",
+        copy: "Adds session context, using the Asian session high as an example of location-based confluence.",
+      },
+      {
+        time: "06:17",
+        copy: "Clarifies that there is no set number of confluences; the trader chooses the evidence that fits the setup.",
+      },
+      {
+        time: "07:20",
+        copy: "Uses the first green vector above the 50 EMA as an example strategy that can be studied across timeframes.",
+      },
+      {
+        time: "09:05",
+        copy: "Adds extra context to the first-green-vector idea: Asian sweep, Brinks or New York levels, and macro events.",
+      },
+      {
+        time: "10:05",
+        copy: "Mentions optional confirmation tools such as delta, CVD, stochastic, CCI, and RSI while keeping them secondary.",
+      },
+      {
+        time: "11:25",
+        copy: "Warns that traders can search for one confluence too many and fail to react.",
+      },
+      {
+        time: "12:04",
+        copy: "Uses a red-vector/green-vector formation, 50 EMA, and Asian session low to show how three confluences can be enough.",
+      },
+    ],
+  },
+  {
     id: "session-3-read-vector-candles",
     title: "Session 3 - How To Read Vector Candles",
     source: "YouTube breakdown - 26:17 - rollin rollo",
@@ -1554,7 +1738,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-9-first-green-vector";
+const defaultLessonId = "session-2-trading-confluences";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -1695,6 +1879,8 @@ function drawSetup() {
     drawBlockTradeSetup(ctx);
   } else if (activeLesson.diagram === "first-green-vector") {
     drawFirstGreenVectorSetup(ctx);
+  } else if (activeLesson.diagram === "confluence-stack") {
+    drawConfluenceStackSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
@@ -1712,6 +1898,84 @@ function drawSetup() {
   }
 
   ctx.restore();
+}
+
+function drawConfluenceStackSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.36)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(72, 214);
+  ctx.lineTo(704, 214);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("session level", 82, 202);
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(78, 272);
+  ctx.lineTo(148, 206);
+  ctx.lineTo(224, 166);
+  ctx.lineTo(300, 150);
+  ctx.lineTo(358, 166);
+  ctx.lineTo(420, 214);
+  ctx.lineTo(492, 288);
+  ctx.lineTo(620, 332);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(88, 250);
+  ctx.lineTo(168, 190);
+  ctx.lineTo(250, 160);
+  ctx.lineTo(328, 164);
+  ctx.lineTo(410, 220);
+  ctx.lineTo(534, 292);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(88, 278);
+  ctx.lineTo(166, 226);
+  ctx.lineTo(250, 184);
+  ctx.lineTo(330, 168);
+  ctx.lineTo(418, 206);
+  ctx.lineTo(538, 270);
+  ctx.stroke();
+
+  drawZone(ctx, 450, 228, 96, 96, "#b83a31");
+  drawCandle(ctx, 476, 242, 44, 78, "#b83a31");
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(612, 82);
+  ctx.lineTo(612, 358);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#2a66a2";
+  ctx.fillText("5/13 compress", 232, 118);
+  ctx.fillStyle = "#b47a1f";
+  ctx.fillText("cross", 382, 194);
+  ctx.fillStyle = "#b83a31";
+  ctx.fillText("vector", 468, 220);
+  ctx.fillStyle = "#217a55";
+  ctx.fillText("macro / session", 560, 74);
+  ctx.fillStyle = "#171b1f";
+  ctx.fillText("react", 632, 332);
+
+  badge(ctx, "1", 266, 148, "#2a66a2");
+  badge(ctx, "2", 402, 210, "#b47a1f");
+  badge(ctx, "3", 518, 242, "#b83a31");
+  badge(ctx, "4", 612, 108, "#217a55");
 }
 
 function drawVShapeSetup(ctx) {
