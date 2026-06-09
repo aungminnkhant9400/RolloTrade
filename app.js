@@ -1,5 +1,177 @@
 const lessons = [
   {
+    id: "psychological-level",
+    title: "Psychological Level",
+    source: "YouTube breakdown - 30:29 - rollin rollo",
+    summary:
+      "Psychological levels are the first high and first low formed at the start of the crypto trading week. Treat them as a weekly value range: watch how price breaks, retests, accepts, or rejects the range, then use vector candles to judge whether the move is real or a trap.",
+    tags: ["Psychological levels", "Weekly range", "First high/low", "Vector reaction"],
+    diagram: "psychological-level",
+    diagramLegend: [
+      {
+        title: "1. Build the range",
+        copy: "Mark the first high and first low from the start of the trading week.",
+        tone: "blue",
+      },
+      {
+        title: "2. First break gives intent",
+        copy: "Price breaking above or below the range shows where the market is testing value.",
+        tone: "amber",
+      },
+      {
+        title: "3. Retest decides",
+        copy: "The first return to the psychological high or low tells you acceptance, rejection, or trap.",
+        tone: "red",
+      },
+      {
+        title: "4. Vectors confirm",
+        copy: "Green/blue vectors support upside continuation; red vectors support downside continuation.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Not magic lines",
+        copy: "The range is useful because it shows where early-week value was built, not because the lines are automatic support or resistance.",
+        tone: "blue",
+      },
+      {
+        title: "Time outside matters",
+        copy: "The less time price spends above the high or below the low, the more likely the move is a false break.",
+        tone: "amber",
+      },
+      {
+        title: "Vectors give the clue",
+        copy: "The candle reaction at the psychological high or low is the clue. No activity at the level means no action.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Wait for the range to form",
+        copy: "For crypto, mark the first high and first low at the start of the trading week. The instructor also references Monday Asia as the cleaner time to begin using the range.",
+      },
+      {
+        title: "Treat the range as weekly value",
+        copy: "The psychological high and low represent where early orders and position-building started. They stay relevant throughout the week.",
+      },
+      {
+        title: "Watch the first break",
+        copy: "If price breaks above the psychological high or below the psychological low, do not chase. The first break only shows where price is testing value.",
+      },
+      {
+        title: "Measure time spent outside",
+        copy: "Fast rejection above the high suggests a stop run and possible move back toward the low. Fast rejection below the low suggests a stop run and possible move back toward the high.",
+      },
+      {
+        title: "Wait for the first retest",
+        copy: "The first return to the psychological high or low is the main decision point. You want to see whether price accepts the level or rejects it.",
+      },
+      {
+        title: "Read the vector reaction",
+        copy: "Green or blue vectors on a pullback above the psychological high suggest support and continuation. Red vectors rejecting the range suggest lower prices.",
+      },
+      {
+        title: "Use context from the prior week",
+        copy: "If the range forms after a selloff, upside vector recovery becomes more important. If it forms after an extended move up, downside recovery of green vectors becomes important.",
+      },
+      {
+        title: "Trade toward the opposite side or vector target",
+        copy: "If a break proves false, the first target is often the opposing side of the psychological range, then prior vector recovery areas.",
+      },
+    ],
+    checklist: [
+      "The first high and first low of the trading week are marked.",
+      "The psychological high and low remain fixed on the chart.",
+      "Monday Asia or the early-week range has developed.",
+      "Price has broken above, broken below, or returned into the range.",
+      "Time spent outside the range is observed.",
+      "The first retest of the high or low is identified.",
+      "Vector candles appear at the psychological high or low.",
+      "The reaction shows acceptance, rejection, or a trap.",
+      "Prior-week direction and old vector targets are reviewed.",
+      "Entry, invalidation, and target are planned before trading.",
+    ],
+    drills: [
+      {
+        title: "Weekly range marking",
+        copy: "Mark the psychological high and low for the last twenty crypto weeks. Do not trade; only record how price behaves around the lines.",
+      },
+      {
+        title: "Time-outside audit",
+        copy: "For every break above or below the range, record whether price accepted outside or quickly returned inside.",
+      },
+      {
+        title: "Vector-at-level study",
+        copy: "Collect examples where green/blue vectors appear at a retest and examples where red vectors reject a retest.",
+      },
+      {
+        title: "Opposite-side target drill",
+        copy: "When a false break appears, map whether price travels to the opposite side of the psychological range or only partially recovers.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Do not trade inactive levels",
+        copy: "If price is away from the psychological range and there is no reaction at the high or low, stand down.",
+      },
+      {
+        title: "A break is not confirmation",
+        copy: "The first break can be a trap. Confirmation comes from the retest, time spent, and vector behavior.",
+      },
+      {
+        title: "Support/resistance is incomplete",
+        copy: "The lesson warns against treating the lines as simple support and resistance. Behavior at the level matters more than the line.",
+      },
+      {
+        title: "Context changes the target",
+        copy: "After prior-week markdown, upside vector recovery is more likely. After prior-week markup, downside green-vector recovery is more likely.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces psychological levels and frames them as important early-week ranges.",
+      },
+      {
+        time: "01:30",
+        copy: "Defines the levels as the first high and first low formed at the start of the trading week.",
+      },
+      {
+        time: "02:00",
+        copy: "Explains crypto timing and compares it with forex Asian-session psychological levels.",
+      },
+      {
+        time: "03:00",
+        copy: "Says the levels remain static through the week and can act as support/resistance only when behavior confirms.",
+      },
+      {
+        time: "05:00",
+        copy: "Explains using a break away from the range to ask whether price is building above, below, or inside value.",
+      },
+      {
+        time: "09:00",
+        copy: "Shows Bitcoin examples where price leaves the psychological range and later reacts back into it.",
+      },
+      {
+        time: "12:00",
+        copy: "Connects vector candles and stopping-volume candles to reactions at the psychological high and low.",
+      },
+      {
+        time: "17:40",
+        copy: "Explains that green/blue vectors at a supported retest can confirm upside continuation.",
+      },
+      {
+        time: "20:30",
+        copy: "Gives the execution checklist: wait for the range, watch the first break, then judge the first retest.",
+      },
+      {
+        time: "28:00",
+        copy: "Final rule: less time above the high favors downside failure; less time below the low favors upside failure.",
+      },
+    ],
+  },
+  {
     id: "session-3-read-vector-candles",
     title: "Session 3 - How To Read Vector Candles",
     source: "YouTube breakdown - 26:17 - rollin rollo",
@@ -999,6 +1171,8 @@ function drawSetup() {
     drawMWFormationSetup(ctx);
   } else if (activeLesson.diagram === "vector-candle-flow") {
     drawVectorCandleFlowSetup(ctx);
+  } else if (activeLesson.diagram === "psychological-level") {
+    drawPsychologicalLevelSetup(ctx);
   } else {
     drawVShapeSetup(ctx);
   }
@@ -1176,6 +1350,80 @@ function drawVectorCandleFlowSetup(ctx) {
   badge(ctx, "2", 202, 116, "#2a66a2");
   badge(ctx, "3", 296, 300, "#b83a31");
   badge(ctx, "4", 650, 116, "#217a55");
+}
+
+function drawPsychologicalLevelSetup(ctx) {
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.setLineDash([10, 8]);
+  ctx.beginPath();
+  ctx.moveTo(64, 122);
+  ctx.lineTo(704, 122);
+  ctx.moveTo(64, 302);
+  ctx.lineTo(704, 302);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#2a66a2";
+  ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("psychological high", 80, 102);
+  ctx.fillText("psychological low", 80, 330);
+
+  drawZone(ctx, 88, 122, 168, 180, "#2a66a2");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(92, 250);
+  ctx.lineTo(136, 170);
+  ctx.lineTo(178, 294);
+  ctx.lineTo(230, 146);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(230, 146);
+  ctx.lineTo(292, 76);
+  ctx.lineTo(352, 126);
+  ctx.lineTo(422, 92);
+  ctx.stroke();
+
+  drawCandle(ctx, 294, 76, 40, 96, "#217a55");
+  drawCandle(ctx, 364, 88, 38, 82, "#2a66a2");
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(422, 92);
+  ctx.lineTo(476, 124);
+  ctx.lineTo(528, 122);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(528, 122);
+  ctx.lineTo(602, 78);
+  ctx.lineTo(690, 56);
+  ctx.stroke();
+
+  drawZone(ctx, 468, 96, 88, 56, "#217a55");
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(282, 316);
+  ctx.lineTo(338, 348);
+  ctx.lineTo(404, 302);
+  ctx.stroke();
+
+  drawCandle(ctx, 318, 292, 36, 82, "#b83a31");
+
+  badge(ctx, "1", 104, 168, "#2a66a2");
+  badge(ctx, "2", 286, 72, "#b47a1f");
+  badge(ctx, "3", 516, 158, "#b83a31");
+  badge(ctx, "4", 650, 52, "#217a55");
 }
 
 function drawNewYorkReversalSetup(ctx) {

@@ -6,6 +6,7 @@ timestamp maps, and practice drills.
 
 ## Current Lesson
 
+- Psychological Level
 - Session 3 - How To Read Vector Candles
 - Session 5 - Trading M & W Formations
 - Session 6 - How To Trade V Shape Reversals
