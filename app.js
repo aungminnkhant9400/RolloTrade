@@ -1560,6 +1560,7 @@ let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId)
 
 const lessonList = document.querySelector("#lessonList");
 const searchInput = document.querySelector("#lessonSearch");
+const mobileLessonSelect = document.querySelector("#mobileLessonSelect");
 const titleEl = document.querySelector("#lessonTitle");
 const sourceEl = document.querySelector("#lessonSource");
 const summaryEl = document.querySelector("#lessonSummary");
@@ -1595,6 +1596,13 @@ function renderLessonList(filter = "") {
     });
     lessonList.append(button);
   }
+}
+
+function renderMobileLessonSelect() {
+  mobileLessonSelect.innerHTML = sortedLessons
+    .map((lesson) => `<option value="${lesson.id}">${lesson.title}</option>`)
+    .join("");
+  mobileLessonSelect.value = activeLesson.id;
 }
 
 function render() {
@@ -1657,6 +1665,7 @@ function render() {
     .join("");
 
   renderLessonList(searchInput.value);
+  renderMobileLessonSelect();
   drawSetup();
 }
 
@@ -2283,6 +2292,15 @@ function badge(ctx, text, x, y, color) {
 }
 
 searchInput.addEventListener("input", () => renderLessonList(searchInput.value));
+mobileLessonSelect.addEventListener("change", () => {
+  const selectedLesson = sortedLessons.find((lesson) => lesson.id === mobileLessonSelect.value);
+  if (!selectedLesson) return;
+
+  activeLesson = selectedLesson;
+  searchInput.value = "";
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 focusButton.addEventListener("click", () => document.body.classList.toggle("focus"));
 printButton.addEventListener("click", () => window.print());
 window.addEventListener("resize", drawSetup);
