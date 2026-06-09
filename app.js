@@ -1,5 +1,177 @@
 const lessons = [
   {
+    id: "brink-box-part-1",
+    title: "Brink Box Part 1",
+    source: "YouTube breakdown - 6:41 - rollin rollo",
+    summary:
+      "The Brinks box is the first New York session hour, from 9:00 AM to 10:00 AM ET. The lesson frames it as the money-trade range because bonds, the stock-market open, and futures liquidity stack into the same window and create the day’s early high/low.",
+    tags: ["Brinks box", "New York open", "Liquidity window", "High-low range"],
+    diagram: "brink-box",
+    diagramLegend: [
+      {
+        title: "1. Bonds set tone",
+        copy: "8:20 AM ET / 1:20 PM UK starts the bond-market liquidity context before Brinks.",
+        tone: "blue",
+      },
+      {
+        title: "2. Brinks opens",
+        copy: "9:00 AM ET / 2:00 PM UK starts the one-hour Brinks box.",
+        tone: "amber",
+      },
+      {
+        title: "3. Futures inject liquidity",
+        copy: "9:30 AM ET / 2:30 PM UK brings another liquidity wave inside the box.",
+        tone: "green",
+      },
+      {
+        title: "4. Range locks",
+        copy: "10:00 AM ET / 3:00 PM UK closes the box. Then you work from the high and low.",
+        tone: "red",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Wait for the box",
+        copy: "The lesson’s first execution rule is to wait until the Brinks high and low have formed.",
+        tone: "amber",
+      },
+      {
+        title: "Liquidity stacks in layers",
+        copy: "Bonds open before the box, equities open at the box start, and futures open halfway through it.",
+        tone: "blue",
+      },
+      {
+        title: "The box gives the day’s clue",
+        copy: "Whatever happens inside the Brinks box can hint at what the rest of the day is preparing to do.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Mark the pre-Brinks window",
+        copy: "Start observing from 8:00 AM ET / 1:00 PM UK. This is the window before the Brinks box begins.",
+      },
+      {
+        title: "Note the bond-market open",
+        copy: "At 8:20 AM ET / 1:20 PM UK, bond-market liquidity starts setting tone before the stock-market window.",
+      },
+      {
+        title: "Open the Brinks box at 9:00 AM ET",
+        copy: "At 9:00 AM ET / 2:00 PM UK, begin drawing the box. This is the first hour of the New York session in the lesson.",
+      },
+      {
+        title: "Expect manipulation inside the box",
+        copy: "The instructor says pre-market orders, bells, and early liquidity get hit inside this range.",
+      },
+      {
+        title: "Mark the futures-open injection",
+        copy: "At 9:30 AM ET / 2:30 PM UK, futures liquidity enters halfway through the Brinks box.",
+      },
+      {
+        title: "Lock the high and low at 10:00 AM ET",
+        copy: "At 10:00 AM ET / 3:00 PM UK, the Brinks box closes. The high and low are now the working range.",
+      },
+      {
+        title: "Do not trade before the range exists",
+        copy: "The key rule is to wait until the high and low have formed before making a Brinks-box decision.",
+      },
+      {
+        title: "Use the box as the day clue",
+        copy: "After the box closes, study which side breaks, rejects, or gets revisited to judge the next move.",
+      },
+    ],
+    checklist: [
+      "8:00 AM ET / 1:00 PM UK pre-Brinks window is marked.",
+      "8:20 AM ET / 1:20 PM UK bond-market context is noted.",
+      "9:00 AM ET / 2:00 PM UK Brinks start is marked.",
+      "9:30 AM ET / 2:30 PM UK futures-open midpoint is marked.",
+      "10:00 AM ET / 3:00 PM UK Brinks close is marked.",
+      "The Brinks high is drawn.",
+      "The Brinks low is drawn.",
+      "No trade is planned before the box high/low exists.",
+      "Manipulation or liquidity sweep inside the box is reviewed.",
+      "Post-box bias is based on break/retest behavior, not guessing.",
+    ],
+    drills: [
+      {
+        title: "Timing drill",
+        copy: "On five past NASDAQ sessions, draw vertical markers at 8:20, 9:00, 9:30, and 10:00 AM ET.",
+      },
+      {
+        title: "Box construction drill",
+        copy: "For twenty sessions, draw only the 9:00-10:00 AM ET high and low. Record what side breaks first after 10:00.",
+      },
+      {
+        title: "Inside-box behavior",
+        copy: "Replay the Brinks hour and label any early stop run, sharp markup, sharp markdown, or range expansion.",
+      },
+      {
+        title: "Rest-of-day clue",
+        copy: "After the Brinks close, track whether price trends away from the box, returns to the midpoint, or reverses through the opposite side.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Part 1 is timing-focused",
+        copy: "This video defines the box and liquidity context. It does not give a complete standalone trigger model.",
+      },
+      {
+        title: "Do not front-run the high/low",
+        copy: "Entering before 10:00 AM ET means the Brinks range has not finished forming.",
+      },
+      {
+        title: "Liquidity cuts both ways",
+        copy: "More liquidity can create cleaner moves, but it also creates manipulation and stop runs inside the box.",
+      },
+      {
+        title: "Use later lessons for entry",
+        copy: "Pair this timing map with vector, W/M, psychological-level, and New York reversal rules before risking capital.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the Brinks box as the money-trade concept.",
+      },
+      {
+        time: "00:22",
+        copy: "Defines the Brinks box as 2:00-3:00 PM UK / 9:00-10:00 AM ET.",
+      },
+      {
+        time: "01:15",
+        copy: "Introduces the pre-Brinks window from 1:00 PM UK / 8:00 AM ET.",
+      },
+      {
+        time: "02:10",
+        copy: "Explains the bond-market open around 1:20 PM UK / 8:20 AM ET.",
+      },
+      {
+        time: "03:05",
+        copy: "Says 2:00 PM UK / 9:00 AM ET is when the stock-market side becomes central.",
+      },
+      {
+        time: "04:30",
+        copy: "Draws the box example and describes price marking up and down inside the hour.",
+      },
+      {
+        time: "05:05",
+        copy: "Explains that manipulation and pre-market orders are hit inside the Brinks box.",
+      },
+      {
+        time: "05:20",
+        copy: "Marks 9:30 AM ET / 2:30 PM UK as the futures-market liquidity injection.",
+      },
+      {
+        time: "06:10",
+        copy: "Summarizes that a lot of liquidity arrives when the Brinks box is created and completed.",
+      },
+      {
+        time: "06:20",
+        copy: "Gives the key rule: wait until the high and low have formed.",
+      },
+    ],
+  },
+  {
     id: "psychological-level",
     title: "Psychological Level",
     source: "YouTube breakdown - 30:29 - rollin rollo",
@@ -1173,6 +1345,8 @@ function drawSetup() {
     drawVectorCandleFlowSetup(ctx);
   } else if (activeLesson.diagram === "psychological-level") {
     drawPsychologicalLevelSetup(ctx);
+  } else if (activeLesson.diagram === "brink-box") {
+    drawBrinkBoxSetup(ctx);
   } else {
     drawVShapeSetup(ctx);
   }
@@ -1280,6 +1454,78 @@ function drawBlockTradeSetup(ctx) {
 function getSessionNumber(lesson) {
   const match = lesson.title.match(/Session\s+(\d+)/i);
   return match ? Number(match[1]) : 0;
+}
+
+function drawBrinkBoxSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.45)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(72, 104);
+  ctx.lineTo(72, 322);
+  ctx.moveTo(220, 64);
+  ctx.lineTo(220, 342);
+  ctx.moveTo(420, 64);
+  ctx.lineTo(420, 342);
+  ctx.moveTo(640, 104);
+  ctx.lineTo(640, 322);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#eef3f0";
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.strokeRect(220, 104, 420, 218);
+  ctx.fillRect(220, 104, 420, 218);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("8:20 ET", 44, 82);
+  ctx.fillText("9:00 ET", 192, 48);
+  ctx.fillText("9:30 ET", 392, 48);
+  ctx.fillText("10:00 ET", 602, 82);
+
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("bonds tone", 42, 344);
+  ctx.fillText("Brinks box high", 244, 96);
+  ctx.fillText("Brinks box low", 250, 350);
+  ctx.fillText("futures liquidity", 442, 344);
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(224, 258);
+  ctx.lineTo(270, 142);
+  ctx.lineTo(326, 292);
+  ctx.lineTo(384, 168);
+  ctx.lineTo(452, 286);
+  ctx.lineTo(528, 128);
+  ctx.lineTo(636, 218);
+  ctx.stroke();
+
+  drawZone(ctx, 220, 104, 420, 218, "#2a66a2");
+  drawCandle(ctx, 266, 146, 34, 128, "#217a55");
+  drawCandle(ctx, 394, 188, 34, 116, "#b83a31");
+  drawCandle(ctx, 514, 132, 34, 132, "#217a55");
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(72, 304);
+  ctx.lineTo(220, 258);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(420, 286);
+  ctx.lineTo(528, 128);
+  ctx.stroke();
+
+  badge(ctx, "1", 72, 306, "#2a66a2");
+  badge(ctx, "2", 220, 72, "#b47a1f");
+  badge(ctx, "3", 420, 306, "#217a55");
+  badge(ctx, "4", 640, 220, "#b83a31");
 }
 
 function drawVectorCandleFlowSetup(ctx) {
