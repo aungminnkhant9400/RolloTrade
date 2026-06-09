@@ -8,7 +8,7 @@
       content="RolloTrade is a mobile-first trading video study guide with step-by-step breakdowns, drills, and checklists."
     />
     <title>RolloTrade Study Guide</title>
-    <link rel="stylesheet" href="styles.css?v=20260609-session-switcher" />
+    <link rel="stylesheet" href="styles.css?v=20260609-chart-scroll" />
   </head>
   <body>
     <div class="app-shell">
@@ -57,7 +57,9 @@
             <div id="lessonTags" class="tag-row"></div>
           </div>
           <div class="diagram-panel" aria-label="Lesson diagram">
-            <canvas id="setupCanvas" width="760" height="420"></canvas>
+            <div class="canvas-scroll">
+              <canvas id="setupCanvas" width="760" height="420"></canvas>
+            </div>
             <div id="diagramLegend" class="diagram-legend" aria-label="Diagram legend"></div>
           </div>
         </section>
@@ -116,6 +118,6 @@
       </main>
     </div>
 
-    <script src="app.js?v=20260609-session-switcher"></script>
+    <script src="app.js?v=20260609-chart-scroll"></script>
   </body>
 </html>

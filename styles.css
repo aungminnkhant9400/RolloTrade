@@ -263,8 +263,8 @@ input[type="search"]:focus {
 
 .diagram-panel {
   display: grid;
-  grid-template-rows: minmax(280px, 1fr) auto;
-  min-height: 360px;
+  grid-template-rows: auto auto;
+  min-height: 0;
   background:
     linear-gradient(90deg, rgba(23, 27, 31, 0.06) 1px, transparent 1px),
     linear-gradient(rgba(23, 27, 31, 0.06) 1px, transparent 1px),
@@ -275,11 +275,28 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
+.canvas-scroll {
+  overflow: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.canvas-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.canvas-scroll::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 canvas {
   display: block;
   width: 100%;
-  height: 100%;
-  min-height: 280px;
+  aspect-ratio: 760 / 420;
+  height: auto;
+  min-height: 0;
 }
 
 .diagram-legend {
@@ -568,12 +585,20 @@ canvas {
   }
 
   .diagram-panel {
-    grid-template-rows: minmax(220px, auto) auto;
     min-height: 0;
   }
 
+  .canvas-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x pan-y;
+  }
+
   canvas {
-    min-height: 220px;
+    width: clamp(380px, 118vw, 480px);
+    max-width: none;
   }
 }
 

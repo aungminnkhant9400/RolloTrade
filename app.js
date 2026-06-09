@@ -1679,12 +1679,14 @@ function drawSetup() {
   ctx.scale(ratio, ratio);
   const cw = canvas.width / ratio;
   const ch = canvas.height / ratio;
-  const sx = cw / 760;
-  const sy = ch / 420;
+  const scale = Math.min(cw / 760, ch / 420);
+  const offsetX = (cw - 760 * scale) / 2;
+  const offsetY = (ch - 420 * scale) / 2;
 
   ctx.clearRect(0, 0, cw, ch);
   ctx.save();
-  ctx.scale(sx, sy);
+  ctx.translate(offsetX, offsetY);
+  ctx.scale(scale, scale);
   ctx.lineWidth = 3;
   ctx.lineJoin = "round";
   ctx.lineCap = "round";
