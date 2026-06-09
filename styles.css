@@ -18,7 +18,7 @@
 }
 
 html {
-  min-width: 320px;
+  min-width: 0;
 }
 
 body {
@@ -488,16 +488,45 @@ canvas {
 
 @media (max-width: 980px) {
   .app-shell {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
   .lesson-rail {
+    order: 2;
     position: static;
     height: auto;
+    padding: 18px;
   }
 
   .lesson-main {
+    order: 1;
     padding: 18px;
+  }
+
+  .lesson-rail .brand-block {
+    margin-bottom: 16px;
+  }
+
+  .lesson-rail h1 {
+    font-size: 1.35rem;
+  }
+
+  .lesson-rail .brand-copy {
+    display: none;
+  }
+
+  .lesson-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    scroll-snap-type: x proximity;
+  }
+
+  .lesson-button {
+    flex: 0 0 min(280px, 82vw);
+    scroll-snap-align: start;
   }
 
   .lesson-hero,
@@ -523,6 +552,7 @@ canvas {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+    gap: 12px;
   }
 
   .topbar-actions {
@@ -536,6 +566,15 @@ canvas {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 6px;
+  }
+
+  .diagram-panel {
+    grid-template-rows: minmax(220px, auto) auto;
+    min-height: 0;
+  }
+
+  canvas {
+    min-height: 220px;
   }
 }
 
