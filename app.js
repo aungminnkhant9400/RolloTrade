@@ -344,6 +344,226 @@ const lessons = [
     ],
   },
   {
+    id: "session-12-how-to-trade-stopping-volume-candles",
+    title: "Session 12 - How To Trade Stopping Volume Candles",
+    source: "YouTube breakdown - 28:40 - rollin rollo",
+    summary:
+      "Session 12 explains stopping volume candles as vector candles that develop into rejection candles at significant highs, lows, or range edges. The lesson frames them as climatic trap candles: market maker absorbs late sellers into a move down or late buyers into a move up, creates a wick, then moves price away from that zone when enough liquidity has been captured.",
+    tags: ["Stopping volume", "Vector candles", "Liquidity trap", "Reversal clue"],
+    diagram: "stopping-volume-candle",
+    diagramLegend: [
+      {
+        title: "1. Climatic drive",
+        copy: "Price runs hard into a high or low and invites traders to chase the move.",
+        tone: "red",
+      },
+      {
+        title: "2. Vector becomes wick",
+        copy: "The candle starts as aggressive volume, then rejects and becomes stopping volume.",
+        tone: "amber",
+      },
+      {
+        title: "3. Trapped traders",
+        copy: "Late shorts at lows or late longs at highs become fuel for the reversal.",
+        tone: "blue",
+      },
+      {
+        title: "4. Markup/markdown",
+        copy: "A confirmed stopping-volume candle can start the next phase away from the trap.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "It becomes stopping volume",
+        copy: "The lesson stresses that the candle does not appear as stopping volume immediately. It develops into one as the wick forms.",
+        tone: "amber",
+      },
+      {
+        title: "Location matters",
+        copy: "The best examples usually appear at lows, highs, or meaningful range edges, not randomly in the middle of a move.",
+        tone: "blue",
+      },
+      {
+        title: "Journal the variations",
+        copy: "The homework is to itemize many examples: size, location, cluster count, prior environment, and what price did afterward.",
+        tone: "green",
+      },
+    ],
+    steps: [
+      {
+        title: "Know the vector colors",
+        copy: "Green and red vectors show volume around 200% above the recent average, while blue and violet show around 150%. Green/blue are positive vectors; red/violet are negative vectors.",
+      },
+      {
+        title: "Watch the candle develop",
+        copy: "A stopping volume candle begins as an aggressive vector candle. The clue appears when price sharply rejects, builds a wick, and closes as a candle that shows absorption.",
+      },
+      {
+        title: "Read the low version",
+        copy: "After a markdown, late traders chase shorts. A red or violet stopping volume candle at the low suggests market maker is buying from those sellers and may reverse price up.",
+      },
+      {
+        title: "Read the high version",
+        copy: "After a markup, late traders chase longs. A green or blue stopping volume candle at the high suggests market maker is selling into those buyers and may reverse price down.",
+      },
+      {
+        title: "Use the wick as the trap zone",
+        copy: "The wick shows the area where price ran liquidity and then rejected. If stopping volume forms inside a range, expect price may revisit the wick before choosing direction.",
+      },
+      {
+        title: "Check the environment first",
+        copy: "Do not assume every stopping volume candle is the final high or low. Ask whether it appeared after markdown, after markup, inside a range, after news, or halfway through a trend.",
+      },
+      {
+        title: "Respect size and clustering",
+        copy: "A larger stopping volume candle implies stronger manipulation. Multiple candles clustered together can mark repeated attempts to stop or reverse the move.",
+      },
+      {
+        title: "Wait for movement away",
+        copy: "The stronger signal is not only the wick. It is the fast movement away from the wick that shows market maker wants to leave the zone.",
+      },
+      {
+        title: "Map the phase change",
+        copy: "After downside stopping volume, look for a markup phase. After upside stopping volume, look for a markdown phase. The candle is the clue that the prior phase may be ending.",
+      },
+      {
+        title: "Build a statistics sheet",
+        copy: "The practice work is to log examples, especially on the 1H timeframe, and record where they appear, how large they are, how many print, and what environment preceded them.",
+      },
+    ],
+    checklist: [
+      "The candle is a vector or high-volume candle first.",
+      "A wick forms after aggressive movement into the high or low.",
+      "The candle appears at a meaningful low, high, range edge, or liquidity zone.",
+      "The prior move is identified as markup, markdown, range, or news-driven movement.",
+      "Late traders are likely chasing in the wrong direction.",
+      "The candle size is large enough to be impressionable.",
+      "Any nearby cluster of stopping volume candles is marked.",
+      "Price shows movement away from the wick before the trade is trusted.",
+      "The wick zone and invalidation are marked.",
+      "The target comes from vector recovery, range edge, or the next phase of markup/markdown.",
+    ],
+    drills: [
+      {
+        title: "One-hour archive",
+        copy: "On Bitcoin, collect at least fifty 1H stopping volume candles. Record whether each one appeared at a high, low, range edge, or in the middle of a move.",
+      },
+      {
+        title: "Development replay",
+        copy: "Replay examples candle by candle and pause while the candle is still forming. Note when it looked like a normal vector and when it became stopping volume.",
+      },
+      {
+        title: "Cluster study",
+        copy: "Find examples with more than one stopping volume candle in the same area. Compare single-candle reversals against clustered reversals.",
+      },
+      {
+        title: "Environment filter",
+        copy: "For each example, label the prior condition: markdown, markup, range, or news. Track which environments produced the cleanest follow-through.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "A candle is not enough",
+        copy: "A stopping volume candle halfway through a trend can still continue lower or higher. Context and movement away from the wick matter.",
+      },
+      {
+        title: "Large size cuts both ways",
+        copy: "A large candle can imply strong manipulation, but it can also require wider invalidation because the wick and body cover more distance.",
+      },
+      {
+        title: "Do not front-run formation",
+        copy: "The candle only becomes stopping volume after rejection appears. Calling it too early means you are predicting instead of reading development.",
+      },
+      {
+        title: "Clusters need patience",
+        copy: "More than one stopping volume candle can appear before the real move away starts. Let the area prove itself before treating it as reversal.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces stopping volume candles as candles or clusters that appear at significant chart points and signal that something may change.",
+      },
+      {
+        time: "01:00",
+        copy: "Reviews vector colors: green/red at roughly 200% above average volume, blue/violet around 150%, with positive and negative versions.",
+      },
+      {
+        time: "02:00",
+        copy: "Explains the visual form: small body or wick-heavy candle after a move to the downside or upside.",
+      },
+      {
+        time: "04:00",
+        copy: "Builds the order-flow example using late short sellers waiting for a breakdown.",
+      },
+      {
+        time: "05:00",
+        copy: "States the key rule: a candle becomes stopping volume; it does not start as one.",
+      },
+      {
+        time: "06:00",
+        copy: "Shows the red vector candle during a sharp Bitcoin drop and explains retail shorts being triggered.",
+      },
+      {
+        time: "07:00",
+        copy: "Restates market maker logic: red vectors can represent buying into falling prices, while green vectors can represent selling into rising prices.",
+      },
+      {
+        time: "08:00",
+        copy: "Explains why the next move may recover the red vector after market maker has been buying into the drop.",
+      },
+      {
+        time: "10:00",
+        copy: "Connects stopping volume to liquidation pressure and the incentive to attack trapped trader margins.",
+      },
+      {
+        time: "12:00",
+        copy: "Explains why market maker may reverse fast after enough downside liquidity has been captured.",
+      },
+      {
+        time: "15:00",
+        copy: "Defines the next phase after downside stopping volume as markup, with the mirror version creating markdown from highs.",
+      },
+      {
+        time: "16:00",
+        copy: "Moves to chart examples and notes that size plays a major role in reading stopping volume.",
+      },
+      {
+        time: "17:00",
+        copy: "Shows repeated Bitcoin examples and notes that price often comes back into the stopping-volume wick.",
+      },
+      {
+        time: "18:00",
+        copy: "Highlights the common theme: stopping volume appears at lows, highs, and sometimes meaningful range locations.",
+      },
+      {
+        time: "21:00",
+        copy: "Gives the study plan: use the 1H timeframe and journal where stopping volume candles appear.",
+      },
+      {
+        time: "22:00",
+        copy: "Adds journal fields: prior environment, whether candles cluster, candle size, and whether they came after markup or markdown.",
+      },
+      {
+        time: "24:00",
+        copy: "Warns that environment matters because a stopping volume candle can still appear halfway through a move.",
+      },
+      {
+        time: "25:00",
+        copy: "Explains that speed into the wick and speed back out shows intention and trapping behavior.",
+      },
+      {
+        time: "26:00",
+        copy: "Defines stopping volume as a climatic candle where many traders are trapped at the same point.",
+      },
+      {
+        time: "27:00",
+        copy: "Final practice message: study thousands of examples so the repeated behavior becomes recognizable in live charts.",
+      },
+    ],
+  },
+  {
     id: "session-13-how-to-trade-psychological-level",
     title: "Session 13 - How To Trade Psychological Level",
     source: "YouTube breakdown - 30:29 - rollin rollo",
@@ -2573,7 +2793,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-14-how-to-use-macro-data-to-trade";
+const defaultLessonId = "session-12-how-to-trade-stopping-volume-candles";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -2728,6 +2948,8 @@ function drawSetup() {
     drawMWFormationSetup(ctx);
   } else if (activeLesson.diagram === "vector-candle-flow") {
     drawVectorCandleFlowSetup(ctx);
+  } else if (activeLesson.diagram === "stopping-volume-candle") {
+    drawStoppingVolumeCandleSetup(ctx);
   } else if (activeLesson.diagram === "psychological-level") {
     drawPsychologicalLevelSetup(ctx);
   } else if (activeLesson.diagram === "macro-data-flow") {
@@ -3507,6 +3729,99 @@ function drawVectorCandleFlowSetup(ctx) {
   badge(ctx, "2", 202, 116, "#2a66a2");
   badge(ctx, "3", 296, 300, "#b83a31");
   badge(ctx, "4", 650, 116, "#217a55");
+}
+
+function drawStoppingVolumeCandleSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.34)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(54, 104);
+  ctx.lineTo(706, 104);
+  ctx.moveTo(54, 306);
+  ctx.lineTo(706, 306);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  drawZone(ctx, 74, 76, 198, 74, "#b83a31");
+  drawZone(ctx, 74, 270, 198, 74, "#217a55");
+  drawZone(ctx, 386, 72, 116, 102, "#217a55");
+  drawZone(ctx, 386, 246, 116, 102, "#b83a31");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(78, 138);
+  ctx.lineTo(126, 90);
+  ctx.lineTo(178, 72);
+  ctx.lineTo(232, 86);
+  ctx.lineTo(276, 116);
+  ctx.lineTo(330, 242);
+  ctx.lineTo(378, 316);
+  ctx.lineTo(426, 342);
+  ctx.lineTo(484, 314);
+  ctx.lineTo(548, 230);
+  ctx.lineTo(654, 146);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(276, 116);
+  ctx.lineTo(330, 242);
+  ctx.lineTo(378, 316);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(426, 342);
+  ctx.lineTo(484, 314);
+  ctx.lineTo(548, 230);
+  ctx.lineTo(654, 146);
+  ctx.stroke();
+
+  drawCandle(ctx, 316, 206, 42, 118, "#b83a31");
+  ctx.fillStyle = "#f6f7f2";
+  ctx.fillRect(318, 206, 38, 62);
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 3;
+  ctx.strokeRect(318, 206, 38, 62);
+
+  drawCandle(ctx, 178, 70, 42, 112, "#217a55");
+  ctx.fillStyle = "#f6f7f2";
+  ctx.fillRect(180, 120, 38, 62);
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 3;
+  ctx.strokeRect(180, 120, 38, 62);
+
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 3;
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(334, 326);
+  ctx.lineTo(334, 382);
+  ctx.moveTo(198, 68);
+  ctx.lineTo(198, 22);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("late longs", 96, 58);
+  ctx.fillText("late shorts", 90, 370);
+  ctx.fillText("wick = trap", 280, 392);
+  ctx.fillText("movement away", 540, 214);
+
+  ctx.fillStyle = "#b83a31";
+  ctx.fillText("climactic sell", 284, 202);
+  ctx.fillStyle = "#217a55";
+  ctx.fillText("markup phase", 542, 132);
+
+  badge(ctx, "1", 206, 78, "#b83a31");
+  badge(ctx, "2", 334, 326, "#b47a1f");
+  badge(ctx, "3", 126, 340, "#2a66a2");
+  badge(ctx, "4", 618, 150, "#217a55");
 }
 
 function drawPsychologicalLevelSetup(ctx) {
