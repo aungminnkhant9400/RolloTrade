@@ -971,6 +971,226 @@ const lessons = [
     ],
   },
   {
+    id: "session-15-orderflow-and-vectors",
+    title: "Session 15 - Orderflow And Vectors",
+    source: "YouTube breakdown - 1:08:16 - rollin rollo",
+    summary:
+      "Session 15 turns orderflow into a practical structure-and-sentiment framework. The lesson uses volume profile, value area high, value area low, point of control, Brinks/New York liquidity, delta, and vectors to judge whether traders are trapped at premium or discount instead of treating positive delta as an automatic buy or negative delta as an automatic sell.",
+    tags: ["Orderflow", "Delta", "Value area", "Vectors"],
+    diagram: "orderflow-vectors",
+    diagramLegend: [
+      {
+        title: "1. Build the map",
+        copy: "Use VAH, VAL, and POC only after the session has enough real volume to show commitment.",
+        tone: "blue",
+      },
+      {
+        title: "2. Read premium",
+        copy: "At VAH, strong positive delta and green vectors can mean late buyers are being trapped.",
+        tone: "red",
+      },
+      {
+        title: "3. Read discount",
+        copy: "At VAL, strong negative delta and red vectors can mean late sellers are being trapped.",
+        tone: "green",
+      },
+      {
+        title: "4. Confirm the shift",
+        copy: "Use the next delta change, vector recovery, midpoint behavior, and price action before acting.",
+        tone: "amber",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Orderflow is development",
+        copy: "The goal is not to predict. The goal is to see how price develops around value, liquidity, vectors, and trapped participation.",
+        tone: "blue",
+      },
+      {
+        title: "Delta is context, not a signal",
+        copy: "Positive delta at a high can be trapped buying. Negative delta at a low can be trapped selling. Location decides what the number means.",
+        tone: "amber",
+      },
+      {
+        title: "Vectors show behavior",
+        copy: "Green vectors at premium and red vectors at discount are not automatic continuation. They can be market-maker activity into retail pressure.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Treat orderflow as a practical read",
+        copy: "Do not get lost in every orderflow term first. Use the pieces that help you see development: volume profile, VAH, VAL, POC, delta, vectors, absorption, exhaustion, and auction failure.",
+      },
+      {
+        title: "Wait for a real profile",
+        copy: "Before New York volume, VAH, VAL, and POC can be weak references. Let the market create a truer representation of commitment before trusting the levels.",
+      },
+      {
+        title: "Respect the Brinks window",
+        copy: "The lesson repeatedly points back to waiting for Brinks/New York liquidity. The POC can shift after real volume arrives, so early levels can mislead.",
+      },
+      {
+        title: "Classify the trade location",
+        copy: "Ask whether price is at value area high, value area low, point of control, or a 50% midpoint. That location tells you whether price is premium, discount, balanced, or resetting.",
+      },
+      {
+        title: "Read VAH as premium",
+        copy: "When price breaks above VAH after travelling from lower value, it is trading at a premium. Strong positive delta there does not automatically mean buyers are in control.",
+      },
+      {
+        title: "Spot trapped buyers",
+        copy: "At VAH, a green vector with strong positive delta can show retail buying into market-maker selling. The trap becomes more useful if the next candle flips negative and price returns into value.",
+      },
+      {
+        title: "Read VAL as discount",
+        copy: "When price drives into value area low, it is trading at a discount. Strong negative delta at that location can show sellers pressing late into possible absorption.",
+      },
+      {
+        title: "Spot trapped sellers",
+        copy: "At VAL, red vectors and heavy negative delta can show market-maker markdown into seller pressure. The recovery idea strengthens when delta flips positive and green vectors push price back up.",
+      },
+      {
+        title: "Know the normal delta for the asset",
+        copy: "A big delta reading depends on the instrument and timeframe. The lesson compares Bitcoin and NASDAQ and notes a NASDAQ example near -2.8K delta with roughly 60K volume on a five-minute candle.",
+      },
+      {
+        title: "Use the midpoint as inventory reset",
+        copy: "The 50% level, whether from a swing, vector, or Fibonacci measurement, marks an area where inventory can realign before continuation or failure.",
+      },
+      {
+        title: "Separate structure from sentiment",
+        copy: "VAH, VAL, POC, and midpoints are structure. Delta and vectors are sentiment. A trade needs both pieces to point in the same direction.",
+      },
+      {
+        title: "Act only after confirmation",
+        copy: "A level touch is not enough. Wait for a delta flip, vector behavior, absorption, stopping volume, reclaim, breakdown, or continuation pattern that confirms what the location implies.",
+      },
+    ],
+    checklist: [
+      "Brinks/New York liquidity has had time to build the profile.",
+      "Value area high is marked.",
+      "Value area low is marked.",
+      "Point of control is marked and checked for shifts.",
+      "Current price location is classified as premium, discount, value, or midpoint.",
+      "Delta is read relative to location, not as a standalone buy/sell signal.",
+      "Vector candles at the level are marked.",
+      "At VAH, positive delta and green vectors are checked for trapped buyers.",
+      "At VAL, negative delta and red vectors are checked for trapped sellers.",
+      "The next candle or sequence confirms a delta flip or failure to continue.",
+      "The 50% midpoint or vector midpoint is checked for inventory reset.",
+      "News and session context are considered before trusting the setup.",
+      "The trade has price-action confirmation after the orderflow clue.",
+      "Risk is defined because the framework improves odds but does not guarantee outcome.",
+    ],
+    drills: [
+      {
+        title: "Profile map drill",
+        copy: "After Brinks completes, mark VAH, VAL, and POC on the chart. Then replay how price behaves at each level before making any trade plan.",
+      },
+      {
+        title: "Delta trap journal",
+        copy: "Collect ten examples of strong positive delta at VAH and ten examples of strong negative delta at VAL. Record whether the next sequence trapped traders or continued cleanly.",
+      },
+      {
+        title: "Vector confirmation replay",
+        copy: "Replay sessions where green vectors appeared at premium and red vectors appeared at discount. Mark whether the vectors recovered, failed, or continued.",
+      },
+      {
+        title: "Midpoint reset drill",
+        copy: "Take each large swing or vector candle and mark its 50% level. Watch whether price uses that area to reset inventory, continue, or fail.",
+      },
+      {
+        title: "Structure plus sentiment worksheet",
+        copy: "For every setup, write one structure reason and one sentiment reason. Skip the trade if the level and the delta/vector read do not agree.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Do not invert delta blindly",
+        copy: "Positive delta at a high can be a trap, but it can also be the start of a stronger move if the location and follow-through support continuation.",
+      },
+      {
+        title: "Early profiles can move",
+        copy: "A pre-New-York POC may shift when real volume enters. Trading from an early POC without waiting for liquidity can create a false map.",
+      },
+      {
+        title: "Each asset has its own scale",
+        copy: "A large delta reading in one market may be normal in another. Build familiarity with the instrument before treating a number as extreme.",
+      },
+      {
+        title: "The framework does not remove risk",
+        copy: "The lesson closes by stressing that no orderflow framework is guaranteed. The setup still needs confirmation, invalidation, and position control.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces orderflow as a way to understand price development, not predict price.",
+      },
+      {
+        time: "05:00",
+        copy: "Names the broader orderflow tools: delta, unfinished auctions, failed auctions, session delta, CVD, absorption, and exhaustion.",
+      },
+      {
+        time: "06:00",
+        copy: "Starts the volume-profile map with value area high, value area low, and point of control.",
+      },
+      {
+        time: "07:00",
+        copy: "Explains why POC can shift after New York volume enters and why Brinks completion matters.",
+      },
+      {
+        time: "10:00",
+        copy: "Defines VAH as premium and warns that buying pressure there must be read differently.",
+      },
+      {
+        time: "15:00",
+        copy: "Shows how positive delta and a green vector at VAH can represent trapped late buyers.",
+      },
+      {
+        time: "19:00",
+        copy: "Moves to VAL discount and explains how negative delta at the low can represent trapped sellers.",
+      },
+      {
+        time: "21:00",
+        copy: "Reviews Exo Charts tools such as TPO volume profile, delta ladder profile, and footprint stats.",
+      },
+      {
+        time: "24:00",
+        copy: "Uses a NASDAQ example with about -2.8K delta and 60K volume at VAL, plus red vectors and a later positive delta shift.",
+      },
+      {
+        time: "29:00",
+        copy: "Connects VAH, VAL, and POC to the bell-curve value area where most trading occurs.",
+      },
+      {
+        time: "34:00",
+        copy: "Introduces Fibonacci only as a midpoint tool for inventory realignment, not as a magic price driver.",
+      },
+      {
+        time: "40:00",
+        copy: "Explains the 50% reset zone and why small retraces can mean inventory wants to shift out quickly.",
+      },
+      {
+        time: "45:00",
+        copy: "Applies midpoint, delta, and vectors to M/W formation logic and continuation versus failure.",
+      },
+      {
+        time: "52:00",
+        copy: "Builds the trading framework: wait for Brinks, mark VAH, VAL, and POC, then wait for price to approach them.",
+      },
+      {
+        time: "58:00",
+        copy: "Combines premium/discount, stopping volume, news context, delta, vectors, and price action.",
+      },
+      {
+        time: "64:00",
+        copy: "Final synthesis: structure plus sentiment can improve the read, but it cannot remove risk.",
+      },
+    ],
+  },
+  {
     id: "session-2-trading-confluences",
     title: "Session 2 - Trading Confluences",
     source: "YouTube breakdown - 13:49 - rollin rollo",
@@ -2793,7 +3013,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-12-how-to-trade-stopping-volume-candles";
+const defaultLessonId = "session-15-orderflow-and-vectors";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -2954,6 +3174,8 @@ function drawSetup() {
     drawPsychologicalLevelSetup(ctx);
   } else if (activeLesson.diagram === "macro-data-flow") {
     drawMacroDataFlowSetup(ctx);
+  } else if (activeLesson.diagram === "orderflow-vectors") {
+    drawOrderflowVectorsSetup(ctx);
   } else if (activeLesson.diagram === "brink-box-recovery") {
     drawBrinkBoxRecoverySetup(ctx);
   } else if (activeLesson.diagram === "brink-box") {
@@ -3355,6 +3577,102 @@ function drawMacroDataFlowSetup(ctx) {
   badge(ctx, "2", 278, 76, "#b47a1f");
   badge(ctx, "3", 478, 62, "#b83a31");
   badge(ctx, "4", 692, 222, "#217a55");
+}
+
+function drawOrderflowVectorsSetup(ctx) {
+  const levels = [
+    { y: 96, label: "VAH premium", color: "#b83a31" },
+    { y: 210, label: "POC value", color: "#b47a1f" },
+    { y: 324, label: "VAL discount", color: "#217a55" },
+  ];
+
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.3)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  for (const level of levels) {
+    ctx.beginPath();
+    ctx.moveTo(78, level.y);
+    ctx.lineTo(704, level.y);
+    ctx.stroke();
+  }
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 15px Inter, ui-sans-serif, system-ui, sans-serif";
+  for (const level of levels) {
+    ctx.fillStyle = level.color;
+    ctx.fillText(level.label, 84, level.y - 12);
+  }
+
+  ctx.fillStyle = "rgba(42, 102, 162, 0.16)";
+  ctx.fillRect(48, 100, 36, 220);
+  ctx.fillStyle = "rgba(42, 102, 162, 0.42)";
+  ctx.fillRect(84, 138, 52, 36);
+  ctx.fillRect(84, 188, 94, 42);
+  ctx.fillRect(84, 262, 48, 34);
+  ctx.fillStyle = "#2a66a2";
+  ctx.font = "700 13px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("profile", 52, 86);
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(188, 238);
+  ctx.bezierCurveTo(238, 178, 294, 114, 374, 86);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.beginPath();
+  ctx.moveTo(374, 86);
+  ctx.bezierCurveTo(432, 102, 466, 136, 504, 204);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.beginPath();
+  ctx.moveTo(188, 198);
+  ctx.bezierCurveTo(244, 246, 290, 308, 368, 338);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.beginPath();
+  ctx.moveTo(368, 338);
+  ctx.bezierCurveTo(424, 314, 480, 260, 540, 214);
+  ctx.stroke();
+
+  drawCandle(ctx, 338, 58, 44, 86, "#217a55");
+  drawCandle(ctx, 384, 72, 34, 64, "#217a55");
+  drawCandle(ctx, 330, 290, 44, 88, "#b83a31");
+  drawCandle(ctx, 384, 278, 34, 70, "#b83a31");
+
+  drawZone(ctx, 430, 72, 126, 54, "#b83a31");
+  drawZone(ctx, 426, 292, 130, 54, "#217a55");
+  drawZone(ctx, 546, 184, 126, 54, "#b47a1f");
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 14px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("+ delta trap", 446, 106);
+  ctx.fillText("- delta trap", 440, 326);
+  ctx.fillText("50% reset", 566, 218);
+
+  ctx.strokeStyle = "#b47a1f";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([5, 7]);
+  ctx.beginPath();
+  ctx.moveTo(536, 148);
+  ctx.lineTo(536, 344);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 13px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("delta flips after rejection", 528, 156);
+  ctx.fillText("vectors recover after absorption", 512, 364);
+  ctx.fillText("structure + sentiment", 540, 70);
+
+  badge(ctx, "1", 108, 210, "#2a66a2");
+  badge(ctx, "2", 376, 48, "#b83a31");
+  badge(ctx, "3", 370, 386, "#217a55");
+  badge(ctx, "4", 684, 210, "#b47a1f");
 }
 
 function drawVShapeSetup(ctx) {
