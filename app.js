@@ -2,9 +2,9 @@ const lessons = [
   {
     id: "brink-box-part-2",
     title: "Brink Box Part 2",
-    source: "YouTube breakdown - 19:32 - rollin rollo",
+    source: "YouTube transcript + visual audit - 19:32 - rollin rollo",
     summary:
-      "Brinks Part 2 turns the box into an execution model. After the 9:00-10:00 AM ET range forms, separate two conditions: unrecovered vectors inside the Brinks box mean price can trade back into the box to recover them, while fully recovered vectors shift focus to break, retest, and continuation away from the Brinks high or low.",
+      "Brinks Part 2 turns the box into an execution model. After the 9:00-10:00 AM ET range forms, separate two conditions: unrecovered vectors inside or around the Brinks box can pull price back for recovery, while fully recovered vectors shift focus to break, retest, and continuation away from the Brinks high or low. The visual examples show green pre-Brinks areas, red breakaway zones, and the board reminder that an unrecovered vector can still matter when it was not recovered during trading.",
     tags: ["Brinks box", "Vector recovery", "Opening range", "Break and retest"],
     diagram: "brink-box-recovery",
     diagramLegend: [
@@ -41,6 +41,11 @@ const lessons = [
         tone: "blue",
       },
       {
+        title: "Outside can still count",
+        copy: "The board examples show unrecovered vectors just outside Brinks still acting as magnets if the session did not recover them.",
+        tone: "amber",
+      },
+      {
         title: "Wait for intention",
         copy: "The lesson keeps the same rule from Part 1: let the box finish before deciding.",
         tone: "green",
@@ -52,12 +57,12 @@ const lessons = [
         copy: "Mark the 9:00-10:00 AM ET high and low. Do not decide from the middle of the box while it is still forming.",
       },
       {
-        title: "Audit vectors inside the box",
-        copy: "Label every red, green, or blue vector created inside the Brinks range and mark whether it was fully recovered.",
+        title: "Audit vectors inside and around the box",
+        copy: "Label every red, green, or blue vector created inside the Brinks range, then check nearby vectors that were left unrecovered during the trading window.",
       },
       {
         title: "Choose the active condition",
-        copy: "If any vector is left unrecovered, prepare for a recovery trade back into the box. If all vectors are recovered, prepare for a break/retest trade outside the range.",
+        copy: "If any relevant vector is left unrecovered, prepare for a recovery trade back toward that imbalance. If all vectors are recovered, prepare for a break/retest trade outside the range.",
       },
       {
         title: "For a red vector left below, watch the low",
@@ -83,9 +88,9 @@ const lessons = [
     checklist: [
       "The 9:00-10:00 AM ET Brinks range is complete.",
       "Brinks high and Brinks low are drawn.",
-      "Every vector inside the box is marked.",
+      "Every vector inside and near the box is marked.",
       "Recovered and unrecovered vectors are separated.",
-      "If a vector is unrecovered, the planned trade points back into the box.",
+      "If a vector is unrecovered, the planned trade points back toward the imbalance.",
       "If all vectors are recovered, the planned trade uses break/retest continuation.",
       "A sweep outside the high/low is not enough by itself.",
       "Price has reclaimed or rejected the box edge with structure.",
@@ -120,6 +125,10 @@ const lessons = [
         copy: "The trade is not the sweep itself. The trade comes after reclaim, rejection, or accepted break/retest behavior.",
       },
       {
+        title: "Engulfment or reclaim matters",
+        copy: "The visual walkthrough points to engulfing/reclaim behavior at the Brinks edge before treating an unrecovered vector as tradable.",
+      },
+      {
         title: "Recovery is not always immediate",
         copy: "The lesson says vectors may recover in the same session or a later session, so timing still needs structure.",
       },
@@ -147,7 +156,7 @@ const lessons = [
       },
       {
         time: "04:12",
-        copy: "Gives the caveat that some unrecovered vectors remain open when news or strong confluence keeps price moving away.",
+        copy: "Gives the caveat that some unrecovered vectors remain open when news or strong confluence keeps price moving away; the board shows them as valid but not recovered within trading.",
       },
       {
         time: "06:24",
@@ -163,7 +172,7 @@ const lessons = [
       },
       {
         time: "11:54",
-        copy: "Repeats the execution rule: wait until the Brinks box finishes so the high/low intention is easier to read.",
+        copy: "Repeats the execution rule on the whiteboard: wait until the Brinks box finishes, then judge high/low intention and any unrecovered vector path.",
       },
       {
         time: "18:38",
@@ -174,9 +183,9 @@ const lessons = [
   {
     id: "brink-box-part-1",
     title: "Brink Box Part 1",
-    source: "YouTube breakdown - 6:41 - rollin rollo",
+    source: "YouTube transcript + visual audit - 6:41 - rollin rollo",
     summary:
-      "The Brinks box is the first New York session hour, from 9:00 AM to 10:00 AM ET. The lesson frames it as the money-trade range because bonds, the stock-market open, and futures liquidity stack into the same window and create the day’s early high/low.",
+      "The Brinks box is the first New York session hour, from 9:00 AM to 10:00 AM ET. The lesson frames it as the money-trade range because bonds, the stock-market open, and futures liquidity stack into the same window and create the day's early high/low. The whiteboard drawing also marks the box midpoint with an X: the middle is not the decision area; the useful information comes after the high and low form.",
     tags: ["Brinks box", "New York open", "Liquidity window", "High-low range"],
     diagram: "brink-box",
     diagramLegend: [
@@ -213,8 +222,8 @@ const lessons = [
         tone: "blue",
       },
       {
-        title: "The box gives the day’s clue",
-        copy: "Whatever happens inside the Brinks box can hint at what the rest of the day is preparing to do.",
+        title: "Do not trade the middle",
+        copy: "The visual box has a midline and an X in the center. Wait for high/low behavior instead of guessing from the middle.",
         tone: "green",
       },
     ],
@@ -244,6 +253,10 @@ const lessons = [
         copy: "At 10:00 AM ET / 3:00 PM UK, the Brinks box closes. The high and low are now the working range.",
       },
       {
+        title: "Mark the center as no-trade",
+        copy: "The board drawing splits the box and marks an X in the middle. Use the midpoint for context, not for early entries.",
+      },
+      {
         title: "Do not trade before the range exists",
         copy: "The key rule is to wait until the high and low have formed before making a Brinks-box decision.",
       },
@@ -260,6 +273,7 @@ const lessons = [
       "10:00 AM ET / 3:00 PM UK Brinks close is marked.",
       "The Brinks high is drawn.",
       "The Brinks low is drawn.",
+      "The midpoint is marked as a no-trade decision zone.",
       "No trade is planned before the box high/low exists.",
       "Manipulation or liquidity sweep inside the box is reviewed.",
       "Post-box bias is based on break/retest behavior, not guessing.",
@@ -339,7 +353,7 @@ const lessons = [
       },
       {
         time: "06:20",
-        copy: "Gives the key rule: wait until the high and low have formed.",
+        copy: "Gives the key rule from the boxed drawing: wait until the high and low have formed and avoid decisions from the X in the middle.",
       },
     ],
   },
@@ -1397,9 +1411,9 @@ const lessons = [
   {
     id: "session-3-read-vector-candles",
     title: "Session 3 - How To Read Vector Candles",
-    source: "YouTube breakdown - 26:17 - rollin rollo",
+    source: "YouTube transcript + visual audit - 26:17 - rollin rollo",
     summary:
-      "Vector candles show aggressive participation and trapped leverage. A green vector often means late longs are buying while the market maker sells into them; a red vector often means late shorts are selling while the market maker buys into them.",
+      "Vector candles show aggressive participation and trapped leverage. A green vector often means late longs are buying while the market maker sells into them; a red vector often means late shorts are selling while the market maker buys into them. The whiteboard frames this as an R-B-M flow and marks the vector body as the area price later attacks for recovery.",
     tags: ["Vector candles", "Market maker", "Liquidity", "Candle recovery"],
     diagram: "vector-candle-flow",
     diagramLegend: [
@@ -1429,6 +1443,11 @@ const lessons = [
         title: "A vector is not an entry by itself",
         copy: "The candle shows emotion and order flow. You still need location, close behavior, and the next candle reaction.",
         tone: "amber",
+      },
+      {
+        title: "Body is the battlefield",
+        copy: "The board keeps returning to the vector body: that open-to-close area is where trapped buy/sell activity gets attacked.",
+        tone: "blue",
       },
       {
         title: "Green can be a sell-side clue",
@@ -1464,7 +1483,7 @@ const lessons = [
       },
       {
         title: "Mark the recovery path",
-        copy: "For a green vector, watch for price to trade back down through the body. For a red vector, watch for price to trade back up through the body.",
+        copy: "For a green vector, watch for price to trade back down through the body. For a red vector, watch for price to trade back up through the body. The visual drawing treats the full body, not only the wick, as the recovery zone.",
       },
       {
         title: "Add confluence before entry",
@@ -1479,6 +1498,7 @@ const lessons = [
       "The candle is clearly stronger than surrounding candles.",
       "Green/red vector color is identified before planning.",
       "The vector body is marked as the recovery zone.",
+      "The vector body high, midpoint, and low are visible before planning.",
       "The likely trapped group is named: late longs or late shorts.",
       "The opposite-side market-maker logic is clear.",
       "The candle has closed before any decision is made.",
@@ -1538,7 +1558,7 @@ const lessons = [
       },
       {
         time: "03:00",
-        copy: "Key relationship: when retail is long, the opposite side is short.",
+        copy: "Uses the R-B-M board sequence to explain the key relationship: when retail is long, the opposite side is short.",
       },
       {
         time: "05:20",
@@ -1550,7 +1570,7 @@ const lessons = [
       },
       {
         time: "10:00",
-        copy: "Shows that a vector candle develops over time and must close before the next-candle read matters.",
+        copy: "Shows the vector body being built over time and why the candle must close before the recovery read matters.",
       },
       {
         time: "13:30",
@@ -1562,16 +1582,16 @@ const lessons = [
       },
       {
         time: "23:00",
-        copy: "Compares green/red vectors with violet/blue vectors and gives the final rule: you sell, he buys; you buy, he sells.",
+        copy: "Compares green/red vectors with violet/blue vectors and ends with the visual buy/sell map: you sell, he buys; you buy, he sells.",
       },
     ],
   },
   {
     id: "session-6-v-shape-reversals",
     title: "Session 6 - How To Trade V Shape Reversals",
-    source: "YouTube breakdown - 32:02 - rollin rollo",
+    source: "YouTube transcript + visual audit - 32:02 - rollin rollo",
     summary:
-      "A V-shape reversal is a behavior shift: aggressive red-vector selling, slowdown and absorption at the low, then green or blue vectors pushing price back into the prior red-vector range.",
+      "A V-shape reversal is a behavior shift: aggressive red-vector selling, slowdown and absorption at the low, then green or blue vectors pushing price back into the prior red-vector range. The visual checklist is literal: environment first, then speed slowing, then vector confirmation from the V base.",
     tags: ["V-shape reversal", "Vector candles", "Absorption", "Multi-timeframe"],
     diagram: "v-shape",
     diagramLegend: [
@@ -1603,6 +1623,11 @@ const lessons = [
         tone: "red",
       },
       {
+        title: "Use the three-word checklist",
+        copy: "The board summary is simple: environment, speed, vectors. If one is missing, the V is not confirmed.",
+        tone: "blue",
+      },
+      {
         title: "The low must change behavior",
         copy: "Smaller candles, lower wicks, and repeated closes away from the lows suggest selling is being absorbed.",
         tone: "amber",
@@ -1616,7 +1641,7 @@ const lessons = [
     steps: [
       {
         title: "Find the environment",
-        copy: "Start with a sharp move down. Look for long red vector candles or a cluster of red vectors that would make late traders want to short.",
+        copy: "Start with a sharp move down. The visual sequence labels this first as environment: long red vector candles or a cluster of red vectors that would make late traders want to short.",
       },
       {
         title: "Mark the red-vector range",
@@ -1636,7 +1661,7 @@ const lessons = [
       },
       {
         title: "Wait for green or blue vectors",
-        copy: "The setup becomes actionable only when bullish vector candles appear at the low and price starts moving away from the base.",
+        copy: "The setup becomes actionable only when bullish green or blue vector candles appear at the low and price starts moving away from the base. The visual contrast is red vectors into the trap, then green/blue support volume after the V forms.",
       },
       {
         title: "Plan invalidation before entry",
@@ -1655,6 +1680,7 @@ const lessons = [
       "Price forms a base instead of expanding lower.",
       "Lower wicks or failed breakdowns appear.",
       "Green or blue vector candle appears at the low.",
+      "Environment, speed, and vectors are all present.",
       "Price moves away from the base with speed.",
       "Invalidation level is clear below the low.",
       "Target area is based on prior red-vector recovery.",
@@ -1722,11 +1748,11 @@ const lessons = [
       },
       {
         time: "20:00",
-        copy: "Highlights stopping-volume style candles and the need for green or blue vectors at the lows.",
+        copy: "Highlights stopping-volume style candles and the need for green or blue vectors at the lows, separating support volume from the earlier red sell pressure.",
       },
       {
         time: "23:30",
-        copy: "Summarizes the three-part model: environment, speed, and vector confirmation.",
+        copy: "Summarizes the whiteboard checklist exactly: environment, speed, and vectors.",
       },
       {
         time: "27:00",
@@ -1945,9 +1971,9 @@ const lessons = [
   {
     id: "session-8-block-trade-principle",
     title: "Session 8 - The Block Trade Principle",
-    source: "YouTube breakdown - 35:59 - rollin rollo",
+    source: "YouTube transcript + visual audit - 35:59 - rollin rollo",
     summary:
-      "The block trade principle uses the body of a vector candle as market memory. Mark the block high, midpoint, and low, then wait for price to prove whether that memory still supports the original vector direction.",
+      "The block trade principle uses the body of a vector candle as market memory. Mark the block high, midpoint, and low, then wait for price to prove whether that memory still supports the original vector direction. The chart examples show shaded block rectangles being retested from multiple angles before price commits.",
     tags: ["Block trade", "Market memory", "Vector body", "High-mid-low"],
     diagram: "block-trade",
     diagramLegend: [
@@ -1979,6 +2005,11 @@ const lessons = [
         tone: "green",
       },
       {
+        title: "Rectangle first",
+        copy: "The chart examples shade the body as a rectangle, then watch how price taps, rejects, or accepts through that block.",
+        tone: "blue",
+      },
+      {
         title: "Memory has three tests",
         copy: "Price can react from the block high, midpoint, or low. You wait to see which level becomes support or resistance.",
         tone: "amber",
@@ -2008,7 +2039,7 @@ const lessons = [
       },
       {
         title: "Wait for price to revisit the block",
-        copy: "Do not enter just because the block exists. Let price return to the high, midpoint, or low and show behavior around that level.",
+        copy: "Do not enter just because the block exists. Let price return to the shaded block high, midpoint, or low and show behavior around that level.",
       },
       {
         title: "Study time spent at the level",
@@ -2027,6 +2058,7 @@ const lessons = [
       "A clear green or red vector candle is present.",
       "The block is drawn from the candle body only.",
       "High, midpoint, and low are marked.",
+      "The body is shaded as a rectangle before judging reactions.",
       "The expected direction matches the vector color.",
       "Price revisits one of the three block levels.",
       "Time spent at the level is observed.",
@@ -2086,7 +2118,7 @@ const lessons = [
       },
       {
         time: "07:00",
-        copy: "Marks the block high, midpoint, and low on the chart and explains how price may react at each one.",
+        copy: "Marks the block high, midpoint, and low on the chart and explains how price may react at each shaded body level.",
       },
       {
         time: "10:00",
@@ -2106,7 +2138,7 @@ const lessons = [
       },
       {
         time: "27:00",
-        copy: "Returns to the whiteboard: time spent at block high, midpoint, and low reveals whether memory is active.",
+        copy: "Returns to the whiteboard: time spent at block high, midpoint, and low reveals whether market memory is active.",
       },
       {
         time: "31:00",
@@ -2117,9 +2149,9 @@ const lessons = [
   {
     id: "session-9-first-green-vector",
     title: "Session 9 - Trading The First Green Vector",
-    source: "YouTube breakdown - 34:12 - rollin rollo",
+    source: "YouTube transcript + visual audit - 34:12 - rollin rollo",
     summary:
-      "The first green vector above the 50 EMA is useful only after the right development: price has marked down, red-vector imbalances are still above, the 50 EMA has compressed, and the green vector breaks from below or around the 50 EMA and closes above it. The execution is not to chase the close; mark the vector, wait for retrace into the vector or 50% area, then look for continuation away from the 50 EMA.",
+      "The first green vector above the 50 EMA is useful only after the right development: price has marked down, red-vector imbalances are still above, the 50 EMA has compressed, and the green vector breaks from below or around the 50 EMA and closes above it. The visual examples keep returning to the first green vector as a block-trade memory area: mark it, wait for the retrace or 50% test, then look for continuation away from the 50 EMA.",
     tags: ["First green vector", "50 EMA", "Vector retrace", "EMA compression"],
     diagram: "first-green-vector",
     diagramLegend: [
@@ -2160,6 +2192,11 @@ const lessons = [
         copy: "After the green vector close, expect price to revisit the vector area before the cleaner continuation attempt.",
         tone: "green",
       },
+      {
+        title: "Go back to first green",
+        copy: "The visual recap circles the first green vector as the block-memory area to revisit before expecting continuation.",
+        tone: "amber",
+      },
     ],
     steps: [
       {
@@ -2191,6 +2228,10 @@ const lessons = [
         copy: "Look for price to test the green-vector block, midpoint, or 50 EMA, then hold and push away. This ties the setup back to the block trade principle.",
       },
       {
+        title: "Use block-trade retests",
+        copy: "The whiteboard and chart examples repeatedly retest the first green vector body like a block trade. The cleaner entry comes when the retest holds and price moves away.",
+      },
+      {
         title: "Target the reason for the reversal",
         copy: "Targets should come from unrecovered red vectors, prior highs, or nearby liquidity. If price accepts below the 50 EMA and through the vector, the idea is failing.",
       },
@@ -2203,6 +2244,7 @@ const lessons = [
       "The green vector closes above the 50 EMA.",
       "The candle is not already stretched far above the 50 EMA.",
       "The vector midpoint or block levels are marked.",
+      "The first green vector body is treated as a block-memory area.",
       "No long is taken blindly at the vector close.",
       "Price retraces into the vector, midpoint, or 50 EMA and holds.",
       "Timeframe, stop, and target size match the trade style.",
@@ -2223,6 +2265,10 @@ const lessons = [
       {
         title: "Timeframe comparison",
         copy: "Study the same setup on 15M, 5M, and 1M. The lesson warns that the 1M version produces many fakeouts unless there is a cluster of vectors.",
+      },
+      {
+        title: "Large-range practice",
+        copy: "Use large visual examples, such as the 300-pip board sketch, to practice scaling targets to the size of the move instead of forcing tiny entries on wide candles.",
       },
     ],
     riskNotes: [
@@ -2274,7 +2320,7 @@ const lessons = [
       },
       {
         time: "08:18",
-        copy: "Adds the block trade principle as confluence for the retrace and continuation.",
+        copy: "Adds the block trade principle as confluence for the retrace and continuation, using the first green vector body as the memory zone.",
       },
       {
         time: "09:06",
@@ -2282,7 +2328,11 @@ const lessons = [
       },
       {
         time: "28:17",
-        copy: "Gives the practice challenge: collect many examples and measure how often the vector retraces and then leads higher.",
+        copy: "Circles the instruction to go back to the first green vector, then gives the practice challenge: collect examples and measure how often the vector retraces and then leads higher.",
+      },
+      {
+        time: "34:04",
+        copy: "Ends with a larger-range sketch and recovery reminder: size the idea to the structure, then judge whether the first green vector recovery path still holds.",
       },
     ],
   },
@@ -2685,10 +2735,10 @@ const lessons = [
   {
     id: "session-22-new-york-reversal",
     title: "Session 22 - Trading New York Reversal",
-    source: "YouTube breakdown - 27:38 - rollin rollo",
+    source: "YouTube transcript + visual audit - 27:38 - rollin rollo",
     summary:
-      "The New York reversal lesson focuses on the 2:00 PM ET / 7:00 PM UK four-hour candle. After a strong 10:00 AM ET red vector, wait for NASDAQ or S&P to form a W, V, or M structure before trading a vector recovery.",
-    tags: ["New York reversal", "4H candle", "W formation", "NASDAQ"],
+      "The New York reversal lesson focuses on the 2:00 PM ET / 7:00 PM UK four-hour candle. After a strong 10:00 AM ET red vector and a sentiment push into bids/sells, wait for NASDAQ or S&P to form a W, V, or M structure before trading a vector recovery. The chart walkthroughs show red sell zones turning into green recovery attempts only after the lower-timeframe structure develops.",
+    tags: ["New York reversal", "4H candle", "W formation", "NASDAQ", "Bids"],
     diagram: "new-york-reversal",
     diagramLegend: [
       {
@@ -2719,6 +2769,11 @@ const lessons = [
         tone: "blue",
       },
       {
+        title: "Watch the bid shift",
+        copy: "The board marks 10:00am sentiment, bids, and sell pressure before the later reversal attempt.",
+        tone: "amber",
+      },
+      {
         title: "The prior 4H candle matters",
         copy: "A strong 10:00 AM ET red vector sets up the idea that bids may later offer price back up.",
         tone: "red",
@@ -2736,11 +2791,11 @@ const lessons = [
       },
       {
         title: "Find the 10:00 AM ET four-hour candle",
-        copy: "On NASDAQ or S&P, inspect the 4H candle that starts at 10:00 AM ET / 3:00 PM UK. The preferred bullish reversal setup starts with a strong red vector here.",
+        copy: "On NASDAQ or S&P, inspect the 4H candle that starts at 10:00 AM ET / 3:00 PM UK. The preferred bullish reversal setup starts with a strong red vector here, and the board frames that candle as sentiment selling into bids.",
       },
       {
         title: "Wait for the 2:00 PM ET four-hour candle",
-        copy: "The main reversal study begins when the next 4H candle opens at 2:00 PM ET / 7:00 PM UK. Do not force trades before this candle starts.",
+        copy: "The main reversal study begins when the next 4H candle opens at 2:00 PM ET / 7:00 PM UK. The visual recap writes this timing directly on the board; do not force trades before this candle starts.",
       },
       {
         title: "Project possible vector recovery",
@@ -2756,7 +2811,7 @@ const lessons = [
       },
       {
         title: "Use the first vector as trigger",
-        copy: "Look for the first green or blue vector that appears from the W/V area, especially if it reclaims or breaks above the 50 EMA.",
+        copy: "Look for the first green or blue vector that appears from the W/V area, especially if it reclaims or breaks above the 50 EMA. The chart examples show red sell zones flipping into green recovery only after this structure appears.",
       },
       {
         title: "Manage toward recovery",
@@ -2768,6 +2823,7 @@ const lessons = [
       "The 2:00 PM ET / 7:00 PM UK 4H candle is active or near open.",
       "The 10:00 AM ET / 3:00 PM UK 4H candle is reviewed.",
       "A strong prior red vector exists for upside reversal logic.",
+      "The 10:00 AM sentiment/bids context is marked.",
       "Price is near VWAP, POC, Brinks low, or a meaningful low area.",
       "A W formation, V-shaped reversal, or clean low sweep is developing.",
       "The second leg holds or rejects the low.",
@@ -2834,7 +2890,7 @@ const lessons = [
       },
       {
         time: "11:00",
-        copy: "Explains the bid/offers logic behind a red-vector selloff and later upside recovery.",
+        copy: "Explains the bid/offers logic behind a red-vector selloff and later upside recovery, matching the board's sentiment/sell/bids sketch.",
       },
       {
         time: "14:00",
@@ -2850,20 +2906,24 @@ const lessons = [
       },
       {
         time: "22:00",
-        copy: "Final checklist: wait for the 2:00 PM ET 4H candle, prior red vector, development, and first vector trigger.",
+        copy: "Reviews live-chart recovery behavior: red sell zones can become green recovery attempts only after W/V development and vector commitment.",
       },
       {
         time: "26:00",
-        copy: "Practice instruction: go back and disprove the pattern across many sessions before relying on it.",
+        copy: "Final checklist from the whiteboard: wait for 7:00 PM UK / 2:00 PM ET, find the prior red vector, then require W or V development and a first vector trigger.",
+      },
+      {
+        time: "27:30",
+        copy: "Closes with the bids diagram: sentiment selling into bids can fuel the reversal, but only if price proves the turn instead of continuing lower.",
       },
     ],
   },
   {
     id: "session-5-m-w-formations",
     title: "Session 5 - Trading M & W Formations",
-    source: "YouTube breakdown - 23:25 - rollin rollo",
+    source: "YouTube transcript + visual audit - 23:25 - rollin rollo",
     summary:
-      "M and W formations are liquidity traps. A W forms after downside vectors trap shorts, liquidate them on the bounce, pull price back to recommit traders, then shift out higher. The M is the same psychology inverted at highs.",
+      "M and W formations are liquidity traps. A W forms after downside vectors trap shorts, liquidate them on the bounce, pull price back to recommit traders, then shift out higher. The visual board labels the red W leg as sell-sell-sell pressure that can actually mean buying/liquidity underneath, and it shows the same W/M idea nested across 1H, 15M, and 5M charts.",
     tags: ["M formation", "W formation", "Liquidity trap", "Multi-timeframe"],
     diagram: "m-w-formation",
     diagramLegend: [
@@ -2895,6 +2955,11 @@ const lessons = [
         tone: "red",
       },
       {
+        title: "Red can mean buying",
+        copy: "The board labels the red W leg as sell-sell-sell pressure, then circles red as buying/liquidity underneath the trap.",
+        tone: "blue",
+      },
+      {
         title: "Second leg matters most",
         copy: "The execution decision happens on the second leg: does it hold, sweep and reclaim, or fail?",
         tone: "amber",
@@ -2912,7 +2977,7 @@ const lessons = [
       },
       {
         title: "Find the first leg vectors",
-        copy: "For a W, look for red vector candles into the first low. For an M, look for green vector candles into the first high.",
+        copy: "For a W, look for red vector candles into the first low and label who is being trapped. The visual board writes sell-sell-sell on the red leg, then reframes that pressure as buying/liquidity underneath. For an M, invert the logic with green vectors at highs.",
       },
       {
         title: "Understand the first reversal",
@@ -2928,7 +2993,7 @@ const lessons = [
       },
       {
         title: "Drop to 15M and 5M",
-        copy: "If the 1H leg does not show clear vectors, inspect 15M and 5M. Hidden vectors inside the second leg can become the recovery target.",
+        copy: "If the 1H leg does not show clear vectors, inspect 15M and 5M. The visual examples show smaller W/M structures nested inside the larger 1H idea, and hidden vectors inside the second leg can become the recovery target.",
       },
       {
         title: "Use vector recovery as the target logic",
@@ -2947,6 +3012,7 @@ const lessons = [
       "Price returns to form the second leg.",
       "Second leg holds the first low/high or quickly reclaims after a sweep.",
       "15M or 5M confirms vectors inside the second leg.",
+      "Nested 1H, 15M, and 5M patterns are aligned instead of contradicting each other.",
       "Price shifts out of the formation with commitment.",
       "Target is based on vector recovery or nearby structure.",
       "Failure level is defined beyond the second leg.",
@@ -3002,7 +3068,7 @@ const lessons = [
       },
       {
         time: "05:00",
-        copy: "Describes the midpoint: price rises, shorts are liquidated, and market maker sells into forced buying.",
+        copy: "Describes the midpoint with the trap board: sell-sell-sell into a red leg, then forced buying/liquidity as shorts are liquidated.",
       },
       {
         time: "09:00",
@@ -3022,7 +3088,7 @@ const lessons = [
       },
       {
         time: "18:00",
-        copy: "Gives timeframe workflow: 1H for bigger picture, 15M for entry, 5M for hidden vectors.",
+        copy: "Gives timeframe workflow with nested drawings: 1H for bigger picture, 15M for entry, 5M for hidden vectors.",
       },
       {
         time: "21:00",
@@ -3740,6 +3806,12 @@ function drawVShapeSetup(ctx) {
   ctx.stroke();
   ctx.setLineDash([]);
 
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("environment", 86, 104);
+  ctx.fillText("speed slows", 240, 352);
+  ctx.fillText("vectors", 500, 304);
+
   badge(ctx, "1", 92, 78, "#b83a31");
   badge(ctx, "2", 268, 338, "#b47a1f");
   badge(ctx, "3", 514, 78, "#217a55");
@@ -3787,6 +3859,13 @@ function drawBlockTradeSetup(ctx) {
   ctx.lineTo(350, 280);
   ctx.lineTo(408, 326);
   ctx.stroke();
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("high", 704, 102);
+  ctx.fillText("mid", 704, 194);
+  ctx.fillText("low", 704, 286);
+  ctx.fillText("market memory", 430, 62);
 
   badge(ctx, "1", 166, 62, "#217a55");
   badge(ctx, "2", 592, 188, "#2a66a2");
@@ -3847,6 +3926,8 @@ function drawFirstGreenVectorSetup(ctx) {
   ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
   ctx.fillText("50% retrace", 468, 244);
   ctx.fillText("continuation", 574, 118);
+  ctx.fillText("down move", 96, 116);
+  ctx.fillText("1st green block", 370, 146);
 
   drawZone(ctx, 484, 208, 58, 44, "#b47a1f");
 
@@ -3913,6 +3994,20 @@ function drawBrinkBoxSetup(ctx) {
   drawCandle(ctx, 394, 188, 34, 116, "#b83a31");
   drawCandle(ctx, 514, 132, 34, 132, "#217a55");
 
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([6, 8]);
+  ctx.beginPath();
+  ctx.moveTo(220, 213);
+  ctx.lineTo(640, 213);
+  ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 24px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("X", 426, 222);
+  ctx.font = "700 15px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("no middle trade", 456, 222);
+
   ctx.strokeStyle = "#b47a1f";
   ctx.lineWidth = 5;
   ctx.beginPath();
@@ -3962,6 +4057,11 @@ function drawBrinkBoxRecoverySetup(ctx) {
   drawCandle(ctx, 216, 166, 46, 86, "#b83a31");
   drawZone(ctx, 348, 128, 94, 112, "#217a55");
   drawCandle(ctx, 372, 144, 42, 78, "#217a55");
+  drawZone(ctx, 72, 138, 46, 122, "#b83a31");
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 15px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("outside", 64, 128);
 
   ctx.strokeStyle = "#171b1f";
   ctx.lineWidth = 4;
@@ -4059,6 +4159,9 @@ function drawVectorCandleFlowSetup(ctx) {
   ctx.font = "700 18px Inter, ui-sans-serif, system-ui, sans-serif";
   ctx.fillText("late longs", 92, 66);
   ctx.fillText("late shorts", 414, 366);
+  ctx.fillText("R-B-M", 336, 72);
+  ctx.font = "700 15px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("body recovery zone", 102, 318);
 
   ctx.fillStyle = "#b83a31";
   ctx.fillText("recovery lower", 238, 132);
@@ -4288,6 +4391,12 @@ function drawNewYorkReversalSetup(ctx) {
   drawCandle(ctx, 548, 184, 48, 104, "#217a55");
   drawCandle(ctx, 610, 126, 48, 112, "#2a66a2");
 
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 15px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("10AM red / sentiment", 94, 316);
+  ctx.fillText("bids", 184, 104);
+  ctx.fillText("2PM ET / 7PM UK", 514, 340);
+
   badge(ctx, "1", 108, 54, "#2a66a2");
   badge(ctx, "2", 204, 96, "#b83a31");
   badge(ctx, "3", 432, 220, "#b47a1f");
@@ -4332,6 +4441,11 @@ function drawMWFormationSetup(ctx) {
   ctx.lineTo(704, 244);
   ctx.stroke();
   ctx.setLineDash([]);
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("trap", 206, 322);
+  ctx.fillText("nested 1H / 15M / 5M", 518, 320);
 
   badge(ctx, "1", 116, 92, "#b83a31");
   badge(ctx, "2", 258, 116, "#b47a1f");
