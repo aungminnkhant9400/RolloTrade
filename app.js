@@ -1800,6 +1800,194 @@ const lessons = [
     ],
   },
   {
+    id: "session-11-vwap-strategies",
+    title: "Session 11 - VWAP Strategies",
+    source: "YouTube breakdown - 20:22 - rollin rollo",
+    summary:
+      "Session 11 explains VWAP as the volume weighted average price: the area where the weight of traded volume sits and where larger players can transact. The lesson separates trending-up VWAP, trending-down VWAP, and flat rotational VWAP, then focuses on waiting for VWAP to develop, watching price move away, and using the first retest or rejection as the clue for continuation or a possible flip.",
+    tags: ["VWAP", "First retest", "Standard deviation", "NASDAQ"],
+    diagram: "vwap-strategies",
+    diagramLegend: [
+      {
+        title: "1. Let VWAP develop",
+        copy: "Use the opening hour to see whether VWAP is rising, falling, or rotating.",
+        tone: "blue",
+      },
+      {
+        title: "2. Avoid rotation",
+        copy: "Flat VWAP with sharp moves above and below it is a chop environment.",
+        tone: "red",
+      },
+      {
+        title: "3. Trade the retest",
+        copy: "After price moves away, the first return into VWAP gives the continuation clue.",
+        tone: "amber",
+      },
+      {
+        title: "4. Target the bands",
+        copy: "A clean hold or rejection can trade back toward the standard deviation ranges.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "VWAP needs direction",
+        copy: "The lesson says to focus on rising or falling VWAP. A flat rotational VWAP is usually a day to leave alone.",
+        tone: "blue",
+      },
+      {
+        title: "The first test matters",
+        copy: "After the market has had time to move away from VWAP, the first retest often reveals whether the original direction can continue.",
+        tone: "amber",
+      },
+      {
+        title: "The line is not enough",
+        copy: "Use vectors, standard deviations, POC, delta, value areas, and price behavior at VWAP before treating it as a trade.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Choose the VWAP you are studying",
+        copy: "The video names daily, weekly, monthly, yearly, quarterly, session, timed, and anchored VWAPs. For this strategy, focus on the session VWAP around the active market open.",
+      },
+      {
+        title: "Let the opening hour print",
+        copy: "For NASDAQ and the New York open, the lesson recommends using the five-minute chart and letting 9:30-10:30 AM ET complete so twelve candles shape the VWAP.",
+      },
+      {
+        title: "Classify the VWAP",
+        copy: "Put the day into one of three buckets: VWAP trending up, VWAP trending down, or VWAP rotating flat. Only the first two are preferred directional conditions.",
+      },
+      {
+        title: "Reject rotational chop",
+        copy: "If price keeps moving aggressively above VWAP and then aggressively back below it, the day is rotating. Do not force direction from that behavior.",
+      },
+      {
+        title: "Wait for price to move away",
+        copy: "The setup needs price to break away from VWAP first. Without separation, there is no meaningful retest to read.",
+      },
+      {
+        title: "Use the first retest as the clue",
+        copy: "When VWAP is rising, a pullback into VWAP that holds can support continuation higher. When VWAP is falling, a rally into VWAP that rejects can support continuation lower.",
+      },
+      {
+        title: "Read the standard deviation bands",
+        copy: "Price can trade from VWAP toward the +1, +1.5, and +2 bands, or the matching downside bands. A long stay outside the bands can also warn that a break back through VWAP may travel to the opposite side.",
+      },
+      {
+        title: "Confirm with commitment",
+        copy: "If vector candles break aggressively through VWAP and trade away from it, the original retest idea may be failing. Bring in POC, delta, value area high, and value area low when you use VWAP with order-flow tools.",
+      },
+    ],
+    checklist: [
+      "The active VWAP type is identified before the trade.",
+      "At least the first hour of the New York session has developed.",
+      "VWAP is clearly rising or clearly falling.",
+      "Price has moved away from VWAP before the setup is considered.",
+      "Rotational chop around VWAP is absent.",
+      "The first return into VWAP is marked.",
+      "The reaction at VWAP shows hold, rejection, or aggressive break-through behavior.",
+      "Standard deviation bands are mapped as targets or warning zones.",
+      "Vectors at the VWAP retest agree with the trade direction.",
+      "POC, delta, value area high, or value area low are checked if they are part of the chart layout.",
+    ],
+    drills: [
+      {
+        title: "VWAP type sort",
+        copy: "Review twenty New York sessions and label the VWAP as rising, falling, or rotational after the first hour. Record which days were worth trading.",
+      },
+      {
+        title: "First-retest study",
+        copy: "On the five-minute NASDAQ chart, collect examples where price moved away from VWAP and came back for the first test. Mark whether it held, rejected, or broke through.",
+      },
+      {
+        title: "Deviation-band replay",
+        copy: "Mark +1, +1.5, +2, -1, -1.5, and -2 deviation bands. Track when price bounces from VWAP toward the bands and when it breaks through VWAP toward the opposite range.",
+      },
+      {
+        title: "Rotation filter",
+        copy: "Build a folder of flat VWAP sessions where price repeatedly crossed both sides. Use it as a no-trade reference library.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Flat VWAP is the warning",
+        copy: "The instructor says rotational VWAP can be painful even for scalpers. Directional swing logic should stand aside in that condition.",
+      },
+      {
+        title: "Do not predict before development",
+        copy: "A VWAP that has not had time to form does not give enough information. The opening hour prevents guessing from the first few candles.",
+      },
+      {
+        title: "NASDAQ can break hard",
+        copy: "NASDAQ can aggressively bounce from VWAP or aggressively break through it. A retest is not automatically a reversal point.",
+      },
+      {
+        title: "Use vectors for failure",
+        copy: "If price hits VWAP and vector candles break through with speed, treat that as evidence the continuation idea may be invalid.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Defines VWAP as volume weighted average price and lists daily, weekly, monthly, yearly, quarterly, session, timed, and anchored VWAPs.",
+      },
+      {
+        time: "02:00",
+        copy: "Uses the portfolio-manager example to explain why institutional execution tries to buy and sell around better average prices.",
+      },
+      {
+        time: "04:40",
+        copy: "Introduces the three VWAP states: trending up, trending down, and rotational flat VWAP.",
+      },
+      {
+        time: "06:00",
+        copy: "Warns that rotational VWAP is usually a day to avoid because price chops above and below the average.",
+      },
+      {
+        time: "07:00",
+        copy: "Explains the practical transaction logic: buy around or below VWAP and sell above it when price is trending.",
+      },
+      {
+        time: "09:00",
+        copy: "Connects rising and falling VWAP to repeated dip buys, rally sells, and continuation behavior.",
+      },
+      {
+        time: "10:45",
+        copy: "Adds VWAP standard deviation bands: +1, +1.5, +2 and the matching downside ranges.",
+      },
+      {
+        time: "12:00",
+        copy: "Frames the first retrace into VWAP after price moves away as the clue for what the rest of the session may do.",
+      },
+      {
+        time: "13:00",
+        copy: "Compares VWAP to a moving average and says vectors appearing inside the VWAP area can help decide whether continuation is likely.",
+      },
+      {
+        time: "14:00",
+        copy: "Highlights NASDAQ behavior: strong moves can leave a wide gap from VWAP, then snap back hard to test it.",
+      },
+      {
+        time: "16:00",
+        copy: "Gives the practical timing rule: wait for the first hour, preferably on the five-minute chart, before reading VWAP direction.",
+      },
+      {
+        time: "17:00",
+        copy: "Defines rotation as aggressive moves above VWAP followed by aggressive moves below it, then warns to stay away.",
+      },
+      {
+        time: "18:00",
+        copy: "Restates that VWAP is significant because it is where larger players commonly transact, but the line itself is not a complete trade system.",
+      },
+      {
+        time: "19:00",
+        copy: "Explains that vector candles breaking aggressively through VWAP can identify failure and notes POC, delta, value area high, and value area low as related tools.",
+      },
+    ],
+  },
+  {
     id: "session-22-new-york-reversal",
     title: "Session 22 - Trading New York Reversal",
     source: "YouTube breakdown - 27:38 - rollin rollo",
@@ -2150,7 +2338,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-10-whole-half-numbers";
+const defaultLessonId = "session-11-vwap-strategies";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -2297,6 +2485,8 @@ function drawSetup() {
     drawPriceCycleSetup(ctx);
   } else if (activeLesson.diagram === "whole-half-numbers") {
     drawWholeHalfNumbersSetup(ctx);
+  } else if (activeLesson.diagram === "vwap-strategies") {
+    drawVwapStrategiesSetup(ctx);
   } else if (activeLesson.diagram === "new-york-reversal") {
     drawNewYorkReversalSetup(ctx);
   } else if (activeLesson.diagram === "m-w-formation") {
@@ -2539,6 +2729,90 @@ function drawWholeHalfNumbersSetup(ctx) {
   badge(ctx, "2", 304, 92, "#b47a1f");
   badge(ctx, "3", 520, 202, "#b83a31");
   badge(ctx, "4", 174, 332, "#217a55");
+}
+
+function drawVwapStrategiesSetup(ctx) {
+  const bands = [
+    { y: 74, label: "+2 dev", color: "#217a55" },
+    { y: 130, label: "+1 dev", color: "#217a55" },
+    { y: 214, label: "VWAP", color: "#2a66a2" },
+    { y: 298, label: "-1 dev", color: "#b83a31" },
+    { y: 354, label: "-2 dev", color: "#b83a31" },
+  ];
+
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  for (const band of bands) {
+    ctx.strokeStyle = band.color;
+    ctx.beginPath();
+    ctx.moveTo(58, band.y);
+    ctx.lineTo(704, band.y);
+    ctx.stroke();
+    ctx.fillStyle = band.color;
+    ctx.font = "800 15px Inter, ui-sans-serif, system-ui, sans-serif";
+    ctx.fillText(band.label, 616, band.y - 10);
+  }
+  ctx.setLineDash([]);
+
+  ctx.strokeStyle = "#2a66a2";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(72, 282);
+  ctx.bezierCurveTo(190, 252, 304, 226, 418, 190);
+  ctx.bezierCurveTo(520, 158, 604, 138, 690, 122);
+  ctx.stroke();
+
+  drawZone(ctx, 82, 222, 128, 88, "#b47a1f");
+  drawZone(ctx, 420, 146, 124, 82, "#217a55");
+  drawZone(ctx, 126, 326, 144, 54, "#b83a31");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(78, 292);
+  ctx.lineTo(136, 246);
+  ctx.lineTo(196, 188);
+  ctx.lineTo(264, 136);
+  ctx.lineTo(328, 92);
+  ctx.lineTo(386, 128);
+  ctx.lineTo(454, 184);
+  ctx.lineTo(520, 154);
+  ctx.lineTo(604, 102);
+  ctx.lineTo(686, 78);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(454, 184);
+  ctx.lineTo(520, 154);
+  ctx.lineTo(604, 102);
+  ctx.stroke();
+
+  drawCandle(ctx, 296, 96, 40, 90, "#217a55");
+  drawCandle(ctx, 444, 154, 40, 86, "#b47a1f");
+  drawCandle(ctx, 548, 106, 40, 94, "#217a55");
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(136, 352);
+  ctx.lineTo(166, 332);
+  ctx.lineTo(204, 370);
+  ctx.lineTo(242, 342);
+  ctx.stroke();
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("first hour", 104, 214);
+  ctx.fillText("move away", 272, 78);
+  ctx.fillText("first VWAP retest", 404, 246);
+  ctx.fillText("flat VWAP = rotation", 110, 400);
+
+  badge(ctx, "1", 112, 244, "#2a66a2");
+  badge(ctx, "2", 210, 350, "#b83a31");
+  badge(ctx, "3", 476, 186, "#b47a1f");
+  badge(ctx, "4", 620, 102, "#217a55");
 }
 
 function drawVShapeSetup(ctx) {

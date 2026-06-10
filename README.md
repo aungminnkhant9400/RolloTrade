@@ -17,6 +17,7 @@ timestamp maps, and practice drills.
 - Session 8 - The Block Trade Principle
 - Session 9 - Trading The First Green Vector
 - Session 10 - The Importance Of Whole/Half Numbers
+- Session 11 - VWAP Strategies
 - Session 22 - Trading New York Reversal
 
 ## Local Use
