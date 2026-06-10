@@ -516,6 +516,241 @@ const lessons = [
     ],
   },
   {
+    id: "session-14-how-to-use-macro-data-to-trade",
+    title: "Session 14 - How To Use Macro Data To Trade",
+    source: "YouTube breakdown - 49:54 - rollin rollo",
+    summary:
+      "Session 14 explains how to turn macroeconomic data into a trading narrative. The lesson starts with the calendar, separates labor, economy, and inflation releases, then asks how the data changes interest-rate expectations, dollar strength, bond demand, tech-equity risk, FX pairs, carry trades, and gold before using price action to execute.",
+    tags: ["Macro data", "Interest rates", "Dollar", "Risk assets"],
+    diagram: "macro-data-flow",
+    diagramLegend: [
+      {
+        title: "1. Data release",
+        copy: "Classify the release: labor, economy, inflation, central-bank rate path, or geopolitical risk.",
+        tone: "blue",
+      },
+      {
+        title: "2. Rate expectation",
+        copy: "Ask whether the data makes cuts more likely, less likely, or keeps rates higher for longer.",
+        tone: "amber",
+      },
+      {
+        title: "3. Asset translation",
+        copy: "Map the rate story into dollar, bonds, NASDAQ, FX pairs, yen carry trade, and gold.",
+        tone: "red",
+      },
+      {
+        title: "4. Trade bias",
+        copy: "Use the macro story as bias, then require chart behavior before taking the trade.",
+        tone: "green",
+      },
+    ],
+    quickCards: [
+      {
+        title: "Good news can be bad",
+        copy: "In a rate-cut environment, strong jobs, strong ISM, or sticky inflation can be bad for risk assets because it reduces the chance of cuts.",
+        tone: "amber",
+      },
+      {
+        title: "Rates drive the story",
+        copy: "The lesson keeps returning to one question: does the data make investors want dollars, bonds, equities, FX alternatives, or gold?",
+        tone: "blue",
+      },
+      {
+        title: "Bias is not an entry",
+        copy: "Macro gives the directional story. The actual trade still needs price action, vectors, levels, and the hybrid-system context.",
+        tone: "red",
+      },
+    ],
+    steps: [
+      {
+        title: "Start with the economic calendar",
+        copy: "Before trading, check what data is due. Sort the releases into labor data, economy/activity data, inflation data, central-bank rate context, or geopolitical drivers.",
+      },
+      {
+        title: "Classify labor data",
+        copy: "For the jobs market, watch unemployment rate, non-farm payrolls, JOLTS job openings, ADP non-farm, and average hourly earnings. The data tells you whether the labor market is strong or weakening.",
+      },
+      {
+        title: "Classify economy data",
+        copy: "For the economy, watch flash manufacturing, flash services, and ISM-style activity readings. Above 50 means expansion; below 50 means contraction, but the market cares most about what that means for rates.",
+      },
+      {
+        title: "Classify inflation data",
+        copy: "For inflation, focus on CPI, core CPI month-on-month, PPI, and year-on-year pressure. Sticky inflation can keep rates high even when traders want cuts.",
+      },
+      {
+        title: "Tie each release to the native currency",
+        copy: "US data first impacts the dollar. Euro data first impacts the euro. UK data first impacts pound. Then compare that currency against the dollar index and other currencies.",
+      },
+      {
+        title: "Place the release inside the rate cycle",
+        copy: "Do not read good or bad data in isolation. If investors want rate cuts, strong jobs or sticky inflation may hurt equities because it argues for higher-for-longer rates.",
+      },
+      {
+        title: "Translate the rate path into assets",
+        copy: "Higher dollar yields can pull money toward dollars and bonds. That can pressure NASDAQ and other tech assets because high rates raise the cost of doing business.",
+      },
+      {
+        title: "Read FX through relative yield",
+        copy: "Compare dollar rates with euro, pound, yen, and other currencies. A low-yield currency can weaken against a high-yield currency unless expectations change.",
+      },
+      {
+        title: "Respect the yen carry trade",
+        copy: "When Japanese rates are very low, investors may borrow yen, sell it for dollars, and buy tech or US debt. If Japan raises rates, that carry trade can unwind and pressure risk assets.",
+      },
+      {
+        title: "Use gold as a macro signal",
+        copy: "Gold can rise on geopolitical tension, rate-cut expectations, or hedging demand. Consolidation in gold can show hedges being built before a future event.",
+      },
+      {
+        title: "Convert narrative into daily bias",
+        copy: "After building the macro story, decide whether you are favoring tech longs, tech shorts, dollar strength, dollar weakness, FX alternatives, bonds, or gold.",
+      },
+      {
+        title: "Let the chart confirm",
+        copy: "Only after the macro path is clear do you use price action: vectors, levels, moving averages, session context, and hybrid-system signals to plan the actual trade.",
+      },
+    ],
+    checklist: [
+      "The economic calendar has been checked before the session.",
+      "Each important release is classified as labor, economy, inflation, central-bank, or geopolitical.",
+      "The native currency affected by the release is identified.",
+      "Current interest-rate levels are known.",
+      "The market expectation for cuts, holds, or hikes is written down.",
+      "The data is judged relative to that rate expectation.",
+      "Dollar direction and dollar-index context are checked.",
+      "Bond-market direction is checked against equity behavior.",
+      "NASDAQ and tech-stock sensitivity to rates is considered.",
+      "FX pairs are reviewed through relative yield and dollar weighting.",
+      "Yen carry-trade risk is considered when Japan rates or yen strength matter.",
+      "Gold is checked for rate-cut, tension, or hedge-building context.",
+      "The final trade idea has chart confirmation, not macro bias alone.",
+    ],
+    drills: [
+      {
+        title: "Calendar classification drill",
+        copy: "For the next four trading weeks, list every major release and label it labor, economy, inflation, central-bank, or geopolitical before the data comes out.",
+      },
+      {
+        title: "Good-news bad-news journal",
+        copy: "Track days where strong US data hurt NASDAQ or supported the dollar because rate cuts became less likely. Record the release, dollar reaction, bond reaction, and equity reaction.",
+      },
+      {
+        title: "Asset translation map",
+        copy: "Pick one release and write the path from data to rates, rates to dollar/yields, dollar/yields to NASDAQ, FX, bonds, and gold.",
+      },
+      {
+        title: "Carry-trade replay",
+        copy: "Review the yen carry-trade unwind example and any session where yen strength coincided with tech weakness. Note what happened to dollar, bonds, and NASDAQ.",
+      },
+      {
+        title: "Macro-to-chart drill",
+        copy: "Build a macro bias before opening the chart, then only mark trades where vectors and levels confirmed the bias. Compare bias-only ideas with confirmed ideas.",
+      },
+    ],
+    riskNotes: [
+      {
+        title: "Definitions are not enough",
+        copy: "Knowing what CPI, ISM, or NFP means is not the edge. The edge is understanding what investors do with the data in the current rate environment.",
+      },
+      {
+        title: "Macro regimes change",
+        copy: "The same strong jobs number can mean different things depending on whether the market wants rate cuts, fears inflation, or expects higher-for-longer policy.",
+      },
+      {
+        title: "Do not chase the release",
+        copy: "Fast news candles can mislead. Wait for the macro story to align with price action and for the chart to show where value is being accepted or rejected.",
+      },
+      {
+        title: "One asset does not tell the whole story",
+        copy: "NASDAQ, dollar, bonds, euro, yen, pound, and gold each show a piece of the investor-value story. Avoid building bias from only one chart.",
+      },
+    ],
+    timeline: [
+      {
+        time: "00:00",
+        copy: "Introduces the goal: understand macro data by what it impacts and what investors do with it, not just textbook definitions.",
+      },
+      {
+        time: "01:00",
+        copy: "Starts with labor data: unemployment rate, non-farm payrolls, JOLTS job openings, ADP non-farm, and average hourly earnings.",
+      },
+      {
+        time: "04:00",
+        copy: "Explains that US jobs data first impacts the US dollar, but the current rate-cut environment can invert the normal reaction.",
+      },
+      {
+        time: "06:00",
+        copy: "Explains why a lower unemployment rate can reduce rate-cut odds and keep investors in dollars when yields remain attractive.",
+      },
+      {
+        time: "10:00",
+        copy: "Connects high rates to tech-equity pressure because companies such as large tech names are sensitive to borrowing costs and yields.",
+      },
+      {
+        time: "11:00",
+        copy: "Moves into economy data: flash manufacturing, flash services, ISM, and the expansion/contraction threshold around 50.",
+      },
+      {
+        time: "15:00",
+        copy: "Introduces inflation data: core CPI, PPI, month-on-month CPI, year-on-year CPI, and sticky inflation pressure.",
+      },
+      {
+        time: "18:00",
+        copy: "Summarizes the current regime as good news can be bad news, while bad news can be good news, because the rate path dominates.",
+      },
+      {
+        time: "21:00",
+        copy: "Explains the dollar index composition, led mainly by euro, then yen and pound, with smaller currency weights behind them.",
+      },
+      {
+        time: "24:00",
+        copy: "Shifts from definitions into process: use the calendar to know what is being released, then ask where the traded asset sits in the macro story.",
+      },
+      {
+        time: "26:00",
+        copy: "Builds a NASDAQ example using tech-market location, interest rates, inflation, available jobs data, and missing shutdown-delayed data.",
+      },
+      {
+        time: "28:00",
+        copy: "Adds bond-market behavior: if bonds rise while NASDAQ falls, investors may be choosing lower risk over tech risk.",
+      },
+      {
+        time: "30:00",
+        copy: "Builds the FX example from dollar dominance, dollar depreciation/appreciation, and relative expectations for euro, pound, and yen.",
+      },
+      {
+        time: "35:00",
+        copy: "Explains the yen carry trade: borrow cheap yen, sell for dollars, buy tech or US debt, then unwind if Japan raises rates.",
+      },
+      {
+        time: "38:00",
+        copy: "Restates the macro process as a question of future value: where will investors perceive value after the data?",
+      },
+      {
+        time: "41:00",
+        copy: "Mentions stock-bond ratio as another metric for judging whether stocks are overvalued relative to bonds.",
+      },
+      {
+        time: "42:00",
+        copy: "Introduces gold: geopolitical tension, rate-cut expectations, and hedging demand can all support gold.",
+      },
+      {
+        time: "45:00",
+        copy: "Explains gold consolidation as hedge-building before future events, not only a simple reaction after headlines.",
+      },
+      {
+        time: "47:00",
+        copy: "Wraps the process: know the data, translate it through rates and value, then decide whether assets should appreciate or depreciate.",
+      },
+      {
+        time: "49:00",
+        copy: "Final takeaway: trading is about interpreting the perceived value of many market participants, not just asking if Bitcoin is up or down.",
+      },
+    ],
+  },
+  {
     id: "session-2-trading-confluences",
     title: "Session 2 - Trading Confluences",
     source: "YouTube breakdown - 13:49 - rollin rollo",
@@ -2338,7 +2573,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-13-how-to-trade-psychological-level";
+const defaultLessonId = "session-14-how-to-use-macro-data-to-trade";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 
@@ -2495,6 +2730,8 @@ function drawSetup() {
     drawVectorCandleFlowSetup(ctx);
   } else if (activeLesson.diagram === "psychological-level") {
     drawPsychologicalLevelSetup(ctx);
+  } else if (activeLesson.diagram === "macro-data-flow") {
+    drawMacroDataFlowSetup(ctx);
   } else if (activeLesson.diagram === "brink-box-recovery") {
     drawBrinkBoxRecoverySetup(ctx);
   } else if (activeLesson.diagram === "brink-box") {
@@ -2813,6 +3050,89 @@ function drawVwapStrategiesSetup(ctx) {
   badge(ctx, "2", 210, 350, "#b83a31");
   badge(ctx, "3", 476, 186, "#b47a1f");
   badge(ctx, "4", 620, 102, "#217a55");
+}
+
+function drawMacroDataFlowSetup(ctx) {
+  ctx.strokeStyle = "rgba(23, 27, 31, 0.28)";
+  ctx.lineWidth = 2;
+  ctx.setLineDash([8, 8]);
+  ctx.beginPath();
+  ctx.moveTo(54, 214);
+  ctx.lineTo(704, 214);
+  ctx.moveTo(230, 62);
+  ctx.lineTo(230, 360);
+  ctx.moveTo(426, 62);
+  ctx.lineTo(426, 360);
+  ctx.stroke();
+  ctx.setLineDash([]);
+
+  drawZone(ctx, 72, 88, 128, 70, "#2a66a2");
+  drawZone(ctx, 72, 176, 128, 70, "#2a66a2");
+  drawZone(ctx, 72, 264, 128, 70, "#2a66a2");
+
+  drawZone(ctx, 278, 112, 112, 82, "#b47a1f");
+  drawZone(ctx, 278, 230, 112, 82, "#b47a1f");
+
+  drawZone(ctx, 478, 80, 138, 76, "#b83a31");
+  drawZone(ctx, 478, 174, 138, 76, "#b83a31");
+  drawZone(ctx, 478, 268, 138, 76, "#217a55");
+
+  ctx.strokeStyle = "#171b1f";
+  ctx.lineWidth = 4;
+  ctx.beginPath();
+  ctx.moveTo(200, 123);
+  ctx.lineTo(278, 152);
+  ctx.moveTo(200, 211);
+  ctx.lineTo(278, 152);
+  ctx.moveTo(200, 299);
+  ctx.lineTo(278, 271);
+  ctx.moveTo(390, 152);
+  ctx.lineTo(478, 118);
+  ctx.moveTo(390, 152);
+  ctx.lineTo(478, 212);
+  ctx.moveTo(390, 271);
+  ctx.lineTo(478, 306);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#217a55";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(616, 306);
+  ctx.lineTo(688, 222);
+  ctx.stroke();
+
+  ctx.strokeStyle = "#b83a31";
+  ctx.lineWidth = 5;
+  ctx.beginPath();
+  ctx.moveTo(616, 118);
+  ctx.lineTo(690, 182);
+  ctx.stroke();
+
+  ctx.fillStyle = "#171b1f";
+  ctx.font = "800 16px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillText("Jobs", 112, 128);
+  ctx.fillText("ISM", 114, 216);
+  ctx.fillText("CPI", 116, 304);
+  ctx.fillText("Cuts?", 314, 146);
+  ctx.fillText("Hold?", 312, 264);
+  ctx.fillText("Dollar", 520, 124);
+  ctx.fillText("NASDAQ", 510, 218);
+  ctx.fillText("Gold / bonds", 496, 312);
+
+  ctx.font = "700 14px Inter, ui-sans-serif, system-ui, sans-serif";
+  ctx.fillStyle = "#2a66a2";
+  ctx.fillText("data", 116, 72);
+  ctx.fillStyle = "#b47a1f";
+  ctx.fillText("rate path", 294, 72);
+  ctx.fillStyle = "#b83a31";
+  ctx.fillText("asset response", 486, 62);
+  ctx.fillStyle = "#217a55";
+  ctx.fillText("bias after chart confirms", 526, 370);
+
+  badge(ctx, "1", 68, 72, "#2a66a2");
+  badge(ctx, "2", 278, 76, "#b47a1f");
+  badge(ctx, "3", 478, 62, "#b83a31");
+  badge(ctx, "4", 692, 222, "#217a55");
 }
 
 function drawVShapeSetup(ctx) {

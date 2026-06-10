@@ -18,6 +18,7 @@ timestamp maps, and practice drills.
 - Session 10 - The Importance Of Whole/Half Numbers
 - Session 11 - VWAP Strategies
 - Session 13 - How To Trade Psychological Level
+- Session 14 - How To Use Macro Data To Trade
 - Session 22 - Trading New York Reversal
 
 ## Local Use
