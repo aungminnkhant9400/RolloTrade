@@ -344,12 +344,12 @@ const lessons = [
     ],
   },
   {
-    id: "psychological-level",
-    title: "Psychological Level",
+    id: "session-13-how-to-trade-psychological-level",
+    title: "Session 13 - How To Trade Psychological Level",
     source: "YouTube breakdown - 30:29 - rollin rollo",
     summary:
-      "Psychological levels are the first high and first low formed at the start of the crypto trading week. Treat them as a weekly value range: watch how price breaks, retests, accepts, or rejects the range, then use vector candles to judge whether the move is real or a trap.",
-    tags: ["Psychological levels", "Weekly range", "First high/low", "Vector reaction"],
+      "Session 13 explains SI psychological levels as the first high and first low formed at the start of the crypto trading week. Treat them as a weekly value range: watch how price breaks, retests, accepts, or rejects the range, then use vector candles, stopping volume, and time spent outside the range to judge whether the move is real or a trap.",
+    tags: ["Psychological levels", "Weekly range", "SI levels", "Vector reaction"],
     diagram: "psychological-level",
     diagramLegend: [
       {
@@ -2338,7 +2338,7 @@ const lessons = [
 ];
 
 const sortedLessons = [...lessons].sort((a, b) => getSessionNumber(a) - getSessionNumber(b));
-const defaultLessonId = "session-11-vwap-strategies";
+const defaultLessonId = "session-13-how-to-trade-psychological-level";
 
 let activeLesson = sortedLessons.find((lesson) => lesson.id === defaultLessonId) || sortedLessons[0];
 

@@ -8,7 +8,6 @@ timestamp maps, and practice drills.
 
 - Brink Box Part 2
 - Brink Box Part 1
-- Psychological Level
 - Session 2 - Trading Confluences
 - Session 3 - How To Read Vector Candles
 - Session 5 - Trading M & W Formations
@@ -18,6 +17,7 @@ timestamp maps, and practice drills.
 - Session 9 - Trading The First Green Vector
 - Session 10 - The Importance Of Whole/Half Numbers
 - Session 11 - VWAP Strategies
+- Session 13 - How To Trade Psychological Level
 - Session 22 - Trading New York Reversal
 
 ## Local Use
