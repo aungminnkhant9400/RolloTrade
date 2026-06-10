@@ -346,7 +346,7 @@ const lessons = [
   {
     id: "session-12-how-to-trade-stopping-volume-candles",
     title: "Session 12 - How To Trade Stopping Volume Candles",
-    source: "YouTube breakdown - 28:40 - rollin rollo",
+    source: "YouTube transcript + visual audit - 28:40 - rollin rollo",
     summary:
       "Session 12 explains stopping volume candles as vector candles that develop into rejection candles at significant highs, lows, or range edges. The lesson frames them as climatic trap candles: market maker absorbs late sellers into a move down or late buyers into a move up, creates a wick, then moves price away from that zone when enough liquidity has been captured.",
     tags: ["Stopping volume", "Vector candles", "Liquidity trap", "Reversal clue"],
@@ -416,6 +416,10 @@ const lessons = [
         copy: "Do not assume every stopping volume candle is the final high or low. Ask whether it appeared after markdown, after markup, inside a range, after news, or halfway through a trend.",
       },
       {
+        title: "Run the visual four-question check",
+        copy: "From the chart, ask where the candle appears, what environment it came from, whether multiple candles are clustering, and whether the candle spread plus the speed away from the wick show intention.",
+      },
+      {
         title: "Respect size and clustering",
         copy: "A larger stopping volume candle implies stronger manipulation. Multiple candles clustered together can mark repeated attempts to stop or reverse the move.",
       },
@@ -439,6 +443,7 @@ const lessons = [
       "The prior move is identified as markup, markdown, range, or news-driven movement.",
       "Late traders are likely chasing in the wrong direction.",
       "The candle size is large enough to be impressionable.",
+      "The candle spread is compared with the surrounding candles.",
       "Any nearby cluster of stopping volume candles is marked.",
       "Price shows movement away from the wick before the trade is trusted.",
       "The wick zone and invalidation are marked.",
@@ -543,7 +548,7 @@ const lessons = [
       },
       {
         time: "22:00",
-        copy: "Adds journal fields: prior environment, whether candles cluster, candle size, and whether they came after markup or markdown.",
+        copy: "Adds the visual journal fields: where the candle appears, what environment came before it, whether candles cluster, and how large the spread is.",
       },
       {
         time: "24:00",
@@ -566,7 +571,7 @@ const lessons = [
   {
     id: "session-13-how-to-trade-psychological-level",
     title: "Session 13 - How To Trade Psychological Level",
-    source: "YouTube breakdown - 30:29 - rollin rollo",
+    source: "YouTube transcript + visual audit - 30:29 - rollin rollo",
     summary:
       "Session 13 explains SI psychological levels as the first high and first low formed at the start of the crypto trading week. Treat them as a weekly value range: watch how price breaks, retests, accepts, or rejects the range, then use vector candles, stopping volume, and time spent outside the range to judge whether the move is real or a trap.",
     tags: ["Psychological levels", "Weekly range", "SI levels", "Vector reaction"],
@@ -609,6 +614,11 @@ const lessons = [
         copy: "The candle reaction at the psychological high or low is the clue. No activity at the level means no action.",
         tone: "green",
       },
+      {
+        title: "Ask who is building",
+        copy: "The whiteboard examples keep returning to whether buyers or sellers are building inside, above, or below the early-week range.",
+        tone: "amber",
+      },
     ],
     steps: [
       {
@@ -622,6 +632,10 @@ const lessons = [
       {
         title: "Watch the first break",
         copy: "If price breaks above the psychological high or below the psychological low, do not chase. The first break only shows where price is testing value.",
+      },
+      {
+        title: "Ask who is building",
+        copy: "Inside the range, note whether money is building quietly between the two lines. Outside the range, ask whether the break is accepted or only a stop run before price returns inside.",
       },
       {
         title: "Measure time spent outside",
@@ -649,6 +663,7 @@ const lessons = [
       "The psychological high and low remain fixed on the chart.",
       "Monday Asia or the early-week range has developed.",
       "Price has broken above, broken below, or returned into the range.",
+      "The build is classified as inside the range, above the high, or below the low.",
       "Time spent outside the range is observed.",
       "The first retest of the high or low is identified.",
       "Vector candles appear at the psychological high or low.",
@@ -731,14 +746,14 @@ const lessons = [
       },
       {
         time: "28:00",
-        copy: "Final rule: less time above the high favors downside failure; less time below the low favors upside failure.",
+        copy: "Final rule: ask who is building, then use time above the high or below the low to judge whether the break is accepted or likely to fail.",
       },
     ],
   },
   {
     id: "session-14-how-to-use-macro-data-to-trade",
     title: "Session 14 - How To Use Macro Data To Trade",
-    source: "YouTube breakdown - 49:54 - rollin rollo",
+    source: "YouTube transcript + visual audit - 49:54 - rollin rollo",
     summary:
       "Session 14 explains how to turn macroeconomic data into a trading narrative. The lesson starts with the calendar, separates labor, economy, and inflation releases, then asks how the data changes interest-rate expectations, dollar strength, bond demand, tech-equity risk, FX pairs, carry trades, and gold before using price action to execute.",
     tags: ["Macro data", "Interest rates", "Dollar", "Risk assets"],
@@ -973,7 +988,7 @@ const lessons = [
   {
     id: "session-15-orderflow-and-vectors",
     title: "Session 15 - Orderflow And Vectors",
-    source: "YouTube breakdown - 1:08:16 - rollin rollo",
+    source: "YouTube transcript + visual audit - 1:08:16 - rollin rollo",
     summary:
       "Session 15 turns orderflow into a practical structure-and-sentiment framework. The lesson uses volume profile, value area high, value area low, point of control, Brinks/New York liquidity, delta, and vectors to judge whether traders are trapped at premium or discount instead of treating positive delta as an automatic buy or negative delta as an automatic sell.",
     tags: ["Orderflow", "Delta", "Value area", "Vectors"],
@@ -1051,6 +1066,10 @@ const lessons = [
         copy: "At VAL, red vectors and heavy negative delta can show market-maker markdown into seller pressure. The recovery idea strengthens when delta flips positive and green vectors push price back up.",
       },
       {
+        title: "Match the sketch to the platform",
+        copy: "Use the drawn VAH/POC/VAL map as the clean model, then confirm it on the platform view with TPO/volume profile, delta ladder, and footprint stats before reading the trap.",
+      },
+      {
         title: "Know the normal delta for the asset",
         copy: "A big delta reading depends on the instrument and timeframe. The lesson compares Bitcoin and NASDAQ and notes a NASDAQ example near -2.8K delta with roughly 60K volume on a five-minute candle.",
       },
@@ -1078,6 +1097,7 @@ const lessons = [
       "At VAH, positive delta and green vectors are checked for trapped buyers.",
       "At VAL, negative delta and red vectors are checked for trapped sellers.",
       "The next candle or sequence confirms a delta flip or failure to continue.",
+      "The platform profile or footprint view agrees with the marked VAH, VAL, POC, and delta read.",
       "The 50% midpoint or vector midpoint is checked for inventory reset.",
       "News and session context are considered before trusting the setup.",
       "The trade has price-action confirmation after the orderflow clue.",
@@ -1154,7 +1174,7 @@ const lessons = [
       },
       {
         time: "21:00",
-        copy: "Reviews Exo Charts tools such as TPO volume profile, delta ladder profile, and footprint stats.",
+        copy: "Shows the platform view and reviews Exo Charts tools such as TPO volume profile, delta ladder profile, and footprint stats.",
       },
       {
         time: "24:00",
@@ -1193,7 +1213,7 @@ const lessons = [
   {
     id: "session-2-trading-confluences",
     title: "Session 2 - Trading Confluences",
-    source: "YouTube breakdown - 13:49 - rollin rollo",
+    source: "YouTube transcript + visual audit - 13:49 - rollin rollo",
     summary:
       "Session 2 defines confluence as weighted evidence that helps a trader react. The lesson stacks signals such as 5/13 EMA compression, EMA crossover, vector candles, session high/low behavior, macro candles, and optional indicators, then warns that confluence should not become a reason to hesitate after the setup is already clear.",
     tags: ["Confluence", "5/13 EMA", "Vector candles", "Session levels"],
@@ -1268,7 +1288,7 @@ const lessons = [
       },
       {
         title: "React when the stack is enough",
-        copy: "Once the planned confluences align, execute from the reaction point. Do not keep searching for more evidence after the trade condition is already active.",
+        copy: "Once the planned confluences align, execute from the reaction point. The whiteboard sequence is simple: count the useful clues, then react instead of searching for a fourth or fifth reason.",
       },
     ],
     checklist: [
@@ -1366,7 +1386,7 @@ const lessons = [
       },
       {
         time: "11:25",
-        copy: "Warns that traders can search for one confluence too many and fail to react.",
+        copy: "Warns that traders can search for one confluence too many and fail to react after the whiteboard stack is already complete.",
       },
       {
         time: "12:04",
@@ -1721,7 +1741,7 @@ const lessons = [
   {
     id: "session-7-identifying-price-cycle",
     title: "Session 7 - Identifying The Cycle Of Price",
-    source: "YouTube breakdown - 31:04 - rollin rollo",
+    source: "YouTube transcript + visual audit - 31:04 - rollin rollo",
     summary:
       "Session 7 explains the market-maker price cycle as a repeating map: W formation, rise, retrace into level one, rise into level two, rise into level three, then M formation and the same logic back down. The practical lesson is not to predict every full cycle, but to identify the W peak formation, mark the first level, wait for a real breakout, and manage risk because levels can last much longer than expected.",
     tags: ["Price cycle", "W formation", "Level one", "Breakout validation"],
@@ -2269,7 +2289,7 @@ const lessons = [
   {
     id: "session-10-whole-half-numbers",
     title: "Session 10 - The Importance Of Whole/Half Numbers",
-    source: "YouTube breakdown - 21:17 - rollin rollo",
+    source: "YouTube transcript + visual audit - 21:17 - rollin rollo",
     summary:
       "Session 10 explains whole and half numbers as psychological price magnets where liquidity concentrates. The lesson frames round numbers such as 100K on Bitcoin, forex handles like 1.1400/1.1450/1.1500, and futures handles as areas where market makers can build shorts above key levels, build longs below key levels, and then reveal intention through fast vector breaks away from the range.",
     tags: ["Whole numbers", "Half numbers", "Psychological levels", "Liquidity"],
@@ -2320,7 +2340,7 @@ const lessons = [
       },
       {
         title: "Separate whole, half, and quarter levels",
-        copy: "Whole and half numbers carry the most weight. Quarter numbers can matter, but the lesson says most activity is around whole and half levels.",
+        copy: "Whole and half numbers carry the most weight. Quarter numbers can matter as a secondary ladder, like 151.25, 151.50, 152.75, and 153.00, but the lesson says most activity is around whole and half levels.",
       },
       {
         title: "Read where price came from",
@@ -2426,7 +2446,7 @@ const lessons = [
       },
       {
         time: "07:15",
-        copy: "References futures handles and how price moves around whole, half, and quarter increments.",
+        copy: "References futures handles and writes a quarter-step ladder, showing how price can move around whole, half, and quarter increments.",
       },
       {
         time: "08:20",
@@ -2477,7 +2497,7 @@ const lessons = [
   {
     id: "session-11-vwap-strategies",
     title: "Session 11 - VWAP Strategies",
-    source: "YouTube breakdown - 20:22 - rollin rollo",
+    source: "YouTube transcript + visual audit - 20:22 - rollin rollo",
     summary:
       "Session 11 explains VWAP as the volume weighted average price: the area where the weight of traded volume sits and where larger players can transact. The lesson separates trending-up VWAP, trending-down VWAP, and flat rotational VWAP, then focuses on waiting for VWAP to develop, watching price move away, and using the first retest or rejection as the clue for continuation or a possible flip.",
     tags: ["VWAP", "First retest", "Standard deviation", "NASDAQ"],
@@ -2548,7 +2568,7 @@ const lessons = [
       },
       {
         title: "Read the standard deviation bands",
-        copy: "Price can trade from VWAP toward the +1, +1.5, and +2 bands, or the matching downside bands. A long stay outside the bands can also warn that a break back through VWAP may travel to the opposite side.",
+        copy: "Price can trade from VWAP toward the +1, +1.5, and +2 bands, or the matching downside bands. The visual model draws the bands like a widening fan around price, and a long stay outside the fan can warn that a break back through VWAP may travel to the opposite side.",
       },
       {
         title: "Confirm with commitment",
@@ -2563,7 +2583,7 @@ const lessons = [
       "Rotational chop around VWAP is absent.",
       "The first return into VWAP is marked.",
       "The reaction at VWAP shows hold, rejection, or aggressive break-through behavior.",
-      "Standard deviation bands are mapped as targets or warning zones.",
+      "Standard deviation bands or the widening VWAP fan are mapped as targets or warning zones.",
       "Vectors at the VWAP retest agree with the trade direction.",
       "POC, delta, value area high, or value area low are checked if they are part of the chart layout.",
     ],
@@ -2634,7 +2654,7 @@ const lessons = [
       },
       {
         time: "12:00",
-        copy: "Frames the first retrace into VWAP after price moves away as the clue for what the rest of the session may do.",
+        copy: "Frames the first retrace into VWAP after price moves away inside the wider band fan as the clue for what the rest of the session may do.",
       },
       {
         time: "13:00",
@@ -3394,6 +3414,7 @@ function drawWholeHalfNumbersSetup(ctx) {
   ctx.fillText("build above", 262, 76);
   ctx.fillText("break with speed", 502, 166);
   ctx.fillText("next key number", 586, 340);
+  ctx.fillText("quarters = secondary", 420, 58);
 
   ctx.strokeStyle = "#217a55";
   ctx.lineWidth = 3;
@@ -3488,6 +3509,7 @@ function drawVwapStrategiesSetup(ctx) {
   ctx.fillText("first hour", 104, 214);
   ctx.fillText("move away", 272, 78);
   ctx.fillText("first VWAP retest", 404, 246);
+  ctx.fillText("deviation fan", 518, 382);
   ctx.fillText("flat VWAP = rotation", 110, 400);
 
   badge(ctx, "1", 112, 244, "#2a66a2");
@@ -4128,6 +4150,8 @@ function drawStoppingVolumeCandleSetup(ctx) {
   ctx.font = "700 16px Inter, ui-sans-serif, system-ui, sans-serif";
   ctx.fillText("late longs", 96, 58);
   ctx.fillText("late shorts", 90, 370);
+  ctx.fillText("environment first", 86, 202);
+  ctx.fillText("cluster + spread", 382, 370);
   ctx.fillText("wick = trap", 280, 392);
   ctx.fillText("movement away", 540, 214);
 
@@ -4158,6 +4182,8 @@ function drawPsychologicalLevelSetup(ctx) {
   ctx.font = "800 18px Inter, ui-sans-serif, system-ui, sans-serif";
   ctx.fillText("psychological high", 80, 102);
   ctx.fillText("psychological low", 80, 330);
+  ctx.fillText("inside build", 114, 214);
+  ctx.fillText("who is building?", 442, 76);
 
   drawZone(ctx, 88, 122, 168, 180, "#2a66a2");
 
